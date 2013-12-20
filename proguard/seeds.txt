@@ -1,0 +1,1664 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.view.ext.SatelliteMenu
+android.view.ext.SatelliteMenu: SatelliteMenu(android.content.Context)
+android.view.ext.SatelliteMenu: SatelliteMenu(android.content.Context,android.util.AttributeSet)
+android.view.ext.SatelliteMenu: SatelliteMenu(android.content.Context,android.util.AttributeSet,int)
+android.view.ext.SatelliteMenu$SavedState
+android.view.ext.SatelliteMenu$SavedState: android.os.Parcelable$Creator CREATOR
+com.loftcat.MainActivity
+com.loftcat.R$anim
+com.loftcat.R$anim: int sat_item_anim_click
+com.loftcat.R$anim: int sat_item_anticipate_interpolator
+com.loftcat.R$anim: int sat_item_click_interpolator
+com.loftcat.R$anim: int sat_item_in_rotate_interpolator
+com.loftcat.R$anim: int sat_item_out_rotate_interpolator
+com.loftcat.R$anim: int sat_item_overshoot_interpolator
+com.loftcat.R$anim: int sat_main_rotate_left
+com.loftcat.R$anim: int sat_main_rotate_right
+com.loftcat.R$anim: int umeng_fb_slide_in_from_left
+com.loftcat.R$anim: int umeng_fb_slide_in_from_right
+com.loftcat.R$anim: int umeng_fb_slide_out_from_left
+com.loftcat.R$anim: int umeng_fb_slide_out_from_right
+com.loftcat.R$anim: int umeng_xp_fade_in
+com.loftcat.R$anim: int umeng_xp_fade_out
+com.loftcat.R$anim: int umeng_xp_large_gallery_in
+com.loftcat.R$anim: int umeng_xp_progressbar
+com.loftcat.R$anim: int umeng_xp_push_down_out
+com.loftcat.R$anim: int umeng_xp_push_up_in
+com.loftcat.R$anim: int umeng_xp_push_up_out
+com.loftcat.R$anim: int umeng_xp_slide_in_from_bottom
+com.loftcat.R$anim: int umeng_xp_slide_in_from_left
+com.loftcat.R$anim: int umeng_xp_slide_in_from_right
+com.loftcat.R$anim: int umeng_xp_slide_in_from_top
+com.loftcat.R$anim: int umeng_xp_slide_out_from_bottom
+com.loftcat.R$anim: int umeng_xp_slide_out_from_left
+com.loftcat.R$anim: int umeng_xp_slide_out_from_right
+com.loftcat.R$anim: int umeng_xp_slide_out_from_top
+com.loftcat.R$anim: int umeng_xp_zoom_in
+com.loftcat.R$anim: int umeng_xp_zoom_out
+com.loftcat.R$array
+com.loftcat.R$array: int ams_strarr_color
+com.loftcat.R$array: int animation_speed
+com.loftcat.R$array: int animation_speed_value
+com.loftcat.R$array: int api_types
+com.loftcat.R$array: int backgroundimageoperation
+com.loftcat.R$array: int context_identifiers
+com.loftcat.R$array: int download_options
+com.loftcat.R$array: int download_values
+com.loftcat.R$array: int examples
+com.loftcat.R$array: int hover_pointer_style
+com.loftcat.R$array: int imageoperation
+com.loftcat.R$array: int imageoperation_level
+com.loftcat.R$array: int imageoperation_simple
+com.loftcat.R$array: int list_value3
+com.loftcat.R$array: int load_canvas_halign
+com.loftcat.R$array: int load_canvas_size
+com.loftcat.R$array: int load_canvas_valign
+com.loftcat.R$array: int options
+com.loftcat.R$array: int popup_menu_else_with_paste
+com.loftcat.R$array: int popup_menu_image
+com.loftcat.R$array: int popup_menu_image_with_paste
+com.loftcat.R$array: int popup_menu_text
+com.loftcat.R$array: int popup_menu_text_with_paste
+com.loftcat.R$array: int save_image_quality
+com.loftcat.R$array: int save_image_quality_value
+com.loftcat.R$array: int save_image_size
+com.loftcat.R$array: int save_image_size_value
+com.loftcat.R$array: int set_preference
+com.loftcat.R$array: int side_button_style
+com.loftcat.R$array: int signature_threshold
+com.loftcat.R$array: int time_options
+com.loftcat.R$array: int time_values
+com.loftcat.R$array: int upload_options
+com.loftcat.R$array: int upload_values
+com.loftcat.R$array: int values
+com.loftcat.R$attr
+com.loftcat.R$attr: int childSize
+com.loftcat.R$attr: int closeOnClick
+com.loftcat.R$attr: int drawSelectorOnTop
+com.loftcat.R$attr: int expandDuration
+com.loftcat.R$attr: int fromDegrees
+com.loftcat.R$attr: int leftHolderWidth
+com.loftcat.R$attr: int mainImage
+com.loftcat.R$attr: int numColumns
+com.loftcat.R$attr: int satelliteDistance
+com.loftcat.R$attr: int toDegrees
+com.loftcat.R$attr: int totalSpacingDegree
+com.loftcat.R$color
+com.loftcat.R$color: int actionbar_title_color
+com.loftcat.R$color: int bg_color
+com.loftcat.R$color: int bg_color_deep
+com.loftcat.R$color: int black
+com.loftcat.R$color: int black_half
+com.loftcat.R$color: int blue
+com.loftcat.R$color: int button_green
+com.loftcat.R$color: int button_red
+com.loftcat.R$color: int no_color
+com.loftcat.R$color: int text_color
+com.loftcat.R$color: int umeng_fb_color_btn_normal
+com.loftcat.R$color: int umeng_fb_color_btn_pressed
+com.loftcat.R$color: int weibosdk_dialog_title_blue
+com.loftcat.R$color: int weibosdk_text_num_gray
+com.loftcat.R$color: int weibosdk_transparent
+com.loftcat.R$color: int white
+com.loftcat.R$dimen
+com.loftcat.R$dimen: int actionbar_compat_button_home_width
+com.loftcat.R$dimen: int actionbar_compat_button_width
+com.loftcat.R$dimen: int actionbar_compat_height
+com.loftcat.R$dimen: int activity_horizontal_margin
+com.loftcat.R$dimen: int activity_vertical_margin
+com.loftcat.R$dimen: int app_defaultsize_h
+com.loftcat.R$dimen: int app_defaultsize_w
+com.loftcat.R$dimen: int app_minimumsize_h
+com.loftcat.R$dimen: int app_minimumsize_w
+com.loftcat.R$dimen: int gd_arrow_offset
+com.loftcat.R$dimen: int padding_large
+com.loftcat.R$dimen: int padding_medium
+com.loftcat.R$dimen: int padding_small
+com.loftcat.R$dimen: int weibosdk_dialog_bottom_margin
+com.loftcat.R$dimen: int weibosdk_dialog_left_margin
+com.loftcat.R$dimen: int weibosdk_dialog_right_margin
+com.loftcat.R$dimen: int weibosdk_dialog_top_margin
+com.loftcat.R$drawable
+com.loftcat.R$drawable: int actionbar_shadow
+com.loftcat.R$drawable: int add
+com.loftcat.R$drawable: int add_homepageitem_selected
+com.loftcat.R$drawable: int add_normal
+com.loftcat.R$drawable: int add_touched
+com.loftcat.R$drawable: int arrow
+com.loftcat.R$drawable: int arrow_white
+com.loftcat.R$drawable: int at
+com.loftcat.R$drawable: int background_0
+com.loftcat.R$drawable: int background_0small
+com.loftcat.R$drawable: int background_1
+com.loftcat.R$drawable: int background_1small
+com.loftcat.R$drawable: int background_3
+com.loftcat.R$drawable: int background_3small
+com.loftcat.R$drawable: int background_4
+com.loftcat.R$drawable: int background_4small
+com.loftcat.R$drawable: int background_5
+com.loftcat.R$drawable: int background_5small
+com.loftcat.R$drawable: int background_6
+com.loftcat.R$drawable: int background_6small
+com.loftcat.R$drawable: int background_7
+com.loftcat.R$drawable: int background_7small
+com.loftcat.R$drawable: int background_8
+com.loftcat.R$drawable: int background_8small
+com.loftcat.R$drawable: int background_setting_default
+com.loftcat.R$drawable: int bg_edit
+com.loftcat.R$drawable: int bg_edittext
+com.loftcat.R$drawable: int button
+com.loftcat.R$drawable: int edit
+com.loftcat.R$drawable: int edittext_fouce
+com.loftcat.R$drawable: int edittext_normal
+com.loftcat.R$drawable: int exit
+com.loftcat.R$drawable: int female
+com.loftcat.R$drawable: int haha
+com.loftcat.R$drawable: int head_default
+com.loftcat.R$drawable: int heart
+com.loftcat.R$drawable: int hover_ic_point
+com.loftcat.R$drawable: int hover_ic_point_normal
+com.loftcat.R$drawable: int hover_line
+com.loftcat.R$drawable: int hover_popup_bg
+com.loftcat.R$drawable: int hover_tooltip_bg
+com.loftcat.R$drawable: int ic_empty
+com.loftcat.R$drawable: int ic_error
+com.loftcat.R$drawable: int ic_pulltorefresh_arrow
+com.loftcat.R$drawable: int ic_pulltorefresh_arrow_up
+com.loftcat.R$drawable: int icon
+com.loftcat.R$drawable: int item
+com.loftcat.R$drawable: int itemisselected
+com.loftcat.R$drawable: int line_diviver
+com.loftcat.R$drawable: int list_icon_appid
+com.loftcat.R$drawable: int list_icon_attach
+com.loftcat.R$drawable: int list_icon_bgaudio
+com.loftcat.R$drawable: int list_icon_bgcolor
+com.loftcat.R$drawable: int list_icon_extra
+com.loftcat.R$drawable: int list_icon_preference
+com.loftcat.R$drawable: int list_icon_tag
+com.loftcat.R$drawable: int list_icon_title
+com.loftcat.R$drawable: int loading
+com.loftcat.R$drawable: int main
+com.loftcat.R$drawable: int male
+com.loftcat.R$drawable: int normal
+com.loftcat.R$drawable: int paint
+com.loftcat.R$drawable: int sat_item
+com.loftcat.R$drawable: int sat_main
+com.loftcat.R$drawable: int scanvas_bg
+com.loftcat.R$drawable: int selector_colorpicker
+com.loftcat.R$drawable: int selector_eraser
+com.loftcat.R$drawable: int selector_filling
+com.loftcat.R$drawable: int selector_image
+com.loftcat.R$drawable: int selector_multi
+com.loftcat.R$drawable: int selector_pen
+com.loftcat.R$drawable: int selector_play
+com.loftcat.R$drawable: int selector_redo
+com.loftcat.R$drawable: int selector_text
+com.loftcat.R$drawable: int selector_tool_bg
+com.loftcat.R$drawable: int selector_undo
+com.loftcat.R$drawable: int sendpost_background
+com.loftcat.R$drawable: int sendpost_image
+com.loftcat.R$drawable: int sendpost_photo
+com.loftcat.R$drawable: int sendpost_reply
+com.loftcat.R$drawable: int sendpost_reply_normal
+com.loftcat.R$drawable: int sendpost_reply_pressed
+com.loftcat.R$drawable: int setting
+com.loftcat.R$drawable: int setting_setbackground_preview_back
+com.loftcat.R$drawable: int setting_setbackground_preview_button
+com.loftcat.R$drawable: int setting_setbackground_preview_normal
+com.loftcat.R$drawable: int setting_setbackground_preview_pressed
+com.loftcat.R$drawable: int shade_bg
+com.loftcat.R$drawable: int solid_divider_ccc
+com.loftcat.R$drawable: int solid_divider_fff
+com.loftcat.R$drawable: int steel
+com.loftcat.R$drawable: int steel_2
+com.loftcat.R$drawable: int throttle_line
+com.loftcat.R$drawable: int tool_ic_area_bg
+com.loftcat.R$drawable: int tool_ic_area_bg_press
+com.loftcat.R$drawable: int tool_ic_area_center_02
+com.loftcat.R$drawable: int tool_ic_area_select_02
+com.loftcat.R$drawable: int tool_ic_attach
+com.loftcat.R$drawable: int tool_ic_attach_press
+com.loftcat.R$drawable: int tool_ic_colorpicker
+com.loftcat.R$drawable: int tool_ic_colorpicker_dim
+com.loftcat.R$drawable: int tool_ic_colorpicker_old
+com.loftcat.R$drawable: int tool_ic_colorpicker_press
+com.loftcat.R$drawable: int tool_ic_colorpicker_press_old
+com.loftcat.R$drawable: int tool_ic_eraser
+com.loftcat.R$drawable: int tool_ic_eraser_press
+com.loftcat.R$drawable: int tool_ic_filling
+com.loftcat.R$drawable: int tool_ic_filling_press
+com.loftcat.R$drawable: int tool_ic_multi
+com.loftcat.R$drawable: int tool_ic_multi_press
+com.loftcat.R$drawable: int tool_ic_pen
+com.loftcat.R$drawable: int tool_ic_pen_press
+com.loftcat.R$drawable: int tool_ic_play
+com.loftcat.R$drawable: int tool_ic_play_press
+com.loftcat.R$drawable: int tool_ic_redo
+com.loftcat.R$drawable: int tool_ic_redo_dim
+com.loftcat.R$drawable: int tool_ic_redo_press
+com.loftcat.R$drawable: int tool_ic_save
+com.loftcat.R$drawable: int tool_ic_save_press
+com.loftcat.R$drawable: int tool_ic_text
+com.loftcat.R$drawable: int tool_ic_text_press
+com.loftcat.R$drawable: int tool_ic_undo
+com.loftcat.R$drawable: int tool_ic_undo_dim
+com.loftcat.R$drawable: int tool_ic_undo_press
+com.loftcat.R$drawable: int toolbar_background
+com.loftcat.R$drawable: int touch
+com.loftcat.R$drawable: int umeng_common_gradient_green
+com.loftcat.R$drawable: int umeng_common_gradient_orange
+com.loftcat.R$drawable: int umeng_common_gradient_red
+com.loftcat.R$drawable: int umeng_fb_arrow_right
+com.loftcat.R$drawable: int umeng_fb_back_normal
+com.loftcat.R$drawable: int umeng_fb_back_selected
+com.loftcat.R$drawable: int umeng_fb_back_selector
+com.loftcat.R$drawable: int umeng_fb_bar_bg
+com.loftcat.R$drawable: int umeng_fb_blank_selector
+com.loftcat.R$drawable: int umeng_fb_bottom_banner
+com.loftcat.R$drawable: int umeng_fb_btn_bg_selector
+com.loftcat.R$drawable: int umeng_fb_conversation_bg
+com.loftcat.R$drawable: int umeng_fb_dev_bubble
+com.loftcat.R$drawable: int umeng_fb_gradient_green
+com.loftcat.R$drawable: int umeng_fb_gradient_orange
+com.loftcat.R$drawable: int umeng_fb_gray_frame
+com.loftcat.R$drawable: int umeng_fb_list_item
+com.loftcat.R$drawable: int umeng_fb_list_item_pressed
+com.loftcat.R$drawable: int umeng_fb_list_item_selector
+com.loftcat.R$drawable: int umeng_fb_logo
+com.loftcat.R$drawable: int umeng_fb_point_new
+com.loftcat.R$drawable: int umeng_fb_point_normal
+com.loftcat.R$drawable: int umeng_fb_reply_left_bg
+com.loftcat.R$drawable: int umeng_fb_reply_right_bg
+com.loftcat.R$drawable: int umeng_fb_see_list_normal
+com.loftcat.R$drawable: int umeng_fb_see_list_pressed
+com.loftcat.R$drawable: int umeng_fb_see_list_selector
+com.loftcat.R$drawable: int umeng_fb_statusbar_icon
+com.loftcat.R$drawable: int umeng_fb_submit_selector
+com.loftcat.R$drawable: int umeng_fb_tick_normal
+com.loftcat.R$drawable: int umeng_fb_tick_selected
+com.loftcat.R$drawable: int umeng_fb_tick_selector
+com.loftcat.R$drawable: int umeng_fb_top_banner
+com.loftcat.R$drawable: int umeng_fb_user_bubble
+com.loftcat.R$drawable: int umeng_fb_write_normal
+com.loftcat.R$drawable: int umeng_fb_write_pressed
+com.loftcat.R$drawable: int umeng_fb_write_selector
+com.loftcat.R$drawable: int umeng_update_button_cancel_normal
+com.loftcat.R$drawable: int umeng_update_button_cancel_selector
+com.loftcat.R$drawable: int umeng_update_button_cancel_tap
+com.loftcat.R$drawable: int umeng_update_button_cancle_normal
+com.loftcat.R$drawable: int umeng_update_button_cancle_tap
+com.loftcat.R$drawable: int umeng_update_button_ok_normal
+com.loftcat.R$drawable: int umeng_update_button_ok_selector
+com.loftcat.R$drawable: int umeng_update_button_ok_tap
+com.loftcat.R$drawable: int umeng_update_cancle_selector
+com.loftcat.R$drawable: int umeng_update_dialog_bg
+com.loftcat.R$drawable: int umeng_update_ok_selector
+com.loftcat.R$drawable: int umeng_update_title_bg
+com.loftcat.R$drawable: int umeng_update_wifi_disable
+com.loftcat.R$drawable: int umeng_xp_ad_action_bg
+com.loftcat.R$drawable: int umeng_xp_ad_action_bg_clicked
+com.loftcat.R$drawable: int umeng_xp_ad_action_bg_selector
+com.loftcat.R$drawable: int umeng_xp_ad_action_browse
+com.loftcat.R$drawable: int umeng_xp_ad_action_browse_clicked
+com.loftcat.R$drawable: int umeng_xp_ad_action_browse_selector
+com.loftcat.R$drawable: int umeng_xp_ad_action_download
+com.loftcat.R$drawable: int umeng_xp_ad_action_download_clicked
+com.loftcat.R$drawable: int umeng_xp_ad_action_download_selector
+com.loftcat.R$drawable: int umeng_xp_ad_action_open
+com.loftcat.R$drawable: int umeng_xp_ad_action_open_clicked
+com.loftcat.R$drawable: int umeng_xp_ad_action_open_selector
+com.loftcat.R$drawable: int umeng_xp_ad_action_phone
+com.loftcat.R$drawable: int umeng_xp_ad_action_phone_clicked
+com.loftcat.R$drawable: int umeng_xp_ad_action_phone_selector
+com.loftcat.R$drawable: int umeng_xp_back
+com.loftcat.R$drawable: int umeng_xp_back_button
+com.loftcat.R$drawable: int umeng_xp_back_button_normal
+com.loftcat.R$drawable: int umeng_xp_back_button_selected
+com.loftcat.R$drawable: int umeng_xp_back_click
+com.loftcat.R$drawable: int umeng_xp_banner_grey
+com.loftcat.R$drawable: int umeng_xp_btn_gradient_dark_grey
+com.loftcat.R$drawable: int umeng_xp_btn_gradient_grey
+com.loftcat.R$drawable: int umeng_xp_button_cancel
+com.loftcat.R$drawable: int umeng_xp_button_cancel_click
+com.loftcat.R$drawable: int umeng_xp_button_cancel_selector
+com.loftcat.R$drawable: int umeng_xp_button_download
+com.loftcat.R$drawable: int umeng_xp_button_download_click
+com.loftcat.R$drawable: int umeng_xp_button_download_selector
+com.loftcat.R$drawable: int umeng_xp_container_banner_background_selector
+com.loftcat.R$drawable: int umeng_xp_darkbg
+com.loftcat.R$drawable: int umeng_xp_detail
+com.loftcat.R$drawable: int umeng_xp_detail365
+com.loftcat.R$drawable: int umeng_xp_detail_bg
+com.loftcat.R$drawable: int umeng_xp_download_dialog_bg
+com.loftcat.R$drawable: int umeng_xp_download_dialog_close
+com.loftcat.R$drawable: int umeng_xp_download_dialog_close_clicked
+com.loftcat.R$drawable: int umeng_xp_download_dialog_close_selector
+com.loftcat.R$drawable: int umeng_xp_download_gradient_grey
+com.loftcat.R$drawable: int umeng_xp_gradient_grey
+com.loftcat.R$drawable: int umeng_xp_gradient_grey1
+com.loftcat.R$drawable: int umeng_xp_gradient_grey2
+com.loftcat.R$drawable: int umeng_xp_greenbg_selector
+com.loftcat.R$drawable: int umeng_xp_handler_rc
+com.loftcat.R$drawable: int umeng_xp_highlight_banner_background_selector
+com.loftcat.R$drawable: int umeng_xp_highlight_banner_bg
+com.loftcat.R$drawable: int umeng_xp_highlight_footview_dashed_line
+com.loftcat.R$drawable: int umeng_xp_highlight_footview_loading
+com.loftcat.R$drawable: int umeng_xp_highlight_item_bg
+com.loftcat.R$drawable: int umeng_xp_highlight_item_bg_clicked
+com.loftcat.R$drawable: int umeng_xp_highlight_item_bg_selector
+com.loftcat.R$drawable: int umeng_xp_horizontal_divider
+com.loftcat.R$drawable: int umeng_xp_icon_background
+com.loftcat.R$drawable: int umeng_xp_icon_background_clicked
+com.loftcat.R$drawable: int umeng_xp_icon_background_selector
+com.loftcat.R$drawable: int umeng_xp_kaijuan_bg
+com.loftcat.R$drawable: int umeng_xp_large_gallery_failed
+com.loftcat.R$drawable: int umeng_xp_large_gallery_item_bg
+com.loftcat.R$drawable: int umeng_xp_link_radius_shape
+com.loftcat.R$drawable: int umeng_xp_list_item_text_selector
+com.loftcat.R$drawable: int umeng_xp_loading
+com.loftcat.R$drawable: int umeng_xp_loading_seek
+com.loftcat.R$drawable: int umeng_xp_more_bottom
+com.loftcat.R$drawable: int umeng_xp_more_top
+com.loftcat.R$drawable: int umeng_xp_new_tip
+com.loftcat.R$drawable: int umeng_xp_new_tip_bg
+com.loftcat.R$drawable: int umeng_xp_new_tip_button
+com.loftcat.R$drawable: int umeng_xp_normal_banner_background_selector
+com.loftcat.R$drawable: int umeng_xp_point_normal
+com.loftcat.R$drawable: int umeng_xp_point_selected
+com.loftcat.R$drawable: int umeng_xp_progressbar
+com.loftcat.R$drawable: int umeng_xp_radius_shape
+com.loftcat.R$drawable: int umeng_xp_recommend_titile_bg
+com.loftcat.R$drawable: int umeng_xp_recoright
+com.loftcat.R$drawable: int umeng_xp_seek
+com.loftcat.R$drawable: int umeng_xp_seek_bg
+com.loftcat.R$drawable: int umeng_xp_selector_back
+com.loftcat.R$drawable: int umeng_xp_selector_cancel
+com.loftcat.R$drawable: int umeng_xp_selector_download
+com.loftcat.R$drawable: int umeng_xp_shadow_bg
+com.loftcat.R$drawable: int umeng_xp_shape_conner_blackish_green
+com.loftcat.R$drawable: int umeng_xp_shape_conner_green
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_blue
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_blue_container
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_blue_v2
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_gray_stroke
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_0
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_1
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_2
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_3
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_4
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_5
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_7
+com.loftcat.R$drawable: int umeng_xp_shape_gradient_grey_list
+com.loftcat.R$drawable: int umeng_xp_shape_grey
+com.loftcat.R$drawable: int umeng_xp_standalone_bg
+com.loftcat.R$drawable: int umeng_xp_strock_bg_1
+com.loftcat.R$drawable: int umeng_xp_vertical_divider
+com.loftcat.R$drawable: int umeng_xp_x_button
+com.loftcat.R$drawable: int umeng_xp_x_button_clicked
+com.loftcat.R$drawable: int umeng_xp_x_button_selector
+com.loftcat.R$drawable: int umeng_xp_zhanwei
+com.loftcat.R$drawable: int v
+com.loftcat.R$drawable: int x
+com.loftcat.R$id
+com.loftcat.R$id: int HorizontalScrollView01
+com.loftcat.R$id: int Spinner01
+com.loftcat.R$id: int about
+com.loftcat.R$id: int action_settings
+com.loftcat.R$id: int at
+com.loftcat.R$id: int at_background
+com.loftcat.R$id: int at_listview
+com.loftcat.R$id: int at_pulltorefreshview
+com.loftcat.R$id: int at_title
+com.loftcat.R$id: int background
+com.loftcat.R$id: int bottom
+com.loftcat.R$id: int btnCancel
+com.loftcat.R$id: int btnOK
+com.loftcat.R$id: int btn_input_cancel
+com.loftcat.R$id: int btn_input_ok
+com.loftcat.R$id: int canvas_container
+com.loftcat.R$id: int center_frame
+com.loftcat.R$id: int checkradio
+com.loftcat.R$id: int colorPickerBtn
+com.loftcat.R$id: int comment
+com.loftcat.R$id: int comment_progress
+com.loftcat.R$id: int commentlist_background
+com.loftcat.R$id: int divider
+com.loftcat.R$id: int dlCon
+com.loftcat.R$id: int editText1
+com.loftcat.R$id: int eraseBtn
+com.loftcat.R$id: int feedback
+com.loftcat.R$id: int fileListView
+com.loftcat.R$id: int fillingBtn
+com.loftcat.R$id: int forward
+com.loftcat.R$id: int frienditem_arrow
+com.loftcat.R$id: int frienditem_head
+com.loftcat.R$id: int frienditem_msg
+com.loftcat.R$id: int friends_pulltorefreshview
+com.loftcat.R$id: int friendslist_listview
+com.loftcat.R$id: int gallery_item_textview
+com.loftcat.R$id: int gestureImageView
+com.loftcat.R$id: int good
+com.loftcat.R$id: int groups_pop_gallery
+com.loftcat.R$id: int head_arrowImageView
+com.loftcat.R$id: int head_contentLayout
+com.loftcat.R$id: int head_lastUpdatedTextView
+com.loftcat.R$id: int head_layout
+com.loftcat.R$id: int head_progressBar
+com.loftcat.R$id: int head_tipsTextView
+com.loftcat.R$id: int homepage_pulltorefreshview
+com.loftcat.R$id: int horizontalScrolView_list_id
+com.loftcat.R$id: int image
+com.loftcat.R$id: int imageView1
+com.loftcat.R$id: int inputfilename
+com.loftcat.R$id: int insertBtn
+com.loftcat.R$id: int itemImg
+com.loftcat.R$id: int itemText
+com.loftcat.R$id: int layout_container
+com.loftcat.R$id: int left_account_list
+com.loftcat.R$id: int left_account_title
+com.loftcat.R$id: int left_account_title_layout
+com.loftcat.R$id: int left_accout_add_button
+com.loftcat.R$id: int left_atme
+com.loftcat.R$id: int left_bottom_layout
+com.loftcat.R$id: int left_comments
+com.loftcat.R$id: int left_frame
+com.loftcat.R$id: int left_self
+com.loftcat.R$id: int left_weibo
+com.loftcat.R$id: int line
+com.loftcat.R$id: int linearLayout1
+com.loftcat.R$id: int listView
+com.loftcat.R$id: int loading
+com.loftcat.R$id: int loading_background
+com.loftcat.R$id: int menu
+com.loftcat.R$id: int middle_background
+com.loftcat.R$id: int middle_background_imageview
+com.loftcat.R$id: int miniAdLinearLayout
+com.loftcat.R$id: int mlist
+com.loftcat.R$id: int myselector
+com.loftcat.R$id: int nameitem_msg
+com.loftcat.R$id: int noItemListMsg
+com.loftcat.R$id: int objectList
+com.loftcat.R$id: int objectattibute
+com.loftcat.R$id: int objectcontent
+com.loftcat.R$id: int objectdetails
+com.loftcat.R$id: int pager
+com.loftcat.R$id: int penBtn
+com.loftcat.R$id: int progressBar1
+com.loftcat.R$id: int pull_to_load_image
+com.loftcat.R$id: int pull_to_load_progress
+com.loftcat.R$id: int pull_to_load_text
+com.loftcat.R$id: int pull_to_refresh_header
+com.loftcat.R$id: int pull_to_refresh_image
+com.loftcat.R$id: int pull_to_refresh_progress
+com.loftcat.R$id: int pull_to_refresh_text
+com.loftcat.R$id: int pull_to_refresh_updated_at
+com.loftcat.R$id: int redoBtn
+com.loftcat.R$id: int relativeLayout1
+com.loftcat.R$id: int right_frame
+com.loftcat.R$id: int sat_item
+com.loftcat.R$id: int sat_main
+com.loftcat.R$id: int selfaty_atta
+com.loftcat.R$id: int selfaty_blog
+com.loftcat.R$id: int selfaty_blog_title
+com.loftcat.R$id: int selfaty_fans_layout
+com.loftcat.R$id: int selfaty_fans_textview
+com.loftcat.R$id: int selfaty_fans_title_textview
+com.loftcat.R$id: int selfaty_focus_layout
+com.loftcat.R$id: int selfaty_focus_textview
+com.loftcat.R$id: int selfaty_focus_title_textview
+com.loftcat.R$id: int selfaty_head
+com.loftcat.R$id: int selfaty_introduce
+com.loftcat.R$id: int selfaty_introduce_title
+com.loftcat.R$id: int selfaty_job
+com.loftcat.R$id: int selfaty_layout
+com.loftcat.R$id: int selfaty_listview
+com.loftcat.R$id: int selfaty_male
+com.loftcat.R$id: int selfaty_name_location
+com.loftcat.R$id: int selfaty_name_textview
+com.loftcat.R$id: int selfaty_progress
+com.loftcat.R$id: int selfaty_pulltorefreshview
+com.loftcat.R$id: int selfaty_relationship
+com.loftcat.R$id: int selfaty_relationship_layout
+com.loftcat.R$id: int selfaty_statuses_textview
+com.loftcat.R$id: int selfaty_statuses_title_textview
+com.loftcat.R$id: int selfaty_vip
+com.loftcat.R$id: int send_bottom
+com.loftcat.R$id: int send_checkbox
+com.loftcat.R$id: int send_image
+com.loftcat.R$id: int send_image_show
+com.loftcat.R$id: int send_image_show_x
+com.loftcat.R$id: int send_photo
+com.loftcat.R$id: int send_publish
+com.loftcat.R$id: int send_text
+com.loftcat.R$id: int setting_background
+com.loftcat.R$id: int setting_grid
+com.loftcat.R$id: int setting_setbackground_griditem
+com.loftcat.R$id: int setting_setbackground_griditem_isselect
+com.loftcat.R$id: int setting_setbackground_preview_back
+com.loftcat.R$id: int setting_setbackgroung_preview_ok
+com.loftcat.R$id: int settingbackground_background
+com.loftcat.R$id: int settting_setbackground_preview_image
+com.loftcat.R$id: int showLeft
+com.loftcat.R$id: int showRight
+com.loftcat.R$id: int slidingMenu
+com.loftcat.R$id: int soundList
+com.loftcat.R$id: int sound_ok_cancel
+com.loftcat.R$id: int status
+com.loftcat.R$id: int statusTitle
+com.loftcat.R$id: int status_expandablelistview
+com.loftcat.R$id: int status_item_layout
+com.loftcat.R$id: int status_item_parent_forward
+com.loftcat.R$id: int status_item_parent_head_imageview
+com.loftcat.R$id: int status_item_parent_head_layout
+com.loftcat.R$id: int status_item_parent_msg
+com.loftcat.R$id: int status_item_parent_name
+com.loftcat.R$id: int status_item_parent_pic
+com.loftcat.R$id: int status_item_parent_reply
+com.loftcat.R$id: int status_item_parent_retweeted_layout
+com.loftcat.R$id: int status_item_parent_retweeted_status_forward
+com.loftcat.R$id: int status_item_parent_retweeted_status_pic
+com.loftcat.R$id: int status_item_parent_retweeted_status_reply
+com.loftcat.R$id: int status_item_parent_retweeted_status_text
+com.loftcat.R$id: int status_item_parent_source
+com.loftcat.R$id: int status_item_parent_time
+com.loftcat.R$id: int submit
+com.loftcat.R$id: int textBtn
+com.loftcat.R$id: int textView1
+com.loftcat.R$id: int textView2
+com.loftcat.R$id: int textdialoglayout
+com.loftcat.R$id: int the_status_bottom
+com.loftcat.R$id: int thestatus_user_head
+com.loftcat.R$id: int thestatus_user_layout
+com.loftcat.R$id: int thestatus_user_name
+com.loftcat.R$id: int title
+com.loftcat.R$id: int title_bar
+com.loftcat.R$id: int title_layout
+com.loftcat.R$id: int title_progressbar
+com.loftcat.R$id: int tool_menu
+com.loftcat.R$id: int umeng_common_app
+com.loftcat.R$id: int umeng_common_appIcon
+com.loftcat.R$id: int umeng_common_description
+com.loftcat.R$id: int umeng_common_notification
+com.loftcat.R$id: int umeng_common_notification_controller
+com.loftcat.R$id: int umeng_common_progress_bar
+com.loftcat.R$id: int umeng_common_progress_text
+com.loftcat.R$id: int umeng_common_rich_notification_cancel
+com.loftcat.R$id: int umeng_common_rich_notification_continue
+com.loftcat.R$id: int umeng_common_title
+com.loftcat.R$id: int umeng_fb_age_spinner
+com.loftcat.R$id: int umeng_fb_atomLinearLayout
+com.loftcat.R$id: int umeng_fb_atom_left_margin
+com.loftcat.R$id: int umeng_fb_atom_right_margin
+com.loftcat.R$id: int umeng_fb_atomtxt
+com.loftcat.R$id: int umeng_fb_back
+com.loftcat.R$id: int umeng_fb_bottom_sub
+com.loftcat.R$id: int umeng_fb_btnSendFb
+com.loftcat.R$id: int umeng_fb_bubble
+com.loftcat.R$id: int umeng_fb_contact_header
+com.loftcat.R$id: int umeng_fb_contact_info
+com.loftcat.R$id: int umeng_fb_contact_update_at
+com.loftcat.R$id: int umeng_fb_content
+com.loftcat.R$id: int umeng_fb_conversation_contact_entry
+com.loftcat.R$id: int umeng_fb_conversation_header
+com.loftcat.R$id: int umeng_fb_conversation_list_wrapper
+com.loftcat.R$id: int umeng_fb_conversation_title
+com.loftcat.R$id: int umeng_fb_conversation_umeng_logo
+com.loftcat.R$id: int umeng_fb_dev_reply
+com.loftcat.R$id: int umeng_fb_editTxtFb
+com.loftcat.R$id: int umeng_fb_feedbackpreview
+com.loftcat.R$id: int umeng_fb_gender_spinner
+com.loftcat.R$id: int umeng_fb_goback_btn
+com.loftcat.R$id: int umeng_fb_imgBtn_submitFb
+com.loftcat.R$id: int umeng_fb_list_reply_header
+com.loftcat.R$id: int umeng_fb_new_reply_notifier
+com.loftcat.R$id: int umeng_fb_reply_content
+com.loftcat.R$id: int umeng_fb_reply_content_wrapper
+com.loftcat.R$id: int umeng_fb_reply_date
+com.loftcat.R$id: int umeng_fb_reply_list
+com.loftcat.R$id: int umeng_fb_rootId
+com.loftcat.R$id: int umeng_fb_save
+com.loftcat.R$id: int umeng_fb_see_list_btn
+com.loftcat.R$id: int umeng_fb_send
+com.loftcat.R$id: int umeng_fb_stateOrTime
+com.loftcat.R$id: int umeng_fb_state_or_date
+com.loftcat.R$id: int umeng_fb_submit
+com.loftcat.R$id: int umeng_update_content
+com.loftcat.R$id: int umeng_update_id_cancel
+com.loftcat.R$id: int umeng_update_id_ok
+com.loftcat.R$id: int umeng_update_wifi_indicator
+com.loftcat.R$id: int umeng_xp_ScrollView
+com.loftcat.R$id: int umeng_xp_actionBar
+com.loftcat.R$id: int umeng_xp_ad_action_btn
+com.loftcat.R$id: int umeng_xp_appIcon0
+com.loftcat.R$id: int umeng_xp_appname
+com.loftcat.R$id: int umeng_xp_back
+com.loftcat.R$id: int umeng_xp_banner
+com.loftcat.R$id: int umeng_xp_banner_bg
+com.loftcat.R$id: int umeng_xp_banner_more_txt
+com.loftcat.R$id: int umeng_xp_bottom
+com.loftcat.R$id: int umeng_xp_button
+com.loftcat.R$id: int umeng_xp_cancel
+com.loftcat.R$id: int umeng_xp_content
+com.loftcat.R$id: int umeng_xp_content0
+com.loftcat.R$id: int umeng_xp_des
+com.loftcat.R$id: int umeng_xp_des0
+com.loftcat.R$id: int umeng_xp_descript
+com.loftcat.R$id: int umeng_xp_detail0
+com.loftcat.R$id: int umeng_xp_dev
+com.loftcat.R$id: int umeng_xp_display_first
+com.loftcat.R$id: int umeng_xp_display_second
+com.loftcat.R$id: int umeng_xp_display_switch
+com.loftcat.R$id: int umeng_xp_dlCon
+com.loftcat.R$id: int umeng_xp_download
+com.loftcat.R$id: int umeng_xp_download_popup_title
+com.loftcat.R$id: int umeng_xp_flipper
+com.loftcat.R$id: int umeng_xp_float_dialog_close
+com.loftcat.R$id: int umeng_xp_float_dialog_content
+com.loftcat.R$id: int umeng_xp_float_dialog_root
+com.loftcat.R$id: int umeng_xp_gallery
+com.loftcat.R$id: int umeng_xp_gallery_entity
+com.loftcat.R$id: int umeng_xp_gallery_errorpage
+com.loftcat.R$id: int umeng_xp_gallery_page_pointer
+com.loftcat.R$id: int umeng_xp_gallery_pointer
+com.loftcat.R$id: int umeng_xp_gallery_progress
+com.loftcat.R$id: int umeng_xp_handler_grid_item_icon
+com.loftcat.R$id: int umeng_xp_handler_grid_item_tv
+com.loftcat.R$id: int umeng_xp_icon
+com.loftcat.R$id: int umeng_xp_icon_area
+com.loftcat.R$id: int umeng_xp_imagev
+com.loftcat.R$id: int umeng_xp_large_gallery_item_imv
+com.loftcat.R$id: int umeng_xp_large_gallery_item_progressbar
+com.loftcat.R$id: int umeng_xp_list
+com.loftcat.R$id: int umeng_xp_loading
+com.loftcat.R$id: int umeng_xp_loading_progress
+com.loftcat.R$id: int umeng_xp_loading_view
+com.loftcat.R$id: int umeng_xp_message
+com.loftcat.R$id: int umeng_xp_more
+com.loftcat.R$id: int umeng_xp_name
+com.loftcat.R$id: int umeng_xp_name0
+com.loftcat.R$id: int umeng_xp_new_tip
+com.loftcat.R$id: int umeng_xp_ok
+com.loftcat.R$id: int umeng_xp_open_type
+com.loftcat.R$id: int umeng_xp_panelHeight
+com.loftcat.R$id: int umeng_xp_pb
+com.loftcat.R$id: int umeng_xp_photo
+com.loftcat.R$id: int umeng_xp_recom
+com.loftcat.R$id: int umeng_xp_rootId
+com.loftcat.R$id: int umeng_xp_scroll_view_item_id
+com.loftcat.R$id: int umeng_xp_size
+com.loftcat.R$id: int umeng_xp_size0
+com.loftcat.R$id: int umeng_xp_template_content
+com.loftcat.R$id: int umeng_xp_title
+com.loftcat.R$id: int umeng_xp_titleContainer
+com.loftcat.R$id: int umeng_xp_web_main
+com.loftcat.R$id: int umeng_xp_webview
+com.loftcat.R$id: int undoBtn
+com.loftcat.R$id: int version
+com.loftcat.R$id: int webView
+com.loftcat.R$layout
+com.loftcat.R$layout: int about
+com.loftcat.R$layout: int activity_main
+com.loftcat.R$layout: int at
+com.loftcat.R$layout: int center_frame
+com.loftcat.R$layout: int editor_basic_editor
+com.loftcat.R$layout: int expanlist
+com.loftcat.R$layout: int frienditem
+com.loftcat.R$layout: int frienditem_2
+com.loftcat.R$layout: int friendslist
+com.loftcat.R$layout: int gallery_item
+com.loftcat.R$layout: int gesture_imageview
+com.loftcat.R$layout: int good
+com.loftcat.R$layout: int groups_pop
+com.loftcat.R$layout: int hover_tooltip_popup
+com.loftcat.R$layout: int image_pager
+com.loftcat.R$layout: int item_pager_image
+com.loftcat.R$layout: int left
+com.loftcat.R$layout: int left_adapter
+com.loftcat.R$layout: int left_frame
+com.loftcat.R$layout: int libtest
+com.loftcat.R$layout: int libtest_list_item
+com.loftcat.R$layout: int libtest_textview
+com.loftcat.R$layout: int line
+com.loftcat.R$layout: int main
+com.loftcat.R$layout: int middle
+com.loftcat.R$layout: int mspinner
+com.loftcat.R$layout: int mspinnertext
+com.loftcat.R$layout: int mspinnertext_tablet
+com.loftcat.R$layout: int nameitem
+com.loftcat.R$layout: int page1
+com.loftcat.R$layout: int page2
+com.loftcat.R$layout: int pull_to_refresh_head
+com.loftcat.R$layout: int refresh_footer
+com.loftcat.R$layout: int refresh_header
+com.loftcat.R$layout: int right
+com.loftcat.R$layout: int right_frame
+com.loftcat.R$layout: int sat_item_cr
+com.loftcat.R$layout: int sat_main
+com.loftcat.R$layout: int selfaty
+com.loftcat.R$layout: int send
+com.loftcat.R$layout: int setting
+com.loftcat.R$layout: int setting_setbackground_aty
+com.loftcat.R$layout: int setting_setbackground_item
+com.loftcat.R$layout: int setting_setbackground_preview_aty
+com.loftcat.R$layout: int status_item_child
+com.loftcat.R$layout: int status_item_child2
+com.loftcat.R$layout: int status_item_parent
+com.loftcat.R$layout: int thestatus
+com.loftcat.R$layout: int tool_file_list
+com.loftcat.R$layout: int tool_sound_list
+com.loftcat.R$layout: int tool_sound_list_item
+com.loftcat.R$layout: int tool_text_dialog_input
+com.loftcat.R$layout: int umeng_common_download_notification
+com.loftcat.R$layout: int umeng_fb_activity_contact
+com.loftcat.R$layout: int umeng_fb_activity_conversation
+com.loftcat.R$layout: int umeng_fb_atom
+com.loftcat.R$layout: int umeng_fb_conversation
+com.loftcat.R$layout: int umeng_fb_conversation_item
+com.loftcat.R$layout: int umeng_fb_conversations
+com.loftcat.R$layout: int umeng_fb_conversations_item
+com.loftcat.R$layout: int umeng_fb_list_header
+com.loftcat.R$layout: int umeng_fb_list_item
+com.loftcat.R$layout: int umeng_fb_new_reply_alert_dialog
+com.loftcat.R$layout: int umeng_fb_send_feedback
+com.loftcat.R$layout: int umeng_update_dialog
+com.loftcat.R$layout: int umeng_xp_banner
+com.loftcat.R$layout: int umeng_xp_clould_dialog
+com.loftcat.R$layout: int umeng_xp_component_back_bottom
+com.loftcat.R$layout: int umeng_xp_component_back_top
+com.loftcat.R$layout: int umeng_xp_component_flipper_content
+com.loftcat.R$layout: int umeng_xp_component_focus_banner
+com.loftcat.R$layout: int umeng_xp_component_foucused_app
+com.loftcat.R$layout: int umeng_xp_container_banner
+com.loftcat.R$layout: int umeng_xp_container_banner_more
+com.loftcat.R$layout: int umeng_xp_download_dialog
+com.loftcat.R$layout: int umeng_xp_download_dialog_landscape
+com.loftcat.R$layout: int umeng_xp_fimageview_landscape
+com.loftcat.R$layout: int umeng_xp_fimageview_portrait
+com.loftcat.R$layout: int umeng_xp_floatdialog_content
+com.loftcat.R$layout: int umeng_xp_full_screen_focus
+com.loftcat.R$layout: int umeng_xp_full_screen_list
+com.loftcat.R$layout: int umeng_xp_full_screen_list_layout
+com.loftcat.R$layout: int umeng_xp_handler_gallery
+com.loftcat.R$layout: int umeng_xp_handler_grid_item
+com.loftcat.R$layout: int umeng_xp_handler_template
+com.loftcat.R$layout: int umeng_xp_highlight_banner
+com.loftcat.R$layout: int umeng_xp_highlight_banner_more
+com.loftcat.R$layout: int umeng_xp_large_gallery
+com.loftcat.R$layout: int umeng_xp_large_gallery_item
+com.loftcat.R$layout: int umeng_xp_normal_banner
+com.loftcat.R$layout: int umeng_xp_partners_banner
+com.loftcat.R$layout: int umeng_xp_partners_banner_grid_item
+com.loftcat.R$layout: int umeng_xp_recom_header
+com.loftcat.R$layout: int umeng_xp_scroll_view_list
+com.loftcat.R$layout: int umeng_xp_webview_landing_page
+com.loftcat.R$layout: int version
+com.loftcat.R$layout: int view_pager
+com.loftcat.R$menu
+com.loftcat.R$menu: int main
+com.loftcat.R$raw
+com.loftcat.R$raw: int newdatatoast
+com.loftcat.R$raw: int notificationsound
+com.loftcat.R$string
+com.loftcat.R$string: int UMAppUpdate
+com.loftcat.R$string: int UMBreak_Network
+com.loftcat.R$string: int UMDialog_InstallAPK
+com.loftcat.R$string: int UMGprsCondition
+com.loftcat.R$string: int UMNewVersion
+com.loftcat.R$string: int UMNotNow
+com.loftcat.R$string: int UMTargetSize
+com.loftcat.R$string: int UMToast_IsUpdating
+com.loftcat.R$string: int UMUpdateContent
+com.loftcat.R$string: int UMUpdateNow
+com.loftcat.R$string: int UMUpdateSize
+com.loftcat.R$string: int UMUpdateTitle
+com.loftcat.R$string: int action_settings
+com.loftcat.R$string: int adjust_saving_contents_by_cropping_off
+com.loftcat.R$string: int adjust_saving_contents_by_cropping_on
+com.loftcat.R$string: int animation_speed_title
+com.loftcat.R$string: int app_name
+com.loftcat.R$string: int background_audio_auto_replay_off
+com.loftcat.R$string: int background_audio_auto_replay_on
+com.loftcat.R$string: int background_audio_play_off
+com.loftcat.R$string: int background_audio_play_on
+com.loftcat.R$string: int background_audio_stop_off
+com.loftcat.R$string: int background_audio_stop_on
+com.loftcat.R$string: int clear_all
+com.loftcat.R$string: int clip_data
+com.loftcat.R$string: int context_identifier
+com.loftcat.R$string: int create_new_image_off
+com.loftcat.R$string: int create_new_image_on
+com.loftcat.R$string: int descr_image
+com.loftcat.R$string: int done
+com.loftcat.R$string: int down
+com.loftcat.R$string: int empty
+com.loftcat.R$string: int encode_foreground_image_off
+com.loftcat.R$string: int encode_foreground_image_on
+com.loftcat.R$string: int encode_thumbnail_image_off
+com.loftcat.R$string: int encode_thumbnail_image_on
+com.loftcat.R$string: int eraser_settings
+com.loftcat.R$string: int filling_settings
+com.loftcat.R$string: int first_tag
+com.loftcat.R$string: int hello_world
+com.loftcat.R$string: int hover
+com.loftcat.R$string: int hover_popup_window
+com.loftcat.R$string: int insertcanvasimage
+com.loftcat.R$string: int isidol
+com.loftcat.R$string: int left
+com.loftcat.R$string: int menu_settings
+com.loftcat.R$string: int minus
+com.loftcat.R$string: int nomusic
+com.loftcat.R$string: int openid
+com.loftcat.R$string: int pen_settings
+com.loftcat.R$string: int pen_settings_preset_delete_msg
+com.loftcat.R$string: int pen_settings_preset_delete_title
+com.loftcat.R$string: int pen_settings_preset_empty
+com.loftcat.R$string: int pen_settings_preset_exist
+com.loftcat.R$string: int pen_settings_preset_maximum_msg
+com.loftcat.R$string: int play_animation_using_sound_effect_off
+com.loftcat.R$string: int play_animation_using_sound_effect_on
+com.loftcat.R$string: int play_animation_using_trasparent_background_off
+com.loftcat.R$string: int play_animation_using_trasparent_background_on
+com.loftcat.R$string: int plus
+com.loftcat.R$string: int pressure
+com.loftcat.R$string: int pull_to_refresh_footer_pull_label
+com.loftcat.R$string: int pull_to_refresh_footer_refreshing_label
+com.loftcat.R$string: int pull_to_refresh_footer_release_label
+com.loftcat.R$string: int pull_to_refresh_pull_label
+com.loftcat.R$string: int pull_to_refresh_refreshing_label
+com.loftcat.R$string: int pull_to_refresh_release_label
+com.loftcat.R$string: int right
+com.loftcat.R$string: int save_image_horizontal_crop_off
+com.loftcat.R$string: int save_image_horizontal_crop_on
+com.loftcat.R$string: int save_image_vertical_crop_off
+com.loftcat.R$string: int save_image_vertical_crop_on
+com.loftcat.R$string: int save_only_foreground_image_off
+com.loftcat.R$string: int save_only_foreground_image_on
+com.loftcat.R$string: int second_tag
+com.loftcat.R$string: int selectimage
+com.loftcat.R$string: int setfilterlevel
+com.loftcat.R$string: int setimagefilter
+com.loftcat.R$string: int settinginformation
+com.loftcat.R$string: int settingview_close_btn_desc
+com.loftcat.R$string: int signature_registration_draw
+com.loftcat.R$string: int signature_registration_registration_failure
+com.loftcat.R$string: int signature_registration_registration_sub_title
+com.loftcat.R$string: int signature_registration_registration_success_1
+com.loftcat.R$string: int signature_registration_registration_success_2
+com.loftcat.R$string: int signature_registration_registration_success_3
+com.loftcat.R$string: int signature_registration_registration_title
+com.loftcat.R$string: int signature_retry_sub_title
+com.loftcat.R$string: int signature_retry_title
+com.loftcat.R$string: int signature_start_check_failure
+com.loftcat.R$string: int signature_start_check_sub_title
+com.loftcat.R$string: int signature_start_check_success
+com.loftcat.R$string: int signature_start_check_title
+com.loftcat.R$string: int signature_start_delete_failure
+com.loftcat.R$string: int signature_start_delete_sub_title
+com.loftcat.R$string: int signature_start_delete_success
+com.loftcat.R$string: int signature_start_delete_title
+com.loftcat.R$string: int signature_start_registration_sub_title
+com.loftcat.R$string: int signature_start_registration_title
+com.loftcat.R$string: int signature_start_verification_failure
+com.loftcat.R$string: int signature_start_verification_sub_title
+com.loftcat.R$string: int signature_start_verification_title
+com.loftcat.R$string: int signature_verification_draw
+com.loftcat.R$string: int signature_verification_level_cancel
+com.loftcat.R$string: int signature_verification_level_confirm
+com.loftcat.R$string: int signature_verification_level_high
+com.loftcat.R$string: int signature_verification_level_low
+com.loftcat.R$string: int signature_verification_level_medium
+com.loftcat.R$string: int signature_verification_level_sub_title
+com.loftcat.R$string: int signature_verification_level_title
+com.loftcat.R$string: int signature_verification_verification_failure
+com.loftcat.R$string: int signature_verification_verification_sub_title
+com.loftcat.R$string: int signature_verification_verification_success
+com.loftcat.R$string: int signature_verification_verification_title
+com.loftcat.R$string: int testcontent
+com.loftcat.R$string: int text_settings
+com.loftcat.R$string: int text_settings_tab_font
+com.loftcat.R$string: int text_settings_tab_paragraph
+com.loftcat.R$string: int text_settings_tab_paragraph_align
+com.loftcat.R$string: int textbox_hint
+com.loftcat.R$string: int texttitle
+com.loftcat.R$string: int title_activity_main
+com.loftcat.R$string: int tool
+com.loftcat.R$string: int touch
+com.loftcat.R$string: int umeng_common_action_cancel
+com.loftcat.R$string: int umeng_common_action_continue
+com.loftcat.R$string: int umeng_common_action_info_exist
+com.loftcat.R$string: int umeng_common_action_pause
+com.loftcat.R$string: int umeng_common_download_failed
+com.loftcat.R$string: int umeng_common_download_notification_prefix
+com.loftcat.R$string: int umeng_common_info_interrupt
+com.loftcat.R$string: int umeng_common_network_break_alert
+com.loftcat.R$string: int umeng_fb_back
+com.loftcat.R$string: int umeng_fb_contact_info
+com.loftcat.R$string: int umeng_fb_contact_info_hint
+com.loftcat.R$string: int umeng_fb_contact_title
+com.loftcat.R$string: int umeng_fb_contact_update_at
+com.loftcat.R$string: int umeng_fb_notification_content_formatter_multiple_msg
+com.loftcat.R$string: int umeng_fb_notification_content_formatter_single_msg
+com.loftcat.R$string: int umeng_fb_notification_ticker_text
+com.loftcat.R$string: int umeng_fb_powered_by
+com.loftcat.R$string: int umeng_fb_reply_content_default
+com.loftcat.R$string: int umeng_fb_reply_content_hint
+com.loftcat.R$string: int umeng_fb_reply_date_default
+com.loftcat.R$string: int umeng_fb_send
+com.loftcat.R$string: int umeng_fb_title
+com.loftcat.R$string: int umeng_xp_action_browse
+com.loftcat.R$string: int umeng_xp_action_callphone
+com.loftcat.R$string: int umeng_xp_action_download
+com.loftcat.R$string: int umeng_xp_action_open
+com.loftcat.R$string: int umeng_xp_back
+com.loftcat.R$string: int umeng_xp_back_to_top
+com.loftcat.R$string: int umeng_xp_dowloadOrNot
+com.loftcat.R$string: int umeng_xp_dowload_dialog_cinfo
+com.loftcat.R$string: int umeng_xp_dowload_dialog_dinfo
+com.loftcat.R$string: int umeng_xp_failed_loading
+com.loftcat.R$string: int umeng_xp_info_banner_deprecated
+com.loftcat.R$string: int umeng_xp_more
+com.loftcat.R$string: int umeng_xp_network_break_alert
+com.loftcat.R$string: int umeng_xp_no_browser_tips
+com.loftcat.R$string: int umeng_xp_size
+com.loftcat.R$string: int umeng_xp_tip_download_pre
+com.loftcat.R$string: int umeng_xp_title_info
+com.loftcat.R$string: int up
+com.loftcat.R$string: int user_font_name1
+com.loftcat.R$string: int user_font_name2
+com.loftcat.R$string: int weibosdk_app_name
+com.loftcat.R$string: int weibosdk_attention
+com.loftcat.R$string: int weibosdk_cancel
+com.loftcat.R$string: int weibosdk_close
+com.loftcat.R$string: int weibosdk_comment
+com.loftcat.R$string: int weibosdk_del_pic
+com.loftcat.R$string: int weibosdk_delete_all
+com.loftcat.R$string: int weibosdk_fav
+com.loftcat.R$string: int weibosdk_forward
+com.loftcat.R$string: int weibosdk_ok
+com.loftcat.R$string: int weibosdk_photo
+com.loftcat.R$string: int weibosdk_please_login
+com.loftcat.R$string: int weibosdk_send
+com.loftcat.R$string: int weibosdk_send_failed
+com.loftcat.R$string: int weibosdk_send_sucess
+com.loftcat.R$string: int weibosdk_share_dialog_title
+com.loftcat.R$string: int xcoordinates
+com.loftcat.R$string: int ycoordinates
+com.loftcat.R$style
+com.loftcat.R$style: int AppBaseTheme
+com.loftcat.R$style: int AppTheme
+com.loftcat.R$style: int edittext
+com.loftcat.R$style: int umeng_xp_dialog_animations
+com.loftcat.R$style: int umeng_xp_dialog_but
+com.loftcat.R$style: int umeng_xp_dialog_cancel
+com.loftcat.R$style: int umeng_xp_dialog_download
+com.loftcat.R$style: int umeng_xp_dialog_download_window
+com.loftcat.R$style: int umeng_xp_download_but
+com.loftcat.R$style: int umeng_xp_grad_but
+com.loftcat.R$style: int umeng_xp_more_but
+com.loftcat.R$styleable
+com.loftcat.R$styleable: int ArcLayout_childSize
+com.loftcat.R$styleable: int ArcLayout_fromDegrees
+com.loftcat.R$styleable: int ArcLayout_toDegrees
+com.loftcat.R$styleable: int RayLayout_leftHolderWidth
+com.loftcat.R$styleable: int SatelliteMenu_closeOnClick
+com.loftcat.R$styleable: int SatelliteMenu_expandDuration
+com.loftcat.R$styleable: int SatelliteMenu_mainImage
+com.loftcat.R$styleable: int SatelliteMenu_satelliteDistance
+com.loftcat.R$styleable: int SatelliteMenu_totalSpacingDegree
+com.loftcat.R$styleable: int StaggeredGridView_drawSelectorOnTop
+com.loftcat.R$styleable: int StaggeredGridView_numColumns
+com.loftcat.R$xml
+com.loftcat.R$xml: int animationoptionpreferences
+com.loftcat.R$xml: int sammoptionpreferences
+com.loftcat.app.AppContext
+com.loftcat.app.AppContext: AppContext()
+com.loftcat.ui.AT
+com.loftcat.ui.AT: AT()
+com.loftcat.ui.AT: void onClick(android.view.View)
+com.loftcat.ui.About
+com.loftcat.ui.About: About()
+com.loftcat.ui.About: void onClick(android.view.View)
+com.loftcat.ui.CommentsListAty
+com.loftcat.ui.CommentsListAty: CommentsListAty()
+com.loftcat.ui.CommentsListAty: void onClick(android.view.View)
+com.loftcat.ui.FriendsListAty
+com.loftcat.ui.FriendsListAty: FriendsListAty()
+com.loftcat.ui.FriendsListAty: void onClick(android.view.View)
+com.loftcat.ui.GestureImageViewAty
+com.loftcat.ui.GestureImageViewAty: GestureImageViewAty()
+com.loftcat.ui.GestureImageViewAty: void onClick(android.view.View)
+com.loftcat.ui.Good
+com.loftcat.ui.Good: Good()
+com.loftcat.ui.Good: void onClick(android.view.View)
+com.loftcat.ui.Homepage
+com.loftcat.ui.Homepage: Homepage()
+com.loftcat.ui.Homepage: void onClick(android.view.View)
+com.loftcat.ui.Loading
+com.loftcat.ui.Loading: Loading()
+com.loftcat.ui.Loading: void onClick(android.view.View)
+com.loftcat.ui.SelfPage
+com.loftcat.ui.SelfPage: SelfPage()
+com.loftcat.ui.SelfPage: void onClick(android.view.View)
+com.loftcat.ui.Send
+com.loftcat.ui.Send: Send()
+com.loftcat.ui.Send: void onClick(android.view.View)
+com.loftcat.ui.Setting
+com.loftcat.ui.Setting: Setting()
+com.loftcat.ui.Setting: void onClick(android.view.View)
+com.loftcat.ui.SettingBackgroundAty
+com.loftcat.ui.SettingBackgroundAty: SettingBackgroundAty()
+com.loftcat.ui.SettingBackgroundAty: void onClick(android.view.View)
+com.loftcat.ui.SettingSetbackgroundPreviewAty
+com.loftcat.ui.SettingSetbackgroundPreviewAty: SettingSetbackgroundPreviewAty()
+com.loftcat.ui.SettingSetbackgroundPreviewAty: void onClick(android.view.View)
+com.loftcat.ui.TheStatus
+com.loftcat.ui.TheStatus: TheStatus()
+com.loftcat.ui.TheStatus: void onClick(android.view.View)
+com.loftcat.ui.Version
+com.loftcat.ui.Version: Version()
+com.loftcat.ui.Version: void onClick(android.view.View)
+com.loftcat.ui.utils.MyListView
+com.loftcat.ui.utils.MyListView: MyListView(android.content.Context,android.util.AttributeSet)
+com.loftcat.ui.utils.PullToRefreshView
+com.loftcat.ui.utils.PullToRefreshView: PullToRefreshView(android.content.Context,android.util.AttributeSet)
+com.loftcat.ui.utils.PullToRefreshView: PullToRefreshView(android.content.Context)
+com.loftcat.ui.utils.slidingmenu.view.SlidingMenu
+com.loftcat.ui.utils.slidingmenu.view.SlidingMenu: SlidingMenu(android.content.Context)
+com.loftcat.ui.utils.slidingmenu.view.SlidingMenu: SlidingMenu(android.content.Context,android.util.AttributeSet)
+com.loftcat.ui.utils.slidingmenu.view.SlidingMenu: SlidingMenu(android.content.Context,android.util.AttributeSet,int)
+com.loftcat.utils.BaseActivity
+com.loftcat.utils.BaseActivity: BaseActivity()
+com.loftcat.weibo.bean.Account
+com.loftcat.weibo.bean.Account: int _id
+com.loftcat.weibo.bean.Account: java.lang.String userInfo
+com.loftcat.weibo.bean.Account: java.lang.String id
+com.loftcat.weibo.bean.Account: java.lang.String token
+com.loftcat.weibo.bean.Account: java.lang.String expires_in
+com.loftcat.weibo.bean.Account: java.lang.String name
+com.loftcat.weibo.bean.Account: int get_id()
+com.loftcat.weibo.bean.Account: void set_id(int)
+com.loftcat.weibo.bean.Account: Account(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.loftcat.weibo.bean.Account: Account()
+com.loftcat.weibo.bean.Account: java.lang.String getId()
+com.loftcat.weibo.bean.Account: void setId(java.lang.String)
+com.loftcat.weibo.bean.Account: java.lang.String getToken()
+com.loftcat.weibo.bean.Account: void setToken(java.lang.String)
+com.loftcat.weibo.bean.Account: java.lang.String getExpires_in()
+com.loftcat.weibo.bean.Account: void setExpires_in(java.lang.String)
+com.loftcat.weibo.bean.Account: java.lang.String getUserInfo()
+com.loftcat.weibo.bean.Account: void setUserInfo(java.lang.String)
+com.loftcat.weibo.bean.Account: java.lang.String getName()
+com.loftcat.weibo.bean.Account: void setName(java.lang.String)
+com.loftcat.weibo.bean.BackgroundVo
+com.loftcat.weibo.bean.BackgroundVo: int smallImage
+com.loftcat.weibo.bean.BackgroundVo: int largeImage
+com.loftcat.weibo.bean.BackgroundVo: BackgroundVo(int,int)
+com.loftcat.weibo.bean.BackgroundVo: int getSmallImage()
+com.loftcat.weibo.bean.BackgroundVo: int getLargeImage()
+com.loftcat.weibo.bean.CommentVo
+com.loftcat.weibo.bean.CommentVo: long serialVersionUID
+com.loftcat.weibo.bean.CommentVo: java.lang.String created_at
+com.loftcat.weibo.bean.CommentVo: long id
+com.loftcat.weibo.bean.CommentVo: java.lang.String text
+com.loftcat.weibo.bean.CommentVo: java.lang.String source
+com.loftcat.weibo.bean.CommentVo: com.loftcat.weibo.bean.UserVO user
+com.loftcat.weibo.bean.CommentVo: java.lang.String mid
+com.loftcat.weibo.bean.CommentVo: java.lang.String idstr
+com.loftcat.weibo.bean.CommentVo: com.loftcat.weibo.bean.StatusVo status
+com.loftcat.weibo.bean.CommentVo: com.loftcat.weibo.bean.CommentVo reply_comment
+com.loftcat.weibo.bean.CommentVo: CommentVo()
+com.loftcat.weibo.bean.CommentVo: java.lang.String getCreated_at()
+com.loftcat.weibo.bean.CommentVo: void setCreated_at(java.lang.String)
+com.loftcat.weibo.bean.CommentVo: long getId()
+com.loftcat.weibo.bean.CommentVo: void setId(long)
+com.loftcat.weibo.bean.CommentVo: java.lang.String getText()
+com.loftcat.weibo.bean.CommentVo: void setText(java.lang.String)
+com.loftcat.weibo.bean.CommentVo: java.lang.String getSource()
+com.loftcat.weibo.bean.CommentVo: void setSource(java.lang.String)
+com.loftcat.weibo.bean.CommentVo: com.loftcat.weibo.bean.UserVO getUser()
+com.loftcat.weibo.bean.CommentVo: void setUser(com.loftcat.weibo.bean.UserVO)
+com.loftcat.weibo.bean.CommentVo: java.lang.String getMid()
+com.loftcat.weibo.bean.CommentVo: void setMid(java.lang.String)
+com.loftcat.weibo.bean.CommentVo: java.lang.String getIdstr()
+com.loftcat.weibo.bean.CommentVo: void setIdstr(java.lang.String)
+com.loftcat.weibo.bean.CommentVo: com.loftcat.weibo.bean.StatusVo getStatus()
+com.loftcat.weibo.bean.CommentVo: void setStatus(com.loftcat.weibo.bean.StatusVo)
+com.loftcat.weibo.bean.CommentVo: com.loftcat.weibo.bean.CommentVo getReply_comment()
+com.loftcat.weibo.bean.CommentVo: void setReply_comment(com.loftcat.weibo.bean.CommentVo)
+com.loftcat.weibo.bean.FriendShipVo
+com.loftcat.weibo.bean.FriendShipVo: long id
+com.loftcat.weibo.bean.FriendShipVo: java.lang.String screen_name
+com.loftcat.weibo.bean.FriendShipVo: boolean followed_by
+com.loftcat.weibo.bean.FriendShipVo: boolean following
+com.loftcat.weibo.bean.FriendShipVo: boolean notifications_enabled
+com.loftcat.weibo.bean.FriendShipVo: FriendShipVo()
+com.loftcat.weibo.bean.FriendShipVo: long getId()
+com.loftcat.weibo.bean.FriendShipVo: void setId(long)
+com.loftcat.weibo.bean.FriendShipVo: java.lang.String getScreen_name()
+com.loftcat.weibo.bean.FriendShipVo: void setScreen_name(java.lang.String)
+com.loftcat.weibo.bean.FriendShipVo: boolean isFollowed_by()
+com.loftcat.weibo.bean.FriendShipVo: void setFollowed_by(boolean)
+com.loftcat.weibo.bean.FriendShipVo: boolean isFollowing()
+com.loftcat.weibo.bean.FriendShipVo: void setFollowing(boolean)
+com.loftcat.weibo.bean.FriendShipVo: boolean isNotifications_enabled()
+com.loftcat.weibo.bean.FriendShipVo: void setNotifications_enabled(boolean)
+com.loftcat.weibo.bean.FriendTimeLineVo
+com.loftcat.weibo.bean.FriendTimeLineVo: long serialVersionUID
+com.loftcat.weibo.bean.FriendTimeLineVo: java.util.ArrayList statuses
+com.loftcat.weibo.bean.FriendTimeLineVo: boolean hasvisible
+com.loftcat.weibo.bean.FriendTimeLineVo: int previous_cursor
+com.loftcat.weibo.bean.FriendTimeLineVo: long next_cursor
+com.loftcat.weibo.bean.FriendTimeLineVo: int total_number
+com.loftcat.weibo.bean.FriendTimeLineVo: FriendTimeLineVo()
+com.loftcat.weibo.bean.FriendTimeLineVo: java.util.ArrayList getStatuses()
+com.loftcat.weibo.bean.FriendTimeLineVo: void setStatuses(java.util.ArrayList)
+com.loftcat.weibo.bean.FriendTimeLineVo: boolean isHasvisible()
+com.loftcat.weibo.bean.FriendTimeLineVo: void setHasvisible(boolean)
+com.loftcat.weibo.bean.FriendTimeLineVo: int getPrevious_cursor()
+com.loftcat.weibo.bean.FriendTimeLineVo: void setPrevious_cursor(int)
+com.loftcat.weibo.bean.FriendTimeLineVo: long getNext_cursor()
+com.loftcat.weibo.bean.FriendTimeLineVo: void setNext_cursor(long)
+com.loftcat.weibo.bean.FriendTimeLineVo: int getTotal_number()
+com.loftcat.weibo.bean.FriendTimeLineVo: void setTotal_number(int)
+com.loftcat.weibo.bean.GroupsVo
+com.loftcat.weibo.bean.GroupsVo: long serialVersionUID
+com.loftcat.weibo.bean.GroupsVo: long id
+com.loftcat.weibo.bean.GroupsVo: java.lang.String idstr
+com.loftcat.weibo.bean.GroupsVo: java.lang.String name
+com.loftcat.weibo.bean.GroupsVo: java.lang.String mode
+com.loftcat.weibo.bean.GroupsVo: int visible
+com.loftcat.weibo.bean.GroupsVo: int like_count
+com.loftcat.weibo.bean.GroupsVo: int member_count
+com.loftcat.weibo.bean.GroupsVo: java.lang.String description
+com.loftcat.weibo.bean.GroupsVo: java.lang.String profile_image_url
+com.loftcat.weibo.bean.GroupsVo: com.loftcat.weibo.bean.UserVO user
+com.loftcat.weibo.bean.GroupsVo: java.lang.String created_at
+com.loftcat.weibo.bean.GroupsVo: GroupsVo()
+com.loftcat.weibo.bean.GroupsVo: long getId()
+com.loftcat.weibo.bean.GroupsVo: void setId(long)
+com.loftcat.weibo.bean.GroupsVo: java.lang.String getIdstr()
+com.loftcat.weibo.bean.GroupsVo: void setIdstr(java.lang.String)
+com.loftcat.weibo.bean.GroupsVo: java.lang.String getName()
+com.loftcat.weibo.bean.GroupsVo: void setName(java.lang.String)
+com.loftcat.weibo.bean.GroupsVo: java.lang.String getMode()
+com.loftcat.weibo.bean.GroupsVo: void setMode(java.lang.String)
+com.loftcat.weibo.bean.GroupsVo: int getVisible()
+com.loftcat.weibo.bean.GroupsVo: void setVisible(int)
+com.loftcat.weibo.bean.GroupsVo: int getMember_count()
+com.loftcat.weibo.bean.GroupsVo: void setMember_count(int)
+com.loftcat.weibo.bean.GroupsVo: java.lang.String getDescription()
+com.loftcat.weibo.bean.GroupsVo: void setDescription(java.lang.String)
+com.loftcat.weibo.bean.GroupsVo: java.lang.String getProfile_image_url()
+com.loftcat.weibo.bean.GroupsVo: void setProfile_image_url(java.lang.String)
+com.loftcat.weibo.bean.GroupsVo: com.loftcat.weibo.bean.UserVO getUser()
+com.loftcat.weibo.bean.GroupsVo: void setUser(com.loftcat.weibo.bean.UserVO)
+com.loftcat.weibo.bean.GroupsVo: java.lang.String getCreated_at()
+com.loftcat.weibo.bean.GroupsVo: void setCreated_at(java.lang.String)
+com.loftcat.weibo.bean.GroupsVo: long getSerialversionuid()
+com.loftcat.weibo.bean.GroupsVo: int getLike_count()
+com.loftcat.weibo.bean.GroupsVo: void setLike_count(int)
+com.loftcat.weibo.bean.ReportsVo
+com.loftcat.weibo.bean.ReportsVo: long serialVersionUID
+com.loftcat.weibo.bean.ReportsVo: java.lang.String idstr
+com.loftcat.weibo.bean.ReportsVo: java.lang.String created_at
+com.loftcat.weibo.bean.ReportsVo: long id
+com.loftcat.weibo.bean.ReportsVo: java.lang.String text
+com.loftcat.weibo.bean.ReportsVo: java.lang.String source
+com.loftcat.weibo.bean.ReportsVo: boolean favorited
+com.loftcat.weibo.bean.ReportsVo: boolean truncated
+com.loftcat.weibo.bean.ReportsVo: long in_reply_to_status_id
+com.loftcat.weibo.bean.ReportsVo: long in_reply_to_user_id
+com.loftcat.weibo.bean.ReportsVo: java.lang.String in_reply_to_screen_name
+com.loftcat.weibo.bean.ReportsVo: long mid
+com.loftcat.weibo.bean.ReportsVo: java.lang.String bmiddle_pic
+com.loftcat.weibo.bean.ReportsVo: java.lang.String original_pic
+com.loftcat.weibo.bean.ReportsVo: java.lang.String thumbnail_pic
+com.loftcat.weibo.bean.ReportsVo: int reposts_count
+com.loftcat.weibo.bean.ReportsVo: int comments_count
+com.loftcat.weibo.bean.ReportsVo: com.loftcat.weibo.bean.UserVO user
+com.loftcat.weibo.bean.ReportsVo: com.loftcat.weibo.bean.StatusVo retweeted_status
+com.loftcat.weibo.bean.ReportsVo: ReportsVo()
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getIdstr()
+com.loftcat.weibo.bean.ReportsVo: void setIdstr(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getCreated_at()
+com.loftcat.weibo.bean.ReportsVo: void setCreated_at(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: long getId()
+com.loftcat.weibo.bean.ReportsVo: void setId(long)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getText()
+com.loftcat.weibo.bean.ReportsVo: void setText(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getSource()
+com.loftcat.weibo.bean.ReportsVo: void setSource(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: boolean isFavorited()
+com.loftcat.weibo.bean.ReportsVo: void setFavorited(boolean)
+com.loftcat.weibo.bean.ReportsVo: boolean isTruncated()
+com.loftcat.weibo.bean.ReportsVo: void setTruncated(boolean)
+com.loftcat.weibo.bean.ReportsVo: long getIn_reply_to_status_id()
+com.loftcat.weibo.bean.ReportsVo: void setIn_reply_to_status_id(long)
+com.loftcat.weibo.bean.ReportsVo: long getIn_reply_to_user_id()
+com.loftcat.weibo.bean.ReportsVo: void setIn_reply_to_user_id(long)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getIn_reply_to_screen_name()
+com.loftcat.weibo.bean.ReportsVo: void setIn_reply_to_screen_name(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: long getMid()
+com.loftcat.weibo.bean.ReportsVo: void setMid(long)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getBmiddle_pic()
+com.loftcat.weibo.bean.ReportsVo: void setBmiddle_pic(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getOriginal_pic()
+com.loftcat.weibo.bean.ReportsVo: void setOriginal_pic(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: java.lang.String getThumbnail_pic()
+com.loftcat.weibo.bean.ReportsVo: void setThumbnail_pic(java.lang.String)
+com.loftcat.weibo.bean.ReportsVo: int getReposts_count()
+com.loftcat.weibo.bean.ReportsVo: void setReposts_count(int)
+com.loftcat.weibo.bean.ReportsVo: int getComments_count()
+com.loftcat.weibo.bean.ReportsVo: void setComments_count(int)
+com.loftcat.weibo.bean.ReportsVo: com.loftcat.weibo.bean.UserVO getUser()
+com.loftcat.weibo.bean.ReportsVo: void setUser(com.loftcat.weibo.bean.UserVO)
+com.loftcat.weibo.bean.ReportsVo: com.loftcat.weibo.bean.StatusVo getRetweeted_status()
+com.loftcat.weibo.bean.ReportsVo: void setRetweeted_status(com.loftcat.weibo.bean.StatusVo)
+com.loftcat.weibo.bean.ReportsVo: long getSerialversionuid()
+com.loftcat.weibo.bean.SourceVo
+com.loftcat.weibo.bean.SourceVo: long serialVersionUID
+com.loftcat.weibo.bean.SourceVo: java.lang.String url
+com.loftcat.weibo.bean.SourceVo: java.lang.String relationShip
+com.loftcat.weibo.bean.SourceVo: java.lang.String name
+com.loftcat.weibo.bean.SourceVo: SourceVo(java.lang.String)
+com.loftcat.weibo.bean.SourceVo: java.lang.String getUrl()
+com.loftcat.weibo.bean.SourceVo: void setUrl(java.lang.String)
+com.loftcat.weibo.bean.SourceVo: java.lang.String getRelationship()
+com.loftcat.weibo.bean.SourceVo: void setRelationship(java.lang.String)
+com.loftcat.weibo.bean.SourceVo: java.lang.String getName()
+com.loftcat.weibo.bean.SourceVo: void setName(java.lang.String)
+com.loftcat.weibo.bean.SourceVo: java.lang.String toString()
+com.loftcat.weibo.bean.StatusVo
+com.loftcat.weibo.bean.StatusVo: long serialVersionUID
+com.loftcat.weibo.bean.StatusVo: java.lang.String created_at
+com.loftcat.weibo.bean.StatusVo: long id
+com.loftcat.weibo.bean.StatusVo: long mid
+com.loftcat.weibo.bean.StatusVo: java.lang.String idstr
+com.loftcat.weibo.bean.StatusVo: java.lang.String text
+com.loftcat.weibo.bean.StatusVo: java.lang.String source
+com.loftcat.weibo.bean.StatusVo: boolean favorited
+com.loftcat.weibo.bean.StatusVo: boolean truncated
+com.loftcat.weibo.bean.StatusVo: java.lang.String in_reply_to_status_id
+com.loftcat.weibo.bean.StatusVo: java.lang.String in_reply_to_user_id
+com.loftcat.weibo.bean.StatusVo: java.lang.String in_reply_to_screen_name
+com.loftcat.weibo.bean.StatusVo: java.lang.String thumbnail_pic
+com.loftcat.weibo.bean.StatusVo: java.lang.String bmiddle_pic
+com.loftcat.weibo.bean.StatusVo: java.lang.String original_pic
+com.loftcat.weibo.bean.StatusVo: com.loftcat.weibo.bean.UserVO user
+com.loftcat.weibo.bean.StatusVo: com.loftcat.weibo.bean.StatusVo retweeted_status
+com.loftcat.weibo.bean.StatusVo: int reposts_count
+com.loftcat.weibo.bean.StatusVo: int comments_count
+com.loftcat.weibo.bean.StatusVo: int attitudes_count
+com.loftcat.weibo.bean.StatusVo: int mlevel
+com.loftcat.weibo.bean.StatusVo: StatusVo()
+com.loftcat.weibo.bean.StatusVo: java.lang.String getCreated_at()
+com.loftcat.weibo.bean.StatusVo: void setCreated_at(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: long getId()
+com.loftcat.weibo.bean.StatusVo: void setId(long)
+com.loftcat.weibo.bean.StatusVo: long getMid()
+com.loftcat.weibo.bean.StatusVo: void setMid(long)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getIdstr()
+com.loftcat.weibo.bean.StatusVo: void setIdstr(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getText()
+com.loftcat.weibo.bean.StatusVo: void setText(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getSource()
+com.loftcat.weibo.bean.StatusVo: void setSource(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: boolean isFavorited()
+com.loftcat.weibo.bean.StatusVo: void setFavorited(boolean)
+com.loftcat.weibo.bean.StatusVo: boolean isTruncated()
+com.loftcat.weibo.bean.StatusVo: void setTruncated(boolean)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getIn_reply_to_status_id()
+com.loftcat.weibo.bean.StatusVo: void setIn_reply_to_status_id(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getIn_reply_to_user_id()
+com.loftcat.weibo.bean.StatusVo: void setIn_reply_to_user_id(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getIn_reply_to_screen_name()
+com.loftcat.weibo.bean.StatusVo: void setIn_reply_to_screen_name(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getThumbnail_pic()
+com.loftcat.weibo.bean.StatusVo: void setThumbnail_pic(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getBmiddle_pic()
+com.loftcat.weibo.bean.StatusVo: void setBmiddle_pic(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: java.lang.String getOriginal_pic()
+com.loftcat.weibo.bean.StatusVo: void setOriginal_pic(java.lang.String)
+com.loftcat.weibo.bean.StatusVo: com.loftcat.weibo.bean.UserVO getUser()
+com.loftcat.weibo.bean.StatusVo: void setUser(com.loftcat.weibo.bean.UserVO)
+com.loftcat.weibo.bean.StatusVo: com.loftcat.weibo.bean.StatusVo getRetweeted_status()
+com.loftcat.weibo.bean.StatusVo: void setRetweeted_status(com.loftcat.weibo.bean.StatusVo)
+com.loftcat.weibo.bean.StatusVo: int getReposts_count()
+com.loftcat.weibo.bean.StatusVo: void setReposts_count(int)
+com.loftcat.weibo.bean.StatusVo: int getComments_count()
+com.loftcat.weibo.bean.StatusVo: void setComments_count(int)
+com.loftcat.weibo.bean.StatusVo: int getAttitudes_count()
+com.loftcat.weibo.bean.StatusVo: void setAttitudes_count(int)
+com.loftcat.weibo.bean.StatusVo: int getMlevel()
+com.loftcat.weibo.bean.StatusVo: void setMlevel(int)
+com.loftcat.weibo.bean.UserVO
+com.loftcat.weibo.bean.UserVO: long serialVersionUID
+com.loftcat.weibo.bean.UserVO: long id
+com.loftcat.weibo.bean.UserVO: java.lang.String screen_name
+com.loftcat.weibo.bean.UserVO: java.lang.String name
+com.loftcat.weibo.bean.UserVO: java.lang.String province
+com.loftcat.weibo.bean.UserVO: java.lang.String city
+com.loftcat.weibo.bean.UserVO: java.lang.String location
+com.loftcat.weibo.bean.UserVO: java.lang.String description
+com.loftcat.weibo.bean.UserVO: java.lang.String url
+com.loftcat.weibo.bean.UserVO: java.lang.String profile_image_url
+com.loftcat.weibo.bean.UserVO: java.lang.String domain
+com.loftcat.weibo.bean.UserVO: java.lang.String gender
+com.loftcat.weibo.bean.UserVO: int followers_count
+com.loftcat.weibo.bean.UserVO: int friends_count
+com.loftcat.weibo.bean.UserVO: int statuses_count
+com.loftcat.weibo.bean.UserVO: int favourites_count
+com.loftcat.weibo.bean.UserVO: java.lang.String created_at
+com.loftcat.weibo.bean.UserVO: boolean following
+com.loftcat.weibo.bean.UserVO: boolean allow_all_act_msg
+com.loftcat.weibo.bean.UserVO: java.lang.String remark
+com.loftcat.weibo.bean.UserVO: boolean geo_enabled
+com.loftcat.weibo.bean.UserVO: boolean verified
+com.loftcat.weibo.bean.UserVO: boolean allow_all_comment
+com.loftcat.weibo.bean.UserVO: java.lang.String avatar_large
+com.loftcat.weibo.bean.UserVO: java.lang.String verified_reason
+com.loftcat.weibo.bean.UserVO: java.lang.String follow_me
+com.loftcat.weibo.bean.UserVO: int online_status
+com.loftcat.weibo.bean.UserVO: int bi_followers_count
+com.loftcat.weibo.bean.UserVO: UserVO()
+com.loftcat.weibo.bean.UserVO: long getId()
+com.loftcat.weibo.bean.UserVO: void setId(long)
+com.loftcat.weibo.bean.UserVO: java.lang.String getScreen_name()
+com.loftcat.weibo.bean.UserVO: void setScreen_name(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getName()
+com.loftcat.weibo.bean.UserVO: void setName(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getProvince()
+com.loftcat.weibo.bean.UserVO: void setProvince(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getCity()
+com.loftcat.weibo.bean.UserVO: void setCity(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getLocation()
+com.loftcat.weibo.bean.UserVO: void setLocation(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getDescription()
+com.loftcat.weibo.bean.UserVO: void setDescription(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getUrl()
+com.loftcat.weibo.bean.UserVO: void setUrl(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getProfile_image_url()
+com.loftcat.weibo.bean.UserVO: void setProfile_image_url(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getDomain()
+com.loftcat.weibo.bean.UserVO: void setDomain(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getGender()
+com.loftcat.weibo.bean.UserVO: void setGender(java.lang.String)
+com.loftcat.weibo.bean.UserVO: int getFollowers_count()
+com.loftcat.weibo.bean.UserVO: void setFollowers_count(int)
+com.loftcat.weibo.bean.UserVO: int getFriends_count()
+com.loftcat.weibo.bean.UserVO: void setFriends_count(int)
+com.loftcat.weibo.bean.UserVO: int getStatuses_count()
+com.loftcat.weibo.bean.UserVO: void setStatuses_count(int)
+com.loftcat.weibo.bean.UserVO: int getFavourites_count()
+com.loftcat.weibo.bean.UserVO: void setFavourites_count(int)
+com.loftcat.weibo.bean.UserVO: java.lang.String getCreated_at()
+com.loftcat.weibo.bean.UserVO: void setCreated_at(java.lang.String)
+com.loftcat.weibo.bean.UserVO: boolean isFollowing()
+com.loftcat.weibo.bean.UserVO: void setFollowing(boolean)
+com.loftcat.weibo.bean.UserVO: boolean isAllow_all_act_msg()
+com.loftcat.weibo.bean.UserVO: void setAllow_all_act_msg(boolean)
+com.loftcat.weibo.bean.UserVO: java.lang.String getRemark()
+com.loftcat.weibo.bean.UserVO: void setRemark(java.lang.String)
+com.loftcat.weibo.bean.UserVO: boolean isGeo_enabled()
+com.loftcat.weibo.bean.UserVO: void setGeo_enabled(boolean)
+com.loftcat.weibo.bean.UserVO: boolean isVerified()
+com.loftcat.weibo.bean.UserVO: void setVerified(boolean)
+com.loftcat.weibo.bean.UserVO: boolean isAllow_all_comment()
+com.loftcat.weibo.bean.UserVO: void setAllow_all_comment(boolean)
+com.loftcat.weibo.bean.UserVO: java.lang.String getAvatar_large()
+com.loftcat.weibo.bean.UserVO: void setAvatar_large(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getVerified_reason()
+com.loftcat.weibo.bean.UserVO: void setVerified_reason(java.lang.String)
+com.loftcat.weibo.bean.UserVO: java.lang.String getFollow_me()
+com.loftcat.weibo.bean.UserVO: void setFollow_me(java.lang.String)
+com.loftcat.weibo.bean.UserVO: int getOnline_status()
+com.loftcat.weibo.bean.UserVO: void setOnline_status(int)
+com.loftcat.weibo.bean.UserVO: int getBi_followers_count()
+com.loftcat.weibo.bean.UserVO: void setBi_followers_count(int)
+com.loftcat.weibo.bean.Vo
+com.nostra13.universalimageloader.ImagePagerActivity
+com.nostra13.universalimageloader.core.assist.FailReason: com.nostra13.universalimageloader.core.assist.FailReason[] values()
+com.nostra13.universalimageloader.core.assist.FailReason: com.nostra13.universalimageloader.core.assist.FailReason valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ImageScaleType: com.nostra13.universalimageloader.core.assist.ImageScaleType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType[] values()
+com.nostra13.universalimageloader.core.assist.QueueProcessingType: com.nostra13.universalimageloader.core.assist.QueueProcessingType valueOf(java.lang.String)
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType[] values()
+com.nostra13.universalimageloader.core.assist.ViewScaleType: com.nostra13.universalimageloader.core.assist.ViewScaleType valueOf(java.lang.String)
+com.polites.android.GestureImageView
+com.polites.android.GestureImageView: GestureImageView(android.content.Context,android.util.AttributeSet,int)
+com.polites.android.GestureImageView: GestureImageView(android.content.Context,android.util.AttributeSet)
+com.polites.android.GestureImageView: GestureImageView(android.content.Context)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void setCheckSupportingModel(char[],int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyGray(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyNegative(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyBright(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyDark(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applySepia(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyBlur(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyFadedColor(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPencilSketch(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPenSketch(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPastelSketch(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyColorSketch(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPencilPastelSketch(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPencilColorSketch(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyVivid(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyColorize(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyCartoonize(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyVignette(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyMosaic(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyVintage(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyOldPhoto(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPopArt(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyRetro(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applySunshine(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyDownlight(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyBluewash(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyNostalgia(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyYellowglow(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyClassic(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applySoftglow(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyMagicPen(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyOilpaint(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyPosterize(int[],int[],int,int,int)
+com.samsung.samm.lib.engine.image.ImageEffectEngineJNI: void applyFusain(int[],int[],int,int,int)
+com.samsung.sdraw.AbstractSettingView
+com.samsung.sdraw.AbstractSettingView: AbstractSettingView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.AbstractSettingView: AbstractSettingView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.CanvasView
+com.samsung.sdraw.CanvasView: CanvasView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.CanvasView: CanvasView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.CanvasView$ObjectType: com.samsung.sdraw.CanvasView$ObjectType[] values()
+com.samsung.sdraw.CanvasView$ObjectType: com.samsung.sdraw.CanvasView$ObjectType valueOf(java.lang.String)
+com.samsung.sdraw.CanvasView$b: com.samsung.sdraw.CanvasView$b[] values()
+com.samsung.sdraw.CanvasView$b: com.samsung.sdraw.CanvasView$b valueOf(java.lang.String)
+com.samsung.sdraw.ExEditText
+com.samsung.sdraw.ExEditText: ExEditText(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.ExEditText: ExEditText(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.PalletView
+com.samsung.sdraw.PalletView: PalletView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.PalletView: PalletView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.PenSettingPreView
+com.samsung.sdraw.PenSettingPreView: PenSettingPreView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.PenSettingRootView
+com.samsung.sdraw.PenSettingRootView: PenSettingRootView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.PenSettingRootView: PenSettingRootView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.PenSettingScrollView
+com.samsung.sdraw.PenSettingScrollView: PenSettingScrollView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.PenSettingScrollView: PenSettingScrollView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.PointF
+com.samsung.sdraw.SelectMode$HitDirection: com.samsung.sdraw.SelectMode$HitDirection[] values()
+com.samsung.sdraw.SelectMode$HitDirection: com.samsung.sdraw.SelectMode$HitDirection valueOf(java.lang.String)
+com.samsung.sdraw.SettingView
+com.samsung.sdraw.SettingView: SettingView(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.SettingView: SettingView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.StrokeSprite$InputMethod: com.samsung.sdraw.StrokeSprite$InputMethod[] values()
+com.samsung.sdraw.StrokeSprite$InputMethod: com.samsung.sdraw.StrokeSprite$InputMethod valueOf(java.lang.String)
+com.samsung.sdraw.StrokeSprite$ThicknessParameter: com.samsung.sdraw.StrokeSprite$ThicknessParameter[] values()
+com.samsung.sdraw.StrokeSprite$ThicknessParameter: com.samsung.sdraw.StrokeSprite$ThicknessParameter valueOf(java.lang.String)
+com.samsung.sdraw.StrokeSprite$Type: com.samsung.sdraw.StrokeSprite$Type[] values()
+com.samsung.sdraw.StrokeSprite$Type: com.samsung.sdraw.StrokeSprite$Type valueOf(java.lang.String)
+com.samsung.sdraw.ThumbControlBackGround
+com.samsung.sdraw.ThumbControlBackGround: ThumbControlBackGround(android.content.Context,android.util.AttributeSet)
+com.samsung.sdraw.ThumbControlBackGround: ThumbControlBackGround(android.content.Context,android.util.AttributeSet,int)
+com.samsung.sdraw.ai$a: com.samsung.sdraw.ai$a[] values()
+com.samsung.sdraw.ai$a: com.samsung.sdraw.ai$a valueOf(java.lang.String)
+com.samsung.sdraw.by
+com.samsung.sdraw.cd
+com.samsung.spen.a.e.b
+com.samsung.spen.a.e.b: b(android.content.Context,android.util.AttributeSet)
+com.samsung.spen.a.e.b: b(android.content.Context,android.util.AttributeSet,int)
+com.samsung.spen.engine.signature.HSVJniLib
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVInit(java.lang.String)
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVClose()
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVLoadSignatureModel()
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVAddSignatureModel(int[],int[],char[],short,int,int)
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVDelUser(int)
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVVerify(int[],int[],char[],short,int,int)
+com.samsung.spen.engine.signature.HSVJniLib: short jni_HSVCheckSignature(int[],int[],char[],short,int,int,int)
+com.samsung.spen.lib.input.core.SPenDetachmentReceiver
+com.samsung.spensdk.SCanvasView
+com.samsung.spensdk.SCanvasView: SCanvasView(android.content.Context,android.util.AttributeSet)
+com.samsung.spensdk.SCanvasView: SCanvasView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.spensdk.example.basiceditor.SPen_Example_BasicEditor
+com.samsung.spensdk.example.basiceditor.SPen_Example_BasicEditor: SPen_Example_BasicEditor()
+com.samsung.spensdk.example.tools.PreferencesOfAnimationOption
+com.samsung.spensdk.example.tools.PreferencesOfEraserAnimationOption
+com.samsung.spensdk.example.tools.PreferencesOfSAMMOption
+com.samsung.spensdk.example.tools.SAMMFileListViewOld
+com.samsung.spensdk.example.tools.SAMMFileListViewOld: SAMMFileListViewOld(android.content.Context,android.util.AttributeSet,int)
+com.samsung.spensdk.example.tools.SAMMFileListViewOld: SAMMFileListViewOld(android.content.Context,android.util.AttributeSet)
+com.samsung.spensdk.example.tools.ToolAudioListView
+com.samsung.spensdk.example.tools.ToolFileListView
+com.samsung.spensdk.example.tools.ToolFileListView: ToolFileListView(android.content.Context,android.util.AttributeSet,int)
+com.samsung.spensdk.example.tools.ToolFileListView: ToolFileListView(android.content.Context,android.util.AttributeSet)
+com.samsung.spensdk.example.tools.ToolFileListView: ToolFileListView(android.content.Context)
+com.samsung.spensdk.example.tools.ToolFileTotalInfoShow
+com.samsung.spensdk.example.tools.ToolListActivity
+com.samsung.spensdk.example.tools.ToolTextDialogInput
+com.umeng.analytics.Gender: com.umeng.analytics.Gender[] values()
+com.umeng.analytics.Gender: com.umeng.analytics.Gender valueOf(java.lang.String)
+com.umeng.analytics.onlineconfig.b: b(org.json.JSONObject)
+com.umeng.common.net.DownloadingService
+com.umeng.common.net.DownloadingService: DownloadingService()
+com.umeng.common.net.o: o(org.json.JSONObject)
+com.umeng.common.net.o$a: com.umeng.common.net.o$a[] values()
+com.umeng.common.net.o$a: com.umeng.common.net.o$a valueOf(java.lang.String)
+com.umeng.common.net.p$b: com.umeng.common.net.p$b[] values()
+com.umeng.common.net.p$b: com.umeng.common.net.p$b valueOf(java.lang.String)
+com.umeng.common.net.t: t(org.json.JSONObject)
+com.umeng.common.util.DeltaUpdate
+com.umeng.common.util.DeltaUpdate: int bspatch(java.lang.String,java.lang.String,java.lang.String)
+com.umeng.fb.ContactActivity
+com.umeng.fb.ContactActivity: ContactActivity()
+com.umeng.fb.ConversationActivity
+com.umeng.fb.ConversationActivity: ConversationActivity()
+com.umeng.fb.a.d: d(org.json.JSONObject)
+com.umeng.fb.model.DevReply: DevReply(org.json.JSONObject)
+com.umeng.fb.model.Reply$STATUS: com.umeng.fb.model.Reply$STATUS[] values()
+com.umeng.fb.model.Reply$STATUS: com.umeng.fb.model.Reply$STATUS valueOf(java.lang.String)
+com.umeng.fb.model.Reply$TYPE: com.umeng.fb.model.Reply$TYPE[] values()
+com.umeng.fb.model.Reply$TYPE: com.umeng.fb.model.Reply$TYPE valueOf(java.lang.String)
+com.umeng.newxp.Promoter$a: com.umeng.newxp.Promoter$a[] values()
+com.umeng.newxp.Promoter$a: com.umeng.newxp.Promoter$a valueOf(java.lang.String)
+com.umeng.newxp.UBroadcastReceiver
+com.umeng.newxp.a$a: com.umeng.newxp.a$a[] values()
+com.umeng.newxp.a$a: com.umeng.newxp.a$a valueOf(java.lang.String)
+com.umeng.newxp.controller.XpListenersCenter$BindMode: com.umeng.newxp.controller.XpListenersCenter$BindMode[] values()
+com.umeng.newxp.controller.XpListenersCenter$BindMode: com.umeng.newxp.controller.XpListenersCenter$BindMode valueOf(java.lang.String)
+com.umeng.newxp.controller.XpListenersCenter$FitType: com.umeng.newxp.controller.XpListenersCenter$FitType[] values()
+com.umeng.newxp.controller.XpListenersCenter$FitType: com.umeng.newxp.controller.XpListenersCenter$FitType valueOf(java.lang.String)
+com.umeng.newxp.controller.XpListenersCenter$STATUS: com.umeng.newxp.controller.XpListenersCenter$STATUS[] values()
+com.umeng.newxp.controller.XpListenersCenter$STATUS: com.umeng.newxp.controller.XpListenersCenter$STATUS valueOf(java.lang.String)
+com.umeng.newxp.net.g: g(org.json.JSONObject)
+com.umeng.newxp.view.P
+com.umeng.newxp.view.P: P(android.content.Context,android.util.AttributeSet,int)
+com.umeng.newxp.view.P: P(android.content.Context,android.util.AttributeSet)
+com.umeng.newxp.view.UGallery
+com.umeng.newxp.view.UGallery: UGallery(android.content.Context,android.util.AttributeSet,int)
+com.umeng.newxp.view.UGallery: UGallery(android.content.Context,android.util.AttributeSet)
+com.umeng.newxp.view.UGallery: UGallery(android.content.Context)
+com.umeng.newxp.view.aB
+com.umeng.newxp.view.aB: aB(android.content.Context,android.util.AttributeSet)
+com.umeng.newxp.view.aB: aB(android.content.Context,android.util.AttributeSet,int)
+com.umeng.newxp.view.aN
+com.umeng.newxp.view.aW
+com.umeng.newxp.view.aW: android.os.Parcelable$Creator f
+com.umeng.newxp.view.o$a: com.umeng.newxp.view.o$a[] values()
+com.umeng.newxp.view.o$a: com.umeng.newxp.view.o$a valueOf(java.lang.String)
+com.umeng.newxp.view.widget.SwipeView
+com.umeng.newxp.view.widget.SwipeView: SwipeView(android.content.Context)
+com.umeng.newxp.view.widget.SwipeView: SwipeView(android.content.Context,android.util.AttributeSet)
+com.umeng.newxp.view.widget.SwipeView: SwipeView(android.content.Context,android.util.AttributeSet,int)
+com.umeng.newxp.view.widget.SwipeViewPointer
+com.umeng.newxp.view.widget.SwipeViewPointer: SwipeViewPointer(android.content.Context)
+com.umeng.newxp.view.widget.SwipeViewPointer: SwipeViewPointer(android.content.Context,android.util.AttributeSet)
+com.umeng.update.UpdateResponse: UpdateResponse(org.json.JSONObject)
+com.weibo.sdk.android.api.WeiboAPI$AUTHOR_FILTER: com.weibo.sdk.android.api.WeiboAPI$AUTHOR_FILTER[] values()
+com.weibo.sdk.android.api.WeiboAPI$AUTHOR_FILTER: com.weibo.sdk.android.api.WeiboAPI$AUTHOR_FILTER valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$CAPITAL: com.weibo.sdk.android.api.WeiboAPI$CAPITAL[] values()
+com.weibo.sdk.android.api.WeiboAPI$CAPITAL: com.weibo.sdk.android.api.WeiboAPI$CAPITAL valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$COMMENTS_TYPE: com.weibo.sdk.android.api.WeiboAPI$COMMENTS_TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$COMMENTS_TYPE: com.weibo.sdk.android.api.WeiboAPI$COMMENTS_TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$COUNT_TYPE: com.weibo.sdk.android.api.WeiboAPI$COUNT_TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$COUNT_TYPE: com.weibo.sdk.android.api.WeiboAPI$COUNT_TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$EMOTION_TYPE: com.weibo.sdk.android.api.WeiboAPI$EMOTION_TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$EMOTION_TYPE: com.weibo.sdk.android.api.WeiboAPI$EMOTION_TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$FEATURE: com.weibo.sdk.android.api.WeiboAPI$FEATURE[] values()
+com.weibo.sdk.android.api.WeiboAPI$FEATURE: com.weibo.sdk.android.api.WeiboAPI$FEATURE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$FRIEND_TYPE: com.weibo.sdk.android.api.WeiboAPI$FRIEND_TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$FRIEND_TYPE: com.weibo.sdk.android.api.WeiboAPI$FRIEND_TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$LANGUAGE: com.weibo.sdk.android.api.WeiboAPI$LANGUAGE[] values()
+com.weibo.sdk.android.api.WeiboAPI$LANGUAGE: com.weibo.sdk.android.api.WeiboAPI$LANGUAGE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$RANGE: com.weibo.sdk.android.api.WeiboAPI$RANGE[] values()
+com.weibo.sdk.android.api.WeiboAPI$RANGE: com.weibo.sdk.android.api.WeiboAPI$RANGE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$SCHOOL_TYPE: com.weibo.sdk.android.api.WeiboAPI$SCHOOL_TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$SCHOOL_TYPE: com.weibo.sdk.android.api.WeiboAPI$SCHOOL_TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$SORT: com.weibo.sdk.android.api.WeiboAPI$SORT[] values()
+com.weibo.sdk.android.api.WeiboAPI$SORT: com.weibo.sdk.android.api.WeiboAPI$SORT valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$SORT2: com.weibo.sdk.android.api.WeiboAPI$SORT2[] values()
+com.weibo.sdk.android.api.WeiboAPI$SORT2: com.weibo.sdk.android.api.WeiboAPI$SORT2 valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$SORT3: com.weibo.sdk.android.api.WeiboAPI$SORT3[] values()
+com.weibo.sdk.android.api.WeiboAPI$SORT3: com.weibo.sdk.android.api.WeiboAPI$SORT3 valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$SRC_FILTER: com.weibo.sdk.android.api.WeiboAPI$SRC_FILTER[] values()
+com.weibo.sdk.android.api.WeiboAPI$SRC_FILTER: com.weibo.sdk.android.api.WeiboAPI$SRC_FILTER valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$STATUSES_TYPE: com.weibo.sdk.android.api.WeiboAPI$STATUSES_TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$STATUSES_TYPE: com.weibo.sdk.android.api.WeiboAPI$STATUSES_TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$TYPE: com.weibo.sdk.android.api.WeiboAPI$TYPE[] values()
+com.weibo.sdk.android.api.WeiboAPI$TYPE: com.weibo.sdk.android.api.WeiboAPI$TYPE valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$TYPE_FILTER: com.weibo.sdk.android.api.WeiboAPI$TYPE_FILTER[] values()
+com.weibo.sdk.android.api.WeiboAPI$TYPE_FILTER: com.weibo.sdk.android.api.WeiboAPI$TYPE_FILTER valueOf(java.lang.String)
+com.weibo.sdk.android.api.WeiboAPI$USER_CATEGORY: com.weibo.sdk.android.api.WeiboAPI$USER_CATEGORY[] values()
+com.weibo.sdk.android.api.WeiboAPI$USER_CATEGORY: com.weibo.sdk.android.api.WeiboAPI$USER_CATEGORY valueOf(java.lang.String)
+com.weibo.sdk.android.net.NetStateManager$NetState: com.weibo.sdk.android.net.NetStateManager$NetState[] values()
+com.weibo.sdk.android.net.NetStateManager$NetState: com.weibo.sdk.android.net.NetStateManager$NetState valueOf(java.lang.String)
+com.weibo.sdk.android.net.NetStateManager$NetStateReceive

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/steel"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/selfaty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/selfaty_head"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/selfaty_male"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/selfaty_head"
+            android:layout_alignRight="@id/selfaty_head"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginRight="-5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/selfaty_head"
+            android:layout_alignTop="@id/selfaty_head"
+            android:layout_toRightOf="@id/selfaty_head"
+            android:orientation="vertical"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:id="@+id/selfaty_name_textview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/selfaty_name_location"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/selfaty_fans_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/selfaty_fans_title_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="粉丝"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/selfaty_fans_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/selfaty_focus_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/selfaty_focus_title_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="关注"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/selfaty_focus_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/selfaty_statuses_title_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="微博"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/selfaty_statuses_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/selfaty_vip"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/selfaty_head"
+            android:layout_below="@id/selfaty_head"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/selfaty_job"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selfaty_head"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/selfaty_vip"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/selfaty_introduce_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/selfaty_vip"
+            android:layout_below="@id/selfaty_job"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/selfaty_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selfaty_job"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/selfaty_introduce_title"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/selfaty_blog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/selfaty_vip"
+            android:layout_below="@id/selfaty_introduce"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/selfaty_blog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selfaty_introduce"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/selfaty_blog_title"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/selfaty_relationship_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/selfaty_blog"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/selfaty_relationship"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/selfaty_atta"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/selfaty_progress"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <com.loftcat.ui.utils.PullToRefreshView
+        android:id="@+id/selfaty_pulltorefreshview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <ExpandableListView
+            android:id="@+id/selfaty_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@null"
+            android:childDivider="#00000000"
+            android:divider="#80aaaaaa"
+            android:dividerHeight="1dp"
+            android:groupIndicator="@null" >
+        </ExpandableListView>
+    </com.loftcat.ui.utils.PullToRefreshView>
+
+</LinearLayout>

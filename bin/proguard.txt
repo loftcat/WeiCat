@@ -1,0 +1,119 @@
+# view res/layout/image_pager.xml #generated:2
+# view res/layout/view_pager.xml #generated:31
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/middle.xml #generated:72
+-keep class android.view.ext.SatelliteMenu { <init>(...); }
+
+# view res/layout/notification_custom_builder.xml #generated:48
+-keep class android.widget.DateTimeView { <init>(...); }
+
+# view AndroidManifest.xml #generated:298
+-keep class com.baidu.android.pushservice.PushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.baidu.android.pushservice.PushServiceReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:286
+-keep class com.baidu.android.pushservice.RegistrationReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:257
+-keep class com.baidu.android.pushservice.richmedia.MediaListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:252
+-keep class com.baidu.android.pushservice.richmedia.MediaViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:245
+-keep class com.loftcat.CustomActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.loftcat.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:265
+-keep class com.loftcat.PushMessageReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class com.loftcat.app.AppContext { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.loftcat.ui.AT { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.loftcat.ui.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.loftcat.ui.CommentsListAty { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.loftcat.ui.FriendsListAty { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.loftcat.ui.GestureImageViewAty { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.loftcat.ui.Good { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.loftcat.ui.Homepage { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.loftcat.ui.Loading { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.loftcat.ui.SelfPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.loftcat.ui.Send { <init>(...); }
+
+# view AndroidManifest.xml #generated:152
+-keep class com.loftcat.ui.Setting { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.loftcat.ui.SettingBackgroundAty { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.loftcat.ui.SettingSetbackgroundPreviewAty { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.loftcat.ui.TheStatus { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.loftcat.ui.Version { <init>(...); }
+
+# view res/layout/at.xml #generated:56
+# view res/layout/expanlist.xml #generated:13
+# view res/layout/friendslist.xml #generated:8
+# view res/layout/middle.xml #generated:17
+# view res/layout/selfaty.xml #generated:241
+-keep class com.loftcat.ui.utils.PullToRefreshView { <init>(...); }
+
+# view res/layout/main.xml #generated:6
+-keep class com.loftcat.ui.utils.slidingmenu.view.SlidingMenu { <init>(...); }
+
+# view res/layout/gesture_imageview.xml #generated:6
+-keep class com.polites.android.GestureImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:196
+-keep class com.samsung.spensdk.example.basiceditor.SPen_Example_BasicEditor { <init>(...); }
+
+# view res/layout/tool_file_list.xml #generated:15
+-keep class com.samsung.spensdk.example.tools.ToolFileListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.umeng.fb.ContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class com.umeng.fb.ConversationActivity { <init>(...); }
+
+# view res/layout/umeng_fb_conversation.xml #generated:19
+-keep class com.umeng.fb.ui.ThreadView { <init>(...); }
+
+# view res/layout/umeng_xp_large_gallery.xml #generated:12
+-keep class com.umeng.newxp.view.UGallery { <init>(...); }
+
+# view res/layout/umeng_xp_handler_gallery.xml #generated:6
+-keep class com.umeng.newxp.view.widget.SwipeView { <init>(...); }
+
+# view res/layout/umeng_xp_handler_gallery.xml #generated:12
+-keep class com.umeng.newxp.view.widget.SwipeViewPointer { <init>(...); }
+

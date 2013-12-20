@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cceeeeee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/status_item_parent_head_layout"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/status_item_parent_head_imageview"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/head_default" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/status_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/status_item_parent_head_layout"
+        android:paddingBottom="20dp"
+        android:paddingRight="15dp" >
+
+        <TextView
+            android:id="@+id/status_item_parent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/status_item_parent_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/status_item_parent_name"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/status_item_parent_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/status_item_parent_msg"
+            android:layout_marginTop="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/status_item_parent_retweeted_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/status_item_parent_pic"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#80ffffff"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/status_item_parent_retweeted_status_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/status_item_parent_retweeted_status_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/status_item_parent_retweeted_status_text"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/status_item_parent_retweeted_status_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/status_item_parent_retweeted_status_pic"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/status_item_parent_retweeted_status_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/status_item_parent_retweeted_status_pic"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@id/status_item_parent_retweeted_status_reply"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/status_item_parent_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/status_item_parent_retweeted_layout"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/status_item_parent_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/status_item_parent_name"
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/status_item_parent_reply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/status_item_parent_source"
+            android:layout_alignParentRight="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/status_item_parent_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/status_item_parent_source"
+            android:layout_toLeftOf="@id/status_item_parent_reply"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

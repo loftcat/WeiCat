@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mlist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/steel" />
+
+        <RelativeLayout
+            android:id="@+id/left_account_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/left_account_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="账号"
+                android:textColor="#eeeeee"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/left_accout_add_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/add" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/throttle_line" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/left_account_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/left_bottom_layout"
+            android:layout_below="@id/left_account_title_layout"
+            android:layout_marginLeft="10dp" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/left_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/left_weibo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="微博"
+                android:textColor="#eeeeee" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@drawable/throttle_line" />
+
+            <TextView
+                android:id="@+id/left_atme"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="\@我"
+                android:textColor="#eeeeee" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@drawable/throttle_line" />
+
+            <TextView
+                android:id="@+id/left_comments"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="评论"
+                android:textColor="#eeeeee" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@drawable/throttle_line" />
+
+            <TextView
+                android:id="@+id/left_self"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="个人信息"
+                android:textColor="#eeeeee" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
