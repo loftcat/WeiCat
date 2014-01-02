@@ -42,6 +42,7 @@ public class ToolFileTotalInfoShow extends Activity {
 	//==============================
 	// Constants 
 	//==============================
+	
 	private static final int 	TOTAL_INFO_NUM = 8;			// The number of basic data
 	private static final int 	INFO_APPLICATION_ID = 0;	// basic data
 	private static final int 	INFO_TITLE_INDEX = 1;		// basic data

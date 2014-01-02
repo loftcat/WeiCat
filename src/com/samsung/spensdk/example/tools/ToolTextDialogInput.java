@@ -170,5 +170,8 @@ public class ToolTextDialogInput extends Activity {
 				finish();
 			}
 		});
-	}        
+	}   
+	
+	
+	
 }
