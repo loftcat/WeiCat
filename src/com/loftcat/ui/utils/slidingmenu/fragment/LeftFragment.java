@@ -30,7 +30,7 @@ import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.DBManager;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.Account;
+import com.loftcat.weibo.vo.AccountVo;
 import com.weibo.sdk.android.Oauth2AccessToken;
 import com.weibo.sdk.android.Weibo;
 import com.weibo.sdk.android.WeiboAuthListener;
@@ -92,13 +92,13 @@ public class LeftFragment extends Fragment {
 		this.context = context;
 	}
 
-	List<Account> accounts;
+	List<AccountVo> accounts;
 
-	public List<Account> getAccounts() {
+	public List<AccountVo> getAccounts() {
 		return accounts;
 	}
 
-	public void setAccounts(DBManager mDBManager, List<Account> accounts) {
+	public void setAccounts(DBManager mDBManager, List<AccountVo> accounts) {
 		this._dBManager = mDBManager;
 		this.accounts = accounts;
 	}
@@ -167,7 +167,7 @@ public class LeftFragment extends Fragment {
 														int which) {
 													isDelete = true;
 													delete_id = accounts.get(
-															arg2).getId();
+															arg2).getUid();
 													_dBManager
 															.deleteAccount(accounts
 																	.get(arg2));
@@ -319,7 +319,7 @@ public class LeftFragment extends Fragment {
 
 					int size = accounts.size();
 					long _index = utility.readIndex();
-					Account _account = null;
+					AccountVo _account = null;
 					if (size > 0) {
 						for (int i = 0; i < size; i++) {
 							if (Long.valueOf(accounts.get(i).getId()) == _index) {
@@ -338,14 +338,14 @@ public class LeftFragment extends Fragment {
 					accounts = _dBManager.getAccounts();
 					int size = accounts.size();
 					long _index = utility.readIndex();
-					Account _account = null;
+					AccountVo _account = null;
 					if (!((Homepage) getActivity()).get_account().getId()
 							.equals(delete_id)) {
 						_account = ((Homepage) getActivity()).get_account();
 					} else {
 						_account = accounts.get(size - 1);
 						utility.keepIndex(Long.parseLong(accounts.get(size - 1)
-								.getId()));
+								.getUid()));
 						Log.d("RESULT", "delete");
 					}
 					accountAdapter = new AccountAdapter(context, accounts,

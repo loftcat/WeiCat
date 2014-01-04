@@ -45,11 +45,11 @@ import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.StatusVo;
-import com.loftcat.weibo.bean.UserVO;
+import com.loftcat.weibo.sdk.FriendshipsAPI;
+import com.loftcat.weibo.sdk.WeiboAPI.FEATURE;
+import com.loftcat.weibo.vo.StatusVo;
+import com.loftcat.weibo.vo.UserVO;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.FriendshipsAPI;
-import com.weibo.sdk.android.api.WeiboAPI.FEATURE;
 import com.weibo.sdk.android.net.RequestListener;
 
 @SuppressLint("NewApi")

@@ -27,7 +27,7 @@ import android.preference.PreferenceManager;
 
 import com.loftcat.R;
 import com.loftcat.utils.StringUtils;
-import com.loftcat.weibo.bean.BackgroundVo;
+import com.loftcat.weibo.vo.BackgroundVo;
 
 /**
  * 应用程序配置类：用于保存用户相关信息及设置

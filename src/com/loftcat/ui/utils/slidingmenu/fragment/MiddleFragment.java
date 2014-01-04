@@ -38,14 +38,14 @@ import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.SoundCenter;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.Account;
-import com.loftcat.weibo.bean.GroupsVo;
-import com.loftcat.weibo.bean.StatusVo;
+import com.loftcat.weibo.sdk.FriendshipsAPI;
+import com.loftcat.weibo.sdk.StatusesAPI;
+import com.loftcat.weibo.sdk.WeiboAPI.FEATURE;
+import com.loftcat.weibo.vo.AccountVo;
+import com.loftcat.weibo.vo.GroupsVo;
+import com.loftcat.weibo.vo.StatusVo;
 import com.weibo.sdk.android.Oauth2AccessToken;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.FriendshipsAPI;
-import com.weibo.sdk.android.api.StatusesAPI;
-import com.weibo.sdk.android.api.WeiboAPI.FEATURE;
 import com.weibo.sdk.android.net.RequestListener;
 import android.app.ActionBar.LayoutParams;
 import android.content.Context;
@@ -103,7 +103,7 @@ import android.widget.Toast;
 public class MiddleFragment extends Fragment implements
 		OnHeaderRefreshListener, OnFooterRefreshListener {
 	private ExpandableListView listView;
-	private Account account;
+	private AccountVo account;
 	private Utility utility;
 	private ExpandableAdapter statusAdapter;
 	PullToRefreshView pullToRefreshView;
@@ -137,7 +137,7 @@ public class MiddleFragment extends Fragment implements
 		this.utility = utility;
 	}
 
-	public Account getAccount() {
+	public AccountVo getAccount() {
 		return account;
 	}
 
@@ -145,7 +145,7 @@ public class MiddleFragment extends Fragment implements
 	FriendshipsAPI friendshipsAPI;
 	int x = 0;
 
-	public void setAccount(Account account) {
+	public void setAccount(AccountVo account) {
 		this.account = account;
 		Log.d("RESULT", account.getId() + "------------------ id");
 		if (x != 0) {

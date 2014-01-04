@@ -33,17 +33,17 @@ import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.ImageUtils;
 import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.FriendShipVo;
-import com.loftcat.weibo.bean.StatusVo;
-import com.loftcat.weibo.bean.UserVO;
+import com.loftcat.weibo.sdk.FriendshipsAPI;
+import com.loftcat.weibo.sdk.StatusesAPI;
+import com.loftcat.weibo.sdk.UsersAPI;
+import com.loftcat.weibo.sdk.WeiboAPI.FEATURE;
+import com.loftcat.weibo.vo.FriendShipVo;
+import com.loftcat.weibo.vo.StatusVo;
+import com.loftcat.weibo.vo.UserVO;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.FriendshipsAPI;
-import com.weibo.sdk.android.api.StatusesAPI;
-import com.weibo.sdk.android.api.UsersAPI;
-import com.weibo.sdk.android.api.WeiboAPI.FEATURE;
 import com.weibo.sdk.android.net.RequestListener;
 
 import android.annotation.SuppressLint;
@@ -240,7 +240,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 										male.setImageBitmap(bitmap);
 									}
 
-									if (userVo.isVerified()) {
+									if (userVo.getVerified()) {
 										vip.setImageResource(R.drawable.v);
 										job.setText(userVo.getVerified_reason() == null ? ""
 												: userVo.getVerified_reason());
@@ -316,7 +316,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 
 		friendshipsAPI = new FriendshipsAPI(utility.getAccessToken());
 
-		friendshipsAPI.show(Long.parseLong(_account.getId()),
+		friendshipsAPI.show(Long.parseLong(_account.getUid()),
 				Long.parseLong(id), new RequestListener() {
 
 					@Override

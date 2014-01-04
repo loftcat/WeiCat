@@ -39,14 +39,14 @@ import android.widget.Toast;
 
 import com.loftcat.R;
 import com.loftcat.utils.DBManager;
-import com.loftcat.weibo.bean.Account;
+import com.loftcat.weibo.sdk.AccountAPI;
+import com.loftcat.weibo.sdk.UsersAPI;
+import com.loftcat.weibo.vo.AccountVo;
 import com.umeng.analytics.MobclickAgent;
 import com.weibo.sdk.android.Oauth2AccessToken;
 import com.weibo.sdk.android.Weibo;
 import com.weibo.sdk.android.WeiboException;
 import com.weibo.sdk.android.WeiboParameters;
-import com.weibo.sdk.android.api.AccountAPI;
-import com.weibo.sdk.android.api.UsersAPI;
 import com.weibo.sdk.android.net.AsyncWeiboRunner;
 import com.weibo.sdk.android.net.RequestListener;
 
@@ -60,13 +60,13 @@ import com.weibo.sdk.android.net.RequestListener;
  */
 public abstract class BaseActivity extends FragmentActivity implements
 		RequestListener, OnClickListener {
-	protected static Account _account;
+	protected static AccountVo _account;
 
-	public static Account get_account() {
+	public static AccountVo get_account() {
 		return _account;
 	}
 
-	public static void set_account(Account _account) {
+	public static void set_account(AccountVo _account) {
 		BaseActivity._account = _account;
 	}
 
@@ -88,7 +88,7 @@ public abstract class BaseActivity extends FragmentActivity implements
 	public static final String CONSUMER_SECRET = "fd67f1e50e4c274b02890128d8d77c93";
 	// 此处回调页内容应该替换为与appkey对应的应用回调页
 	// 应用回调页不可为空
-	public static final String REDIRECT_URL = "https://github.com/loftcat/WeiCat";
+	public static final String REDIRECT_URL = "https://github.com/loftcat/NoteCat";
 
 	protected static Utility utility;
 
@@ -96,7 +96,7 @@ public abstract class BaseActivity extends FragmentActivity implements
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		mDBManager = new DBManager(getApplicationContext());
+		mDBManager =  DBManager.getInstance(getApplicationContext());
 		initView();
 		initLogic();
 		initListener();

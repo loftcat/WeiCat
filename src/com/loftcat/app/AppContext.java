@@ -33,6 +33,9 @@ import android.os.StrictMode;
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
 import com.loftcat.utils.StringUtils;
+import com.loftcat.weibo.vo.DaoMaster;
+import com.loftcat.weibo.vo.DaoSession;
+import com.loftcat.weibo.vo.DaoMaster.OpenHelper;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.UsingFreqLimitedMemoryCache;
@@ -54,7 +57,9 @@ public class AppContext extends Application {
 	public static final int NETTYPE_WIFI = 0x01;
 	public static final int NETTYPE_CMWAP = 0x02;
 	public static final int NETTYPE_CMNET = 0x03;
-
+ 	private static AppContext mInstance;  
+    private static DaoMaster daoMaster;  
+    private static DaoSession daoSession; 
 	// public static final int PAGE_SIZE = 20;//默认分页大小
 	// private static final int CACHE_TIME = 60*60000;//缓存失效时间
 
@@ -216,4 +221,36 @@ public class AppContext extends Application {
 
 	public static int WINDOW_WIDTH;
 	public static int WINDOW_HEIGHT;
+	
+	  
+    /** 
+     * 取得DaoMaster 
+     *  
+     * @param context 
+     * @return 
+     */  
+    public static DaoMaster getDaoMaster(Context context) {  
+        if (daoMaster == null) {  
+            OpenHelper helper = new DaoMaster.DevOpenHelper(context,"database-db", null); 
+            daoMaster = new DaoMaster(helper.getWritableDatabase());  
+        }  
+        return daoMaster;  
+    }  
+      
+    /** 
+     * 取得DaoSession 
+     *  
+     * @param context 
+     * @return 
+     */  
+    public static DaoSession getDaoSession(Context context) {  
+        if (daoSession == null) {  
+            if (daoMaster == null) {  
+                daoMaster = getDaoMaster(context);  
+            }  
+            daoSession = daoMaster.newSession();  
+        }  
+        return daoSession;  
+    }   
+    
 }

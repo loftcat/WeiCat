@@ -248,6 +248,7 @@
             android:label="Push_notification_test" >
         </activity>
 
+        
         <!-- push service rich media display -->
         <activity
             android:name="com.baidu.android.pushservice.richmedia.MediaViewActivity"

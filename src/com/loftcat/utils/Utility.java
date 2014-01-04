@@ -32,11 +32,11 @@ import android.os.Message;
 import android.util.Log;
 
 import com.loftcat.app.AppConfig;
-import com.loftcat.weibo.bean.Account;
+import com.loftcat.weibo.sdk.AccountAPI;
+import com.loftcat.weibo.sdk.UsersAPI;
+import com.loftcat.weibo.vo.AccountVo;
 import com.weibo.sdk.android.Oauth2AccessToken;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.AccountAPI;
-import com.weibo.sdk.android.api.UsersAPI;
 import com.weibo.sdk.android.net.RequestListener;
 
 public class Utility {
@@ -198,17 +198,19 @@ public class Utility {
 		});
 		return name;
 	}
+	
+//    public AccountVo(Long id, String uid, String userInfo, String token, String expires_in, String name) {
 
 	public void addAccount(Handler handler, boolean isRefresh) {
 		if (!isRefresh) {
 			LogCenter.getInstance().error("error", "addAccount--");
-			dmManager.add(new Account(uid, name, userInfo, accessToken
+			dmManager.addAccount(new AccountVo(null,uid,	userInfo, accessToken
 					.getToken(), String.valueOf(accessToken.getExpiresTime()),
-					""));
+					name));
 		} else {
-			dmManager.updateExpires_in(new Account(uid, name, userInfo,
-					accessToken.getToken(), String.valueOf(accessToken
-							.getExpiresTime()), ""));
+			dmManager.updateExpires_in(new AccountVo(null,uid,	userInfo, accessToken
+					.getToken(), String.valueOf(accessToken.getExpiresTime()),
+					name));
 		}
 
 		keepIndex(Long.valueOf(uid), handler);

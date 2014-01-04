@@ -22,7 +22,7 @@ import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.Homepage;
 import com.loftcat.utils.TimeUtil;
-import com.loftcat.weibo.bean.StatusVo;
+import com.loftcat.weibo.vo.StatusVo;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;

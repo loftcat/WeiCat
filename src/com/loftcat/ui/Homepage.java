@@ -40,7 +40,7 @@ import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.DBManager;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.Account;
+import com.loftcat.weibo.vo.AccountVo;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.update.UmengUpdateAgent;
 import com.weibo.sdk.android.Oauth2AccessToken;
@@ -115,7 +115,7 @@ public class Homepage extends BaseActivity {
 
 	}
 
-	List<Account> accounts;
+	List<AccountVo> accounts;
 	int x;
 
 	@Override
@@ -129,12 +129,13 @@ public class Homepage extends BaseActivity {
 		Log.d("RESULT", "_index:" + _index);
 		if (size > 0) {
 			for (int i = 0; i < size; i++) {
-				if (Long.valueOf(accounts.get(i).getId()) == _index) {
+				if (Long.valueOf(accounts.get(i).getUid()) == _index) {
 					_account = accounts.get(i);
 					x = i;
 				}
 			}
 		}
+		
 		mSlidingMenu = (SlidingMenu) findViewById(R.id.slidingMenu);
 		mSlidingMenu.setLeftView(getLayoutInflater().inflate(
 				R.layout.left_frame, null));
@@ -150,9 +151,12 @@ public class Homepage extends BaseActivity {
 		leftFragment.passContext(this);
 		leftFragment.setUtility(utility);
 		leftFragment.setAccounts(mDBManager, accounts);
+		
 		Oauth2AccessToken oauth2AccessToken = new Oauth2AccessToken(
 				_account.getToken(), _account.getExpires_in());
+		
 		oauth2AccessToken.setExpiresIn(_account.getExpires_in());
+		
 		utility.setAccessToken(oauth2AccessToken);
 		middleFragment = new MiddleFragment();
 		middleFragment.setUtility(utility);
@@ -192,7 +196,7 @@ public class Homepage extends BaseActivity {
 
 	};
 
-	public void setAccount(Account account) {
+	public void setAccount(AccountVo account) {
 		_account = account;
 		middleFragment.setAccount(_account);
 	}

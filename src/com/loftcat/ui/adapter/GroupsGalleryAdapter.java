@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 
 import com.loftcat.R;
-import com.loftcat.weibo.bean.GroupsVo;
+import com.loftcat.weibo.vo.GroupsVo;
 
 import android.content.Context;
 import android.graphics.Color;

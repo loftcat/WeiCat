@@ -47,11 +47,11 @@ import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.ImageUtils;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.SoundCenter;
+import com.loftcat.weibo.sdk.CommentsAPI;
+import com.loftcat.weibo.sdk.StatusesAPI;
+import com.loftcat.weibo.sdk.WeiboAPI.COMMENTS_TYPE;
 import com.samsung.spensdk.example.basiceditor.SPen_Example_BasicEditor;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.CommentsAPI;
-import com.weibo.sdk.android.api.StatusesAPI;
-import com.weibo.sdk.android.api.WeiboAPI.COMMENTS_TYPE;
 import com.weibo.sdk.android.net.RequestListener;
 
 public class Send extends BaseActivity {

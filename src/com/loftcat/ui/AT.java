@@ -44,9 +44,9 @@ import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
 import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.UserVO;
+import com.loftcat.weibo.sdk.FriendshipsAPI;
+import com.loftcat.weibo.vo.UserVO;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.FriendshipsAPI;
 import com.weibo.sdk.android.net.RequestListener;
 
 public class AT extends BaseActivity implements OnHeaderRefreshListener,

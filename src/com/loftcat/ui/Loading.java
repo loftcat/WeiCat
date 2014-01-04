@@ -47,7 +47,6 @@ import com.loftcat.app.AppContext;
 import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.DBManager;
 import com.loftcat.utils.Utility;
-import com.loftcat.weibo.bean.Account;
 import com.umeng.update.UmengUpdateAgent;
 import com.weibo.sdk.android.Oauth2AccessToken;
 import com.weibo.sdk.android.Weibo;
@@ -102,35 +101,35 @@ public class Loading extends BaseActivity {
 		utility = new Utility(mDBManager, this);
 		if (mDBManager.getAccounts() != null
 				&& mDBManager.getAccounts().size() > 0) {
-			// Log.d("RESULT", "getAccounts:" +
-			// mDBManager.getAccounts().size());
-			// Log.d("RESULT", "getAccounts:"
-			// + mDBManager.getAccounts().get(0).getId());
-			// Log.d("RESULT", "getToken:"
-			// + mDBManager.getAccounts().get(0).getToken());
 			Long expires_in = Long.valueOf(mDBManager.getAccounts().get(0)
 					.getExpires_in());
 			Long current_time = System.currentTimeMillis();
-			Log.e("error", "expires_in:" + expires_in);
-			Log.e("error", "current_time:" + current_time);
-			Log.e("error", "expires_in-current_time:"
-					+ (expires_in - current_time));
+			
+//			Log.e("error", "expires_in:" + expires_in);
+//			Log.e("error", "current_time:" + current_time);
+//			Log.e("error", "expires_in-current_time:"
+//					+ (expires_in - current_time));
 
 			if (current_time < expires_in - 86400000) {
+				
 				Oauth2AccessToken oauth2AccessToken = new Oauth2AccessToken(
 						mDBManager.getAccounts().get(0).getToken(), mDBManager
 								.getAccounts().get(0).getExpires_in());
 				oauth2AccessToken.setExpiresIn(String.valueOf(expires_in));
 				utility.setAccessToken(oauth2AccessToken);
+				
 				Intent intent = new Intent(AppConfig.INTENT_ACTION_HOMEPAGE);
 				intent.putExtra("index", utility.readIndex());
 				startActivity(intent);
 				finish();
+				
 			} else {
+				
 				isRefresh = true;
 				mWeibo = Weibo.getInstance(CONSUMER_KEY, CONSUMER_SECRET,
 						REDIRECT_URL);
 				mWeibo.authorize(Loading.this, new AuthDialogListener());
+				
 			}
 
 		} else {

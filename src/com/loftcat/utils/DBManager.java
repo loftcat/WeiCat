@@ -16,149 +16,133 @@
 package com.loftcat.utils;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+
+import com.loftcat.app.AppContext;
+import com.loftcat.weibo.vo.AccountVo;
+import com.loftcat.weibo.vo.AccountVoDao;
+import com.loftcat.weibo.vo.BackgroundVoDao;
+import com.loftcat.weibo.vo.DaoSession;
+import com.loftcat.weibo.vo.UserVODao;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.util.Log;
-
-import com.loftcat.weibo.bean.Account;
 
 /**
- * 数据库管理类
- * 
- * @author HeBin
- * 
- * @version 1.0
- * 
+ * @author verysunny
+ *
  */
-public class DBManager {
-	private DBHelper helper;
-	private SQLiteDatabase mSQLiteDatabase;
+public class DBManager{
 
-	public DBManager(Context context) {
-		helper = new DBHelper(context);
-		// 因为getWritableDatabase内部调用了mContext.openOrCreateDatabase(mName, 0,
-		// mFactory);
-		// 所以要确保context已初始化,我们可以把实例化DBManager的步骤放在Activity的onCreate里
-		mSQLiteDatabase = helper.getWritableDatabase();
-	}
-
-	/**
-	 * add accounts
-	 * 
-	 * @param accounts
-	 */
-	public void add(Account account) {
-		mSQLiteDatabase.beginTransaction(); // 开始事务
-		try {
-			mSQLiteDatabase.execSQL(
-					"INSERT INTO account VALUES(null, ?, ?, ?, ?, ?)",
-					new Object[] { account.getId(), account.getName(),
-							account.getUserInfo(), account.getToken(),
-							account.getExpires_in() });
-			mSQLiteDatabase.setTransactionSuccessful(); // 设置事务成功完成
-		} finally {
-			mSQLiteDatabase.endTransaction(); // 结束事务
+	 	private static final String TAG = DBManager.class.getSimpleName();  
+	    private static DBManager instance;  
+	    private static Context appContext;  
+	    private DaoSession mDaoSession;
+	    private AccountVoDao accountVoDao;
+	    private UserVODao userVODao;
+	    private BackgroundVoDao backgroundVoDao;
+	    
+	    
+	    public static DBManager getInstance(Context context) {  
+	        if (instance == null) {  
+	            instance = new DBManager();  
+	            if (appContext == null){  
+	                appContext = context.getApplicationContext();  
+	            }  
+	            instance.mDaoSession = AppContext.getDaoSession(context);  
+	            instance.accountVoDao =  instance.mDaoSession.getAccountVoDao();
+	            instance.userVODao =  instance.mDaoSession.getUserVODao();
+	            instance.backgroundVoDao =  instance.mDaoSession.getBackgroundVoDao();	 
+	            
+	        }  
+	        return instance;  
+	    }  
+	    /**
+		 * add accounts
+		 * 
+		 * @param accounts
+		 */
+		public void addAccount(AccountVo account) {
+		accountVoDao.insertOrReplace(account);
 		}
-	}
 
-	/**
-	 * close database
-	 */
-	public void closeDB() {
-		mSQLiteDatabase.close();
-	}
+		/**
+		 * close database
+		 */
+		public void closeDB() {
+		
 
-	/**
-	 * delete one account
-	 * 
-	 * @param account
-	 */
-	public void deleteAccount(Account account) {
-
-		mSQLiteDatabase.delete("account", "id= ?",
-				new String[] { account.getId() });
-
-	}
-
-	/**
-	 * delete accounts
-	 * 
-	 * @param accounts
-	 */
-	public void deleteAccounts(ArrayList<Account> accounts) {
-		for (Account account : accounts) {
-			mSQLiteDatabase.delete("account", "id= ?",
-					new String[] { account.getId() });
 		}
-	}
 
-	/**
-	 * query all accounts, return list
-	 * 
-	 * @return List<Account>
-	 */
-	public List<Account> getAccounts() {
-		ArrayList<Account> accounts = new ArrayList<Account>();
-		Cursor c = queryTheCursor();
-		while (c.moveToNext()) {
-			Account account = new Account();
-			// account.set = c.getInt(c.getColumnIndex("_id"));
-			account.setId(c.getString(c.getColumnIndex("id")));
-			account.setName(c.getString(c.getColumnIndex("name")));
-			account.setUserInfo(c.getString(c.getColumnIndex("userInfo")));
-			account.setToken(c.getString(c.getColumnIndex("token")));
-			account.setExpires_in(c.getString(c.getColumnIndex("expires_in")));
-			accounts.add(account);
-			uids.add(c.getString(c.getColumnIndex("id")));
+		/**
+		 * delete one account
+		 * 
+		 * @param account
+		 */
+		public void deleteAccount(AccountVo account) {
+
+			accountVoDao.delete(account);
+
 		}
-		c.close();
-		return accounts;
-	}
 
-	/**
-	 * query all accounts, return cursor
-	 * 
-	 * @return Cursor
-	 */
-	public Cursor queryTheCursor() {
-		Cursor c = mSQLiteDatabase.rawQuery("SELECT * FROM account", null);
-		return c;
-	}
+		/**
+		 * delete accounts
+		 * 
+		 * @param accounts
+		 */
+		public void deleteAccounts(ArrayList<AccountVo> accounts) {
+			
+			for (AccountVo accountVo : accounts) {
+				accountVoDao.delete(accountVo);
+			}
+			
+			
+		}
 
-	/**
-	 * update account's name
-	 * 
-	 * @param account
-	 */
-	public void updateName(Account account) {
-		ContentValues cv = new ContentValues();
-		cv.put("name", account.getName());
-		mSQLiteDatabase.update("account", cv, "id = ?",
-				new String[] { account.getId() });// 根据ID，更新用昵称
-	}
+		/**
+		 * query all accounts, return list
+		 * 
+		 * @return List<Account>
+		 */
+		public List<AccountVo> getAccounts() {
+		
+			return accountVoDao.loadAll();
+		}
 
-	public void updateExpires_in(Account account) {
-		ContentValues cv = new ContentValues();
-		cv.put("expires_in", account.getExpires_in());
-		mSQLiteDatabase.update("account", cv, "id = ?",
-				new String[] { account.getId() });// 根据ID，更新用昵称
-	}
+	
 
-	// public void updateTimeLine(String msg, String id) {
-	// ContentValues cv = new ContentValues();
-	// cv.put("timeline", msg);
-	// mSQLiteDatabase.update("account", cv, "id = ?", new String[] { id });//
-	// 根据ID，更新用昵称
-	// }
+		/**
+		 * update account's name
+		 * 
+		 * @param account
+		 */
+		public void updateName(AccountVo account) {
+			
+			
+//			ContentValues cv = new ContentValues();
+//			cv.put("name", account.getName());
+//			mSQLiteDatabase.update("account", cv, "id = ?",
+//					new String[] { account.getUid() });// ���ID���������ǳ�
+//			22
+			
+			accountVoDao.update(account);
+		}
 
-	public List<String> getUids() {
-		return uids;
+		public void updateExpires_in(AccountVo account) {
+			accountVoDao.update(account);
+		}
 
-	}
+	
 
-	private List<String> uids = new ArrayList<String>();
+		public List<String> getUids() {
+			
+			return uids;
+			
+		}
+
+		private List<String> uids = new ArrayList<String>();
+	
+	
 }

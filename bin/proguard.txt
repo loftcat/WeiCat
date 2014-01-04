@@ -8,19 +8,19 @@
 # view res/layout/notification_custom_builder.xml #generated:48
 -keep class android.widget.DateTimeView { <init>(...); }
 
-# view AndroidManifest.xml #generated:298
+# view AndroidManifest.xml #generated:299
 -keep class com.baidu.android.pushservice.PushService { <init>(...); }
 
-# view AndroidManifest.xml #generated:276
+# view AndroidManifest.xml #generated:277
 -keep class com.baidu.android.pushservice.PushServiceReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:286
+# view AndroidManifest.xml #generated:287
 -keep class com.baidu.android.pushservice.RegistrationReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:257
+# view AndroidManifest.xml #generated:258
 -keep class com.baidu.android.pushservice.richmedia.MediaListActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:252
+# view AndroidManifest.xml #generated:253
 -keep class com.baidu.android.pushservice.richmedia.MediaViewActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:245
@@ -29,7 +29,7 @@
 # view AndroidManifest.xml #generated:239
 -keep class com.loftcat.LoginActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:265
+# view AndroidManifest.xml #generated:266
 -keep class com.loftcat.PushMessageReceiver { <init>(...); }
 
 # view AndroidManifest.xml #generated:24

@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.loftcat.R;
-import com.loftcat.weibo.bean.Account;
+import com.loftcat.weibo.vo.AccountVo;
 
 import android.app.Activity;
 import android.content.Context;
@@ -35,7 +35,7 @@ import android.widget.TextView;
 
 public class AccountAdapter extends BaseAdapter {
 	private Context context;
-	private List<Account> accounts;
+	private List<AccountVo> accounts;
 	private List<ImageView> imagelists;
 	private long index;
 
@@ -55,7 +55,7 @@ public class AccountAdapter extends BaseAdapter {
 		this.imagelists = imagelists;
 	}
 
-	public AccountAdapter(Context context, List<Account> accounts, Long index) {
+	public AccountAdapter(Context context, List<AccountVo> accounts, Long index) {
 		this.context = context;
 		this.accounts = accounts;
 		imagelists = new ArrayList<ImageView>();

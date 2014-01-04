@@ -43,13 +43,13 @@ import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.TimeUtil;
-import com.loftcat.weibo.bean.StatusVo;
-import com.loftcat.weibo.bean.UserVO;
+import com.loftcat.weibo.sdk.StatusesAPI;
+import com.loftcat.weibo.vo.StatusVo;
+import com.loftcat.weibo.vo.UserVO;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 import com.weibo.sdk.android.WeiboException;
-import com.weibo.sdk.android.api.StatusesAPI;
 import com.weibo.sdk.android.net.RequestListener;
 
 public class TheStatus extends BaseActivity {
