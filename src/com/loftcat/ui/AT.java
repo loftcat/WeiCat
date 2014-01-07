@@ -34,6 +34,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.adapter.AtFriendslistAdapter;
@@ -42,9 +44,9 @@ import com.loftcat.ui.utils.PullToRefreshView;
 import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
 import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.Utility;
 import com.loftcat.weibo.sdk.FriendshipsAPI;
+import com.loftcat.weibo.vo.StatusVo;
 import com.loftcat.weibo.vo.UserVO;
 import com.weibo.sdk.android.WeiboException;
 import com.weibo.sdk.android.net.RequestListener;
@@ -52,6 +54,7 @@ import com.weibo.sdk.android.net.RequestListener;
 public class AT extends BaseActivity implements OnHeaderRefreshListener,
 		OnFooterRefreshListener {
 	PullToRefreshView pullToRefreshView;
+	private Gson gson;
 	private String mode;
 
 	@Override
@@ -90,6 +93,7 @@ public class AT extends BaseActivity implements OnHeaderRefreshListener,
 		at_background = (ImageView) findViewById(R.id.at_background);
 		editText = (EditText) findViewById(R.id.editText1);
 		submit = (Button) findViewById(R.id.submit);
+		gson =new Gson();
 	}
 
 	@Override
@@ -136,8 +140,10 @@ public class AT extends BaseActivity implements OnHeaderRefreshListener,
 									.getInt("previous_cursor");
 							JSONArray jsonarray = jsonObject
 									.getJSONArray("users");
-							userVOs.addAll(JSONHelper.parseCollection(
-									jsonarray, ArrayList.class, UserVO.class));
+//							userVOs.addAll(JSONHelper.parseCollection(
+//									jsonarray, ArrayList.class, UserVO.class));
+							userVOs.addAll((ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType()) );
+
 							Message msg = new Message();
 							msg.what = 1;
 							msg.obj = userVOs;
@@ -265,6 +271,7 @@ public class AT extends BaseActivity implements OnHeaderRefreshListener,
 
 					}
 
+					@SuppressWarnings("unchecked")
 					@Override
 					public void onComplete(String arg0) {
 						try {
@@ -273,8 +280,9 @@ public class AT extends BaseActivity implements OnHeaderRefreshListener,
 									.getJSONArray("users");
 							Message msg = new Message();
 							msg.what = 2;
-							msg.obj = JSONHelper.parseCollection(jsonarray,
-									ArrayList.class, UserVO.class);
+//							userVOs.addAll((ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType()) );
+
+							msg.obj = (ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType());
 							handler.sendMessage(msg);
 						} catch (JSONException e) {
 							// TODO Auto-generated catch block
@@ -305,6 +313,7 @@ public class AT extends BaseActivity implements OnHeaderRefreshListener,
 
 					}
 
+					@SuppressWarnings("unchecked")
 					@Override
 					public void onComplete(String arg0) {
 						try {
@@ -314,8 +323,7 @@ public class AT extends BaseActivity implements OnHeaderRefreshListener,
 									.getJSONArray("users");
 							Message msg = new Message();
 							msg.what = 3;
-							msg.obj = JSONHelper.parseCollection(jsonarray,
-									ArrayList.class, UserVO.class);
+							msg.obj = (ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType());
 							handler.sendMessage(msg);
 						} catch (JSONException e) {
 							// TODO Auto-generated catch block

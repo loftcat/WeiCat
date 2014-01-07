@@ -36,11 +36,11 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.utils.MyListView;
 import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.TimeUtil;
 import com.loftcat.weibo.sdk.StatusesAPI;
@@ -100,7 +100,7 @@ public class TheStatus extends BaseActivity {
 	TextView source;
 	TextView replay;
 	TextView forward;
-
+	private Gson gson;
 	TextView do_forward;
 	TextView do_comment;
 
@@ -110,6 +110,7 @@ public class TheStatus extends BaseActivity {
 	@Override
 	public void initView() {
 		setContentView(R.layout.thestatus);
+		gson = new Gson();
 		head = (ImageView) findViewById(R.id.thestatus_user_head);
 		name = (TextView) findViewById(R.id.thestatus_user_name);
 		thestatus_user_layout = (RelativeLayout) findViewById(R.id.thestatus_user_layout);
@@ -255,15 +256,9 @@ public class TheStatus extends BaseActivity {
 
 				@Override
 				public void onComplete(String arg0) {
-					try {
-						statusVo = JSONHelper.parseObject(arg0, StatusVo.class);
-						userVO = statusVo.getUser();
-						handler.sendEmptyMessage(0);
-					} catch (JSONException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-
+					statusVo = gson.fromJson(arg0, StatusVo.class);
+					userVO = statusVo.getUser();
+					handler.sendEmptyMessage(0);
 				}
 			});
 

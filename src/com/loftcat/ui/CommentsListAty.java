@@ -24,6 +24,7 @@ import org.json.JSONObject;
 import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Message;
+import com.google.gson.reflect.TypeToken;
 import android.util.Log;
 import android.view.View;
 import android.widget.AbsListView;
@@ -38,6 +39,7 @@ import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 
+import com.google.gson.Gson;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.adapter.CommentsExpandableAdapter;
@@ -48,7 +50,6 @@ import com.loftcat.ui.utils.PullToRefreshView;
 import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
 import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.Utility;
 import com.loftcat.weibo.sdk.CommentsAPI;
@@ -65,11 +66,11 @@ import com.loftcat.weibo.vo.UserVO;
 import com.weibo.sdk.android.WeiboException;
 import com.weibo.sdk.android.net.RequestListener;
 
-@SuppressLint("NewApi")
+@SuppressLint({ "NewApi", "HandlerLeak" })
 public class CommentsListAty extends BaseActivity implements
 		OnHeaderRefreshListener, OnFooterRefreshListener {
 	PullToRefreshView pullToRefreshView;
-
+	private Gson gson;
 	@Override
 	public void onComplete(String arg0) {
 		// TODO Auto-generated method stub
@@ -125,6 +126,7 @@ public class CommentsListAty extends BaseActivity implements
 
 	@Override
 	public void initLogic() {
+		gson = new Gson();
 		mode = getIntent().getStringExtra("mode");
 
 		if (mode.equals("all")) {
@@ -145,15 +147,16 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("comments");
-								commentVo.addAll(JSONHelper.parseCollection(
-										jsonarray, ArrayList.class,
-										CommentVo.class));
+								commentVo.addAll((ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType()));
+								
+//								(ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType())
 								minId = commentVo.get(0).getStatus().getId();
 								Log.d("RESULT", "minId:" + minId);
 								Message msg = new Message();
@@ -187,15 +190,16 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("statuses");
-								statusVos.addAll(JSONHelper.parseCollection(
-										jsonarray, ArrayList.class,
-										StatusVo.class));
+								statusVos.addAll((ArrayList<StatusVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType()));
+//								commentVo.addAll((ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType()));
+
 								if (statusVos.size() > 0) {
 									minId = statusVos.get(0).getId();
 									Message msg = new Message();
@@ -230,15 +234,14 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("comments");
-								commentVo.addAll(JSONHelper.parseCollection(
-										jsonarray, ArrayList.class,
-										CommentVo.class));
+								commentVo.addAll((ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType()));
 								minId = commentVo.get(0).getStatus().getId();
 								Message msg = new Message();
 								msg.what = 1;
@@ -270,15 +273,18 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("reposts");
-								reportsVos.addAll(JSONHelper.parseCollection(
-										jsonarray, ArrayList.class,
-										ReportsVo.class));
+//								reportsVos.addAll(JSONHelper.parseCollection(
+//										jsonarray, ArrayList.class,
+//										ReportsVo.class));
+								reportsVos.addAll((ArrayList<ReportsVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<ReportsVo>>(){}.getType()));
+
 								if (reportsVos.size() > 0) {
 									minId = reportsVos.get(0).getId();
 									Message msg = new Message();
@@ -389,6 +395,7 @@ public class CommentsListAty extends BaseActivity implements
 
 	private Handler handler = new Handler() {
 
+		@SuppressWarnings("unchecked")
 		@Override
 		public void handleMessage(Message msg) {
 			super.handleMessage(msg);
@@ -426,7 +433,7 @@ public class CommentsListAty extends BaseActivity implements
 						puRefreshView.onFooterRefreshComplete();
 					} else if (msg.what == 2) {
 						ArrayList<StatusVo> cache = new ArrayList<StatusVo>();
-						cache.addAll((Collection<? extends StatusVo>) msg.obj);
+						cache.addAll((ArrayList	< StatusVo>) msg.obj);
 						cache.addAll(statusVos);
 						statusVos = cache;
 						statusAdapter.notifyDataSetChanged();
@@ -446,7 +453,7 @@ public class CommentsListAty extends BaseActivity implements
 						puRefreshView.onFooterRefreshComplete();
 					} else if (msg.what == 2) {
 						ArrayList<CommentVo> cache = new ArrayList<CommentVo>();
-						cache.addAll((Collection<? extends CommentVo>) msg.obj);
+						cache.addAll((ArrayList< CommentVo>) msg.obj);
 						cache.addAll(commentVo);
 						commentVo = cache;
 						commentsAdapter.notifyDataSetChanged();
@@ -466,7 +473,7 @@ public class CommentsListAty extends BaseActivity implements
 						puRefreshView.onFooterRefreshComplete();
 					} else if (msg.what == 2) {
 						ArrayList<ReportsVo> cache = new ArrayList<ReportsVo>();
-						cache.addAll((Collection<? extends ReportsVo>) msg.obj);
+						cache.addAll((ArrayList< ReportsVo>) msg.obj);
 						cache.addAll(reportsVos);
 						reportsVos = cache;
 						reportsAdapter.notifyDataSetChanged();
@@ -502,16 +509,14 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("comments");
-								ArrayList<CommentVo> cache = (ArrayList<CommentVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class,
-												CommentVo.class);
+								ArrayList<CommentVo> cache =(ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType());
 								Message msg = new Message();
 								msg.what = 3;
 								msg.obj = cache;
@@ -540,15 +545,14 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("statuses");
-								ArrayList<StatusVo> cache = (ArrayList<StatusVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class, StatusVo.class);
+								ArrayList<StatusVo> cache = (ArrayList<StatusVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType());
 								Message msg = new Message();
 								msg.what = 3;
 								msg.obj = cache;
@@ -576,16 +580,14 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("comments");
-								ArrayList<CommentVo> cache = (ArrayList<CommentVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class,
-												CommentVo.class);
+								ArrayList<CommentVo> cache =(ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType());
 								Message msg = new Message();
 								msg.what = 3;
 								msg.obj = cache;
@@ -613,16 +615,19 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("reposts");
-								ArrayList<ReportsVo> cache = (ArrayList<ReportsVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class,
-												ReportsVo.class);
+//								ArrayList<ReportsVo> cache = (ArrayList<ReportsVo>) JSONHelper
+//										.parseCollection(jsonarray,
+//												ArrayList.class,
+//												ReportsVo.class);
+								ArrayList<ReportsVo> cache =(ArrayList<ReportsVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<ReportsVo>>(){}.getType());
+
 								Message msg = new Message();
 								msg.what = 3;
 								msg.obj = cache;
@@ -657,16 +662,19 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("comments");
-								ArrayList<CommentVo> cache = (ArrayList<CommentVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class,
-												CommentVo.class);
+//								ArrayList<CommentVo> cache = (ArrayList<CommentVo>) JSONHelper
+//										.parseCollection(jsonarray,
+//												ArrayList.class,
+//												CommentVo.class);
+								ArrayList<CommentVo> cache =(ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType());
+
 								if (cache.size() > 0) {
 									minId = cache.get(0).getStatus().getId();
 									Message msg = new Message();
@@ -706,15 +714,17 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("statuses");
-								ArrayList<StatusVo> cache = (ArrayList<StatusVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class, StatusVo.class);
+//								ArrayList<StatusVo> cache = (ArrayList<StatusVo>) JSONHelper
+//										.parseCollection(jsonarray,
+//												ArrayList.class, StatusVo.class);
+								ArrayList<StatusVo> cache =(ArrayList<StatusVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType());
 								if (cache.size() > 0) {
 									minId = cache.get(0).getId();
 									Message msg = new Message();
@@ -753,16 +763,20 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("comments");
-								ArrayList<CommentVo> cache = (ArrayList<CommentVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class,
-												CommentVo.class);
+								
+//								ArrayList<CommentVo> cache = (ArrayList<CommentVo>) JSONHelper
+//										.parseCollection(jsonarray,
+//												ArrayList.class,
+//												CommentVo.class);
+								ArrayList<CommentVo> cache =(ArrayList<CommentVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<CommentVo>>(){}.getType());
+
 								if (cache.size() > 0) {
 									minId = cache.get(0).getStatus().getId();
 									Message msg = new Message();
@@ -801,16 +815,19 @@ public class CommentsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
 								JSONObject jsonObject = new JSONObject(arg0);
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("reposts");
-								ArrayList<ReportsVo> cache = (ArrayList<ReportsVo>) JSONHelper
-										.parseCollection(jsonarray,
-												ArrayList.class,
-												ReportsVo.class);
+//								ArrayList<ReportsVo> cache = (ArrayList<ReportsVo>) JSONHelper
+//										.parseCollection(jsonarray,
+//												ArrayList.class,
+//												ReportsVo.class);
+								ArrayList<ReportsVo> cache =(ArrayList<ReportsVo>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<ReportsVo>>(){}.getType());								
+								
 								if (cache.size() > 0) {
 									minId = cache.get(0).getId();
 									Message msg = new Message();

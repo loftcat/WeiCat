@@ -322,7 +322,7 @@ public class LeftFragment extends Fragment {
 					AccountVo _account = null;
 					if (size > 0) {
 						for (int i = 0; i < size; i++) {
-							if (Long.valueOf(accounts.get(i).getId()) == _index) {
+							if (Long.valueOf(accounts.get(i).getUid()) == _index) {
 								_account = accounts.get(i);
 							}
 						}

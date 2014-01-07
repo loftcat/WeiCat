@@ -22,6 +22,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.adapter.ExpandableAdapter;
@@ -31,12 +33,12 @@ import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
 import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.ImageUtils;
-import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.Utility;
 import com.loftcat.weibo.sdk.FriendshipsAPI;
 import com.loftcat.weibo.sdk.StatusesAPI;
 import com.loftcat.weibo.sdk.UsersAPI;
 import com.loftcat.weibo.sdk.WeiboAPI.FEATURE;
+import com.loftcat.weibo.vo.CommentVo;
 import com.loftcat.weibo.vo.FriendShipVo;
 import com.loftcat.weibo.vo.StatusVo;
 import com.loftcat.weibo.vo.UserVO;
@@ -99,7 +101,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 		// TODO Auto-generated method stub
 
 	}
-
+	private Gson gson;
 	TextView msg;
 	UserVO userVo;
 	ImageView headImage;
@@ -130,6 +132,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 	@Override
 	public void initView() {
 		setContentView(R.layout.selfaty);
+		gson= new Gson();
 		progressBar = (ProgressBar) findViewById(R.id.selfaty_progress);
 		headImage = (ImageView) findViewById(R.id.selfaty_head);
 		name = (TextView) findViewById(R.id.selfaty_name_textview);
@@ -197,84 +200,79 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 			@Override
 			public void onComplete(final String arg0) {
 				if (arg0 != null) {
-					try {
-						userVo = JSONHelper.parseObject(arg0, UserVO.class);
-						if (userVo != null) {
-							runOnUiThread(new Runnable() {
+					userVo = gson.fromJson(arg0, UserVO.class);
+					if (userVo != null) {
+						runOnUiThread(new Runnable() {
 
-								@Override
-								public void run() {
+							@Override
+							public void run() {
 
-									imageLoader.displayImage(
-											userVo.getAvatar_large(),
-											headImage, options);
-									name.setText(userVo.getName());
-									location.setText(userVo.getLocation());
-									fans.setText(String.valueOf(userVo
-											.getFollowers_count()));
-									focus.setText(String.valueOf(userVo
-											.getFriends_count()));
-									statues.setText(String.valueOf(userVo
-											.getStatuses_count()));
-									if (userVo.getGender().equals("m")) {
-										Bitmap bitmap = ImageUtils.getRoundedCornerBitmap(
-												BitmapFactory.decodeResource(
-														getResources(),
-														R.drawable.male),
-												Utility.dip2px(SelfPage.this,
-														10));
-										male.setImageBitmap(bitmap);
-									} else if (userVo.getGender().equals("f")) {
-										Bitmap bitmap = ImageUtils.getRoundedCornerBitmap(
-												BitmapFactory.decodeResource(
-														getResources(),
-														R.drawable.female),
-												Utility.dip2px(SelfPage.this,
-														10));
-										male.setImageBitmap(bitmap);
-									} else {
-										Bitmap bitmap = ImageUtils.getRoundedCornerBitmap(
-												BitmapFactory.decodeResource(
-														getResources(),
-														R.drawable.haha), 5);
-										male.setImageBitmap(bitmap);
-									}
-
-									if (userVo.getVerified()) {
-										vip.setImageResource(R.drawable.v);
-										job.setText(userVo.getVerified_reason() == null ? ""
-												: userVo.getVerified_reason());
-									} else {
-										vip.setVisibility(View.GONE);
-										job.setVisibility(View.GONE);
-									}
-									if (userVo.getDescription() != null
-											&& !userVo.getDescription().equals(
-													"")) {
-										introduce_title.setText("简介");
-										introduce.setText(userVo
-												.getDescription());
-									} else {
-										introduce_title
-												.setVisibility(View.GONE);
-										introduce.setVisibility(View.GONE);
-									}
-
-									if (userVo.getUrl() != null
-											&& !userVo.getUrl().equals("")) {
-										blog_title.setText("博客");
-										blog.setText(userVo.getUrl());
-									} else {
-										blog_title.setVisibility(View.GONE);
-										blog.setVisibility(View.GONE);
-									}
-
+								imageLoader.displayImage(
+										userVo.getAvatar_large(),
+										headImage, options);
+								name.setText(userVo.getName());
+								location.setText(userVo.getLocation());
+								fans.setText(String.valueOf(userVo
+										.getFollowers_count()));
+								focus.setText(String.valueOf(userVo
+										.getFriends_count()));
+								statues.setText(String.valueOf(userVo
+										.getStatuses_count()));
+								if (userVo.getGender().equals("m")) {
+									Bitmap bitmap = ImageUtils.getRoundedCornerBitmap(
+											BitmapFactory.decodeResource(
+													getResources(),
+													R.drawable.male),
+											Utility.dip2px(SelfPage.this,
+													10));
+									male.setImageBitmap(bitmap);
+								} else if (userVo.getGender().equals("f")) {
+									Bitmap bitmap = ImageUtils.getRoundedCornerBitmap(
+											BitmapFactory.decodeResource(
+													getResources(),
+													R.drawable.female),
+											Utility.dip2px(SelfPage.this,
+													10));
+									male.setImageBitmap(bitmap);
+								} else {
+									Bitmap bitmap = ImageUtils.getRoundedCornerBitmap(
+											BitmapFactory.decodeResource(
+													getResources(),
+													R.drawable.haha), 5);
+									male.setImageBitmap(bitmap);
 								}
-							});
-						}
-					} catch (JSONException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+
+								if (userVo.getVerified()) {
+									vip.setImageResource(R.drawable.v);
+									job.setText(userVo.getVerified_reason() == null ? ""
+											: userVo.getVerified_reason());
+								} else {
+									vip.setVisibility(View.GONE);
+									job.setVisibility(View.GONE);
+								}
+								if (userVo.getDescription() != null
+										&& !userVo.getDescription().equals(
+												"")) {
+									introduce_title.setText("简介");
+									introduce.setText(userVo
+											.getDescription());
+								} else {
+									introduce_title
+											.setVisibility(View.GONE);
+									introduce.setVisibility(View.GONE);
+								}
+
+								if (userVo.getUrl() != null
+										&& !userVo.getUrl().equals("")) {
+									blog_title.setText("博客");
+									blog.setText(userVo.getUrl());
+								} else {
+									blog_title.setVisibility(View.GONE);
+									blog.setVisibility(View.GONE);
+								}
+
+							}
+						});
 					}
 					count_progress++;
 					if (count_progress == 3) {
@@ -336,9 +334,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 							JSONObject jsonObject = new JSONObject(arg0);
 							JSONObject friendShip = jsonObject
 									.getJSONObject("source");
-							final FriendShipVo friendShipVo = JSONHelper
-									.parseObject(friendShip.toString(),
-											FriendShipVo.class);
+							final FriendShipVo friendShipVo = gson.fromJson(friendShip.toString(), FriendShipVo.class);
 							runOnUiThread(new Runnable() {
 
 								@Override
@@ -494,6 +490,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 	int count_progress = 0;
 	private Handler hanlder = new Handler() {
 
+		@SuppressWarnings("unchecked")
 		@Override
 		public void handleMessage(Message msg) {
 			super.handleMessage(msg);
@@ -503,9 +500,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 						JSONObject jsonObject = new JSONObject((String) msg.obj);
 						JSONArray jsonArray = jsonObject
 								.getJSONArray("statuses");
-						statusVos = (ArrayList<StatusVo>) JSONHelper
-								.parseCollection(jsonArray, ArrayList.class,
-										StatusVo.class);
+						statusVos = (ArrayList<StatusVo>)gson.fromJson( jsonArray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType());
 						since_id = statusVos.get(0).getId();
 					} catch (JSONException e) {
 						// TODO Auto-generated catch block
@@ -531,9 +526,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 						JSONObject jsonObject = new JSONObject((String) msg.obj);
 						JSONArray jsonArray = jsonObject
 								.getJSONArray("statuses");
-						statusVos.addAll((ArrayList<StatusVo>) JSONHelper
-								.parseCollection(jsonArray, ArrayList.class,
-										StatusVo.class));
+						statusVos.addAll((ArrayList<StatusVo>)gson.fromJson( jsonArray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType()));
 						Log.d("RESULT", statusVos.size() + "statusVos.size()");
 					} catch (JSONException e) {
 						// TODO Auto-generated catch block
@@ -551,9 +544,7 @@ public class SelfPage extends BaseActivity implements OnHeaderRefreshListener,
 						JSONArray jsonArray = jsonObject
 								.getJSONArray("statuses");
 						ArrayList<StatusVo> cache = new ArrayList<StatusVo>();
-						cache.addAll((ArrayList<StatusVo>) JSONHelper
-								.parseCollection(jsonArray, ArrayList.class,
-										StatusVo.class));
+						cache.addAll((ArrayList<StatusVo>)gson.fromJson( jsonArray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType()));
 						cache.addAll(statusVos);
 						statusVos = cache;
 						Log.d("RESULT", statusVos.size()

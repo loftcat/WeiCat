@@ -35,6 +35,8 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.adapter.FriendslistAdapter;
@@ -42,11 +44,11 @@ import com.loftcat.ui.utils.PullToRefreshView;
 import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
 import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.Utility;
 import com.loftcat.weibo.sdk.FriendshipsAPI;
 import com.loftcat.weibo.sdk.WeiboAPI.FEATURE;
+import com.loftcat.weibo.vo.CommentVo;
 import com.loftcat.weibo.vo.StatusVo;
 import com.loftcat.weibo.vo.UserVO;
 import com.weibo.sdk.android.WeiboException;
@@ -99,11 +101,12 @@ public class FriendsListAty extends BaseActivity implements
 	ArrayList<UserVO> userVOs = new ArrayList<UserVO>();
 	private String mode = "";
 	private String id = "";
-
+	private Gson gson;
 	@Override
 	public void initLogic() {
 		mode = getIntent().getStringExtra("mode");
 		id = getIntent().getStringExtra("id");
+		gson =new Gson();
 		friendshipsAPI = new FriendshipsAPI(utility.getAccessToken());
 		if (mode.equals("fans")) {
 			friendshipsAPI.followers(Long.valueOf(id), 20, next_cursor, true,
@@ -121,6 +124,7 @@ public class FriendsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
@@ -130,9 +134,9 @@ public class FriendsListAty extends BaseActivity implements
 										.getInt("previous_cursor");
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("users");
-								userVOs.addAll(JSONHelper.parseCollection(
-										jsonarray, ArrayList.class,
-										UserVO.class));
+								
+								userVOs.addAll((ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType()));
+
 								Message msg = new Message();
 								msg.what = 1;
 								msg.obj = userVOs;
@@ -162,6 +166,7 @@ public class FriendsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
@@ -171,9 +176,7 @@ public class FriendsListAty extends BaseActivity implements
 										.getInt("previous_cursor");
 								JSONArray jsonarray = jsonObject
 										.getJSONArray("users");
-								userVOs.addAll(JSONHelper.parseCollection(
-										jsonarray, ArrayList.class,
-										UserVO.class));
+								userVOs.addAll((ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType()));
 								Message msg = new Message();
 								msg.what = 1;
 								msg.obj = userVOs;
@@ -262,6 +265,7 @@ public class FriendsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
@@ -271,8 +275,10 @@ public class FriendsListAty extends BaseActivity implements
 										.getJSONArray("users");
 								Message msg = new Message();
 								msg.what = 3;
-								msg.obj = JSONHelper.parseCollection(jsonarray,
-										ArrayList.class, UserVO.class);
+//								msg.obj = JSONHelper.parseCollection(jsonarray,
+//										ArrayList.class, UserVO.class);
+								msg.obj =(ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType());
+
 								handler.sendMessage(msg);
 							} catch (JSONException e) {
 								// TODO Auto-generated catch block
@@ -296,6 +302,7 @@ public class FriendsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
@@ -305,8 +312,7 @@ public class FriendsListAty extends BaseActivity implements
 										.getJSONArray("users");
 								Message msg = new Message();
 								msg.what = 3;
-								msg.obj = JSONHelper.parseCollection(jsonarray,
-										ArrayList.class, UserVO.class);
+								msg.obj =(ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType());
 								handler.sendMessage(msg);
 							} catch (JSONException e) {
 								// TODO Auto-generated catch block
@@ -337,6 +343,7 @@ public class FriendsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
@@ -345,8 +352,7 @@ public class FriendsListAty extends BaseActivity implements
 										.getJSONArray("users");
 								Message msg = new Message();
 								msg.what = 2;
-								msg.obj = JSONHelper.parseCollection(jsonarray,
-										ArrayList.class, UserVO.class);
+								msg.obj =(ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType());
 								handler.sendMessage(msg);
 							} catch (JSONException e) {
 								// TODO Auto-generated catch block
@@ -370,6 +376,7 @@ public class FriendsListAty extends BaseActivity implements
 
 						}
 
+						@SuppressWarnings("unchecked")
 						@Override
 						public void onComplete(String arg0) {
 							try {
@@ -378,8 +385,7 @@ public class FriendsListAty extends BaseActivity implements
 										.getJSONArray("users");
 								Message msg = new Message();
 								msg.what = 2;
-								msg.obj = JSONHelper.parseCollection(jsonarray,
-										ArrayList.class, UserVO.class);
+								msg.obj =(ArrayList<UserVO>)gson.fromJson( jsonarray.toString(), new TypeToken<ArrayList<UserVO>>(){}.getType());
 								handler.sendMessage(msg);
 							} catch (JSONException e) {
 								// TODO Auto-generated catch block

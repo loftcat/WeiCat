@@ -17,6 +17,7 @@ package com.loftcat.ui.utils.slidingmenu.fragment;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -25,6 +26,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.app.AppContext;
@@ -34,7 +37,6 @@ import com.loftcat.ui.adapter.GroupsGalleryAdapter;
 import com.loftcat.ui.utils.PullToRefreshView;
 import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
-import com.loftcat.utils.JSONHelper;
 import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.SoundCenter;
 import com.loftcat.utils.Utility;
@@ -110,11 +112,13 @@ public class MiddleFragment extends Fragment implements
 	private Spinner title_bar;
 	private RelativeLayout title_layout;
 	private ProgressBar title_progressbar;
+    private Gson gson ;
 
 	// private LinearLayout edit_layout;
 	// private TextView edit_at;
 	// private TextView edit_new;
 	// private TextView edit_exit;
+
 	TranslateAnimation left, right;
 	private SoundCenter soundCenter;
 
@@ -147,12 +151,13 @@ public class MiddleFragment extends Fragment implements
 
 	public void setAccount(AccountVo account) {
 		this.account = account;
-		Log.d("RESULT", account.getId() + "------------------ id");
+		
 		if (x != 0) {
 			title_bar.setVisibility(View.INVISIBLE);
 			title_progressbar.setVisibility(View.VISIBLE);
 
 		}
+		
 		Oauth2AccessToken oauth2AccessToken = new Oauth2AccessToken(
 				account.getToken(), account.getExpires_in());
 		oauth2AccessToken.setExpiresIn(account.getExpires_in());
@@ -160,8 +165,7 @@ public class MiddleFragment extends Fragment implements
 		Log.e("error", "getExpiresTime:"
 				+ utility.getAccessToken().getExpiresTime());
 		statusesAPI = new StatusesAPI(utility.getAccessToken());
-		//
-		//
+		
 		// statusesAPI.friendsTimeline(since_id, 0l, 20, count++, false,
 		// FEATURE.ALL, false, new RequestListener() {
 		//
@@ -200,6 +204,7 @@ public class MiddleFragment extends Fragment implements
 				Log.d("RESULT", arg0.toString());
 			}
 
+			@SuppressWarnings("unchecked")
 			@Override
 			public void onComplete(String arg0) {
 				JSONObject jsonObject;
@@ -211,9 +216,15 @@ public class MiddleFragment extends Fragment implements
 					groupsVo.setName("全部");
 					groupsVo.setId(0);
 					groups.add(groupsVo);
-					groups.addAll((ArrayList<GroupsVo>) JSONHelper
-							.parseCollection(jsonArray, ArrayList.class,
-									GroupsVo.class));
+					
+//					ArrayList<GroupsVo> list=;
+					groups.addAll((ArrayList< GroupsVo>) gson.fromJson(jsonArray.toString(), new TypeToken<ArrayList<GroupsVo>>(){}.getType()));
+					
+//					groups.addAll((ArrayList<GroupsVo>) JSONHelper
+//							.parseCollection(jsonArray, ArrayList.class,
+//									GroupsVo.class));
+					
+					
 					Log.d("RESULT", groups.size() + "size");
 
 				} catch (JSONException e) {
@@ -264,6 +275,7 @@ public class MiddleFragment extends Fragment implements
 				.findViewById(R.id.homepage_pulltorefreshview);
 		relativeLayout = (RelativeLayout) view
 				.findViewById(R.id.middle_background);
+		 gson = new Gson();
 		Satellite();
 		title_bar = (Spinner) view.findViewById(R.id.title_bar);
 
@@ -397,6 +409,7 @@ public class MiddleFragment extends Fragment implements
 	private long since_id = 0l;
 	private Handler hanlder = new Handler() {
 
+		@SuppressWarnings("unchecked")
 		@Override
 		public void handleMessage(Message msg) {
 			super.handleMessage(msg);
@@ -406,9 +419,7 @@ public class MiddleFragment extends Fragment implements
 						JSONObject jsonObject = new JSONObject((String) msg.obj);
 						JSONArray jsonArray = jsonObject
 								.getJSONArray("statuses");
-						ArrayList<StatusVo> cache = (ArrayList<StatusVo>) JSONHelper
-								.parseCollection(jsonArray, ArrayList.class,
-										StatusVo.class);
+						ArrayList<StatusVo> cache = (ArrayList<StatusVo>) gson.fromJson(jsonArray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType());
 						if (cache != null && cache.size() > 0) {
 							statusVos = cache;
 							since_id = statusVos.get(0).getId();
@@ -448,9 +459,7 @@ public class MiddleFragment extends Fragment implements
 						JSONObject jsonObject = new JSONObject((String) msg.obj);
 						JSONArray jsonArray = jsonObject
 								.getJSONArray("statuses");
-						statusVos.addAll((ArrayList<StatusVo>) JSONHelper
-								.parseCollection(jsonArray, ArrayList.class,
-										StatusVo.class));
+						statusVos.addAll((ArrayList<StatusVo>)gson.fromJson( jsonArray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType()) );
 						Log.d("RESULT", statusVos.size() + "statusVos.size()");
 					} catch (JSONException e) {
 						// TODO Auto-generated catch block
@@ -467,9 +476,11 @@ public class MiddleFragment extends Fragment implements
 						JSONArray jsonArray = jsonObject
 								.getJSONArray("statuses");
 						ArrayList<StatusVo> cache = new ArrayList<StatusVo>();
-						cache.addAll((ArrayList<StatusVo>) JSONHelper
-								.parseCollection(jsonArray, ArrayList.class,
-										StatusVo.class));
+//						cache.addAll((ArrayList<StatusVo>) JSONHelper
+//								.parseCollection(jsonArray, ArrayList.class,
+//										StatusVo.class));
+						cache.addAll((ArrayList<StatusVo>)gson.fromJson( jsonArray.toString(), new TypeToken<ArrayList<StatusVo>>(){}.getType()) );
+
 						cache.addAll(statusVos);
 						statusVos = cache;
 						since_id = statusVos.get(0).getId();
