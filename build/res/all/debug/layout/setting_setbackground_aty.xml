@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <ImageView
+        android:id="@+id/settingbackground_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" >
+
+        <GridView
+            android:id="@+id/setting_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:horizontalSpacing="6dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:transcriptMode="disabled"
+            android:verticalSpacing="6dp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/setting_setbackground_aty.xml -->

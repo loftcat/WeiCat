@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="ams_strarr_color">
+        <item>Transparent(PNG Format Only)</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="animation_speed">
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Max</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="animation_speed_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="api_types">
+        <item>微博接口:StatusesAPI</item>
+        <item>评论接口:CommentsAPI</item>
+        <item>用户接口:UsersAPI</item>
+        <item>关系接口:FriendshipsAPI</item>
+        <item>账号接口:AccoutAPI</item>
+        <item>收藏接口:FavoritesAPI</item>
+        <item>话题接口:TrendsAPI</item>
+        <item>标签接口:TagsAPI</item>
+        <item>注册接口:RegisterAPI</item>
+        <item>搜索接口:SearchAPI</item>
+        <item>推荐接口:SuggestionsAPI</item>
+        <item>提醒接口:RemindAPI</item>
+        <item>短链接口:ShortUrlAPI</item>
+        <item>通知接口:NotificationAPI</item>
+        <item>公共服务接口:CommonAPI</item>
+        <item>位置服务接口:PlaceAPI</item>
+        <item>地理信息接口:LocationAPI</item>
+        <item>社交电视接口:KandianAPI</item>
+    </string-array>
+    <string-array name="backgroundimageoperation">
+        <item>Gray</item>
+        <item>Sepia</item>
+        <item>Negative</item>
+        <item>Bright</item>
+        <item>Dark</item>
+        <item>Vintage</item>
+        <item>Old Photo</item>
+        <item>Faded Color</item>
+        <item>Vignette</item>
+        <item>Vivid</item>
+        <item>Colorize</item>
+        <item>Blur</item>
+        <item>Pencil Sketch</item>
+        <item>Fusain</item>
+        <item>Pen Sketch</item>
+        <item>Pastel Sketch</item>
+        <item>Color Sketch</item>
+        <item>Pencil Pastel Sketch</item>
+        <item>Pencil Color Sketch</item>
+        <item>Retro</item>
+        <item>SunShine</item>
+        <item>DownLight</item>
+        <item>BlueWash</item>
+        <item>Nostalgia</item>
+        <item>Yellow Glow</item>
+        <item>Soft Glow</item>
+        <item>Mosaic</item>
+        <item>Pop Art</item>
+        <item>Magic Pen</item>
+        <item>Oil Paint</item>
+        <item>Posterize</item>
+        <item>Cartoonize</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="context_identifiers">
+        <item>Recent apps.</item>
+        <item>Recent apps. on SPen</item>
+        <item>Recent apps. on earphone</item>
+    </string-array>
+    <string-array name="download_options">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="download_values">
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="examples">
+        <item>发送微博</item>
+        <item>获取关注好友微博</item>
+        <item>打开启动微博客户端</item>
+        <item>打开用户信息页面 uid</item>
+        <item>打开用户信息页面 nickname</item>
+        <item>打开微博发送页面 content</item>
+        <item>打开微博发送页面 多参数</item>
+        <item>打开查看附近人页面</item>
+        <item>打开查看附近微博界面</item>
+        <item>打开打开摇一摇界面</item>
+        <item>打开通讯录界面</item>
+        <item>打开内置浏览器界面</item>
+        <item>打开私信对话界面</item>
+        <item>打开私信对话界面 nick</item>
+        <item>打开用户话题列表页面</item>
+        <item id="123">打开某条微博正文</item>
+    </string-array>
+    <string-array name="hover_pointer_style">
+        <item>Default(none)</item>
+        <item>Simple Icon</item>
+        <item>Simple Drawable</item>
+        <item>S Pen SDK Style</item>
+        <item>S-Note Style</item>
+    </string-array>
+    <string-array name="imageoperation">
+        <item>Original</item>
+        <item>Gray</item>
+        <item>Sepia</item>
+        <item>Negative</item>
+        <item>Bright</item>
+        <item>Dark</item>
+        <item>Vintage</item>
+        <item>Old Photo</item>
+        <item>Faded Color</item>
+        <item>Vignette</item>
+        <item>Vivid</item>
+        <item>Colorize</item>
+        <item>Blur</item>
+        <item>PencilSketch</item>
+        <item>Fusain</item>
+        <item>Pen Sketch</item>
+        <item>Pastel Sketch</item>
+        <item>Color Sketch</item>
+        <item>Pencil Pastel Sketch</item>
+        <item>Pencil Color Sketch</item>
+        <item>Retro</item>
+        <item>SunShine</item>
+        <item>DownLight</item>
+        <item>BlueWash</item>
+        <item>Nostalgia</item>
+        <item>Yellow Glow</item>
+        <item>Soft Glow</item>
+        <item>Mosaic</item>
+        <item>Pop Art</item>
+        <item>Magic Pen</item>
+        <item>Oil Paint</item>
+        <item>Posterize</item>
+        <item>Cartoonize</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="imageoperation_level">
+        <item>Very Small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Very Large</item>
+    </string-array>
+    <string-array name="imageoperation_simple">
+        <item>Gray</item>
+        <item>Negative</item>
+        <item>Dark</item>
+        <item>Colorize</item>
+        <item>Blur</item>
+        <item>Pencil Sketch</item>
+        <item>Retro</item>
+        <item>Mosaic</item>
+        <item>Magic Pen</item>
+        <item>Cartoonize</item>
+    </string-array>
+    <string-array name="list_value3">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="load_canvas_halign">
+        <item>Align Left</item>
+        <item>Align Center</item>
+        <item>Align Right</item>
+    </string-array>
+    <string-array name="load_canvas_size">
+        <item>Fit to Size</item>
+        <item>Fit inside</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="load_canvas_valign">
+        <item>Align Top</item>
+        <item>Align Middle</item>
+        <item>Align Bottom</item>
+    </string-array>
+    <string-array name="options">
+        <item>自动</item>
+        <item>简体中文</item>
+        <item>繁体中文</item>
+    </string-array>
+    <string-array name="popup_menu_else_with_paste">
+        <item>Paste</item>
+        <item>Clear Clipboard</item>
+    </string-array>
+    <string-array name="popup_menu_image">
+        <item>Delete</item>
+        <item>Rotate</item>
+        <item>Copy</item>
+        <item>Cut</item>
+    </string-array>
+    <string-array name="popup_menu_image_with_paste">
+        <item>Delete</item>
+        <item>Rotate</item>
+        <item>Copy</item>
+        <item>Cut</item>
+        <item>Paste</item>
+        <item>Clear Clipboard</item>
+    </string-array>
+    <string-array name="popup_menu_text">
+        <item>Delete</item>
+        <item>Copy</item>
+        <item>Cut</item>
+    </string-array>
+    <string-array name="popup_menu_text_with_paste">
+        <item>Delete</item>
+        <item>Copy</item>
+        <item>Cut</item>
+        <item>Paste</item>
+        <item>Clear Clipboard</item>
+    </string-array>
+    <string-array name="save_image_quality">
+        <item>Maximum</item>
+        <item>Medium</item>
+        <item>Minimum</item>
+        <item>Original</item>
+    </string-array>
+    <string-array name="save_image_quality_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="save_image_size">
+        <item>Original</item>
+        <item>Medium</item>
+        <item>Compact</item>
+        <item>Thumbnail</item>
+    </string-array>
+    <string-array name="save_image_size_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="set_preference">
+        <item>Normal</item>
+        <item>Favorite</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="side_button_style">
+        <item>Change Setting</item>
+        <item>Show Setting View</item>
+    </string-array>
+    <string-array name="signature_threshold">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="time_options">
+        <item>半分钟</item>
+        <item>2分钟</item>
+        <item>5分钟</item>
+    </string-array>
+    <string-array name="time_values">
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="upload_options">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="upload_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="actionbar_title_color">#224894</color>
+    <color name="bg_color">#F4F3F3</color>
+    <color name="bg_color_deep">#E5E5E5</color>
+    <color name="black">#000000</color>
+    <color name="black_half">#50000000</color>
+    <color name="blue">#0066FF</color>
+    <color name="button_green">#1f9676</color>
+    <color name="button_red">#96281f</color>
+    <color name="no_color">#00000000</color>
+    <color name="text_color">#434343</color>
+    <color name="translucence">#ff4e4752</color>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_fb_strings.xml -->
+    <eat-comment />
+
+    <color name="umeng_fb_color_btn_normal">#333333</color>
+    <color name="umeng_fb_color_btn_pressed">#1495F7</color>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="weibosdk_dialog_title_blue">#9CCCF7</color>
+    <color name="weibosdk_text_num_gray">#333</color>
+    <color name="weibosdk_transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ArcLayout">
+        <attr name="fromDegrees" format="float" />
+        <attr name="toDegrees" format="float" />
+        <attr name="childSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RayLayout">
+        <attr name="leftHolderWidth" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/sat_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="SatelliteMenu">
+        <attr name="expandDuration" format="integer" />
+        <attr name="closeOnClick" format="boolean" />
+        <attr name="totalSpacingDegree" format="float" />
+        <attr name="satelliteDistance" format="dimension" />
+        <attr name="mainImage" format="reference" />
+    </declare-styleable>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="StaggeredGridView">
+        <attr name="drawSelectorOnTop" format="boolean" />
+        <attr name="numColumns" format="integer" />
+    </declare-styleable>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="actionbar_compat_button_home_width">56dp</dimen>
+    <dimen name="actionbar_compat_button_width">48dp</dimen>
+    <dimen name="actionbar_compat_height">48dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_defaultsize_h">400dip</dimen>
+    <dimen name="app_defaultsize_w">640dip</dimen>
+    <dimen name="app_minimumsize_h">200dip</dimen>
+    <dimen name="app_minimumsize_w">200dip</dimen>
+    <dimen name="gd_arrow_offset">5px</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="weibosdk_dialog_bottom_margin">15dp</dimen>
+    <dimen name="weibosdk_dialog_left_margin">30dp</dimen>
+    <dimen name="weibosdk_dialog_right_margin">30dp</dimen>
+    <dimen name="weibosdk_dialog_top_margin">30dp</dimen>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_update_string.xml -->
+    <eat-comment />
+
+    <string name="UMAppUpdate">App updating</string>
+    <string name="UMBreak_Network">Please make sure you are connected to internet,update failed</string>
+    <string name="UMDialog_InstallAPK">The lastest version has been downloaded, install now ?</string>
+    <string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
+    <string name="UMNewVersion">Latest version: </string>
+    <string name="UMNotNow">Not now</string>
+    <string name="UMTargetSize">Target size: </string>
+    <string name="UMToast_IsUpdating">Updating....</string>
+    <string name="UMUpdateContent">Update Content</string>
+    <string name="UMUpdateNow">Update now</string>
+    <string name="UMUpdateSize">Update size: </string>
+    <string name="UMUpdateTitle">New version found</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="adjust_saving_contents_by_cropping_off">OFF - Do not adjust contents according to the cropped image</string>
+    <string name="adjust_saving_contents_by_cropping_on">ON - Adjust contents according to the cropped image</string>
+    <string name="animation_speed_title">Animation Speed</string>
+    <string name="app_name">LoftCat</string>
+    <string name="background_audio_auto_replay_off">OFF - Play Background audio once</string>
+    <string name="background_audio_auto_replay_on">ON - Repeat Background audio</string>
+    <string name="background_audio_play_off">OFF - Turn off the Background audio</string>
+    <string name="background_audio_play_on">ON - Turn on the Background audio</string>
+    <string name="background_audio_stop_off">OFF - Play Background audio regardless of animation</string>
+    <string name="background_audio_stop_on">ON - Stop Background audio when animation stop</string>
+    <string name="clear_all">Clear all</string>
+    <string name="clip_data">Clip Data</string>
+    <string name="context_identifier">Context identifier</string>
+    <string name="create_new_image_off">OFF - Save SAMM data in an exist file</string>
+    <string name="create_new_image_on">ON - Create new image file to save SAMM data</string>
+    <string name="custom_text_hint">用户自定义打开的Activity</string>
+    <string name="descr_image">Image</string>
+    <string name="done">Done</string>
+    <string name="down">▼</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/sat_strings.xml -->
+    <eat-comment />
+
+    <string name="empty"></string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="encode_foreground_image_off">OFF - Do not encode foreground image</string>
+    <string name="encode_foreground_image_on">ON - Encode foreground image</string>
+    <string name="encode_thumbnail_image_off">OFF - Do not encode thumbnail image</string>
+    <string name="encode_thumbnail_image_on">ON - Encode thumbnail image</string>
+    <string name="eraser_settings">Eraser settings</string>
+    <string name="filling_settings">Filling settings</string>
+    <string name="first_tag">first_tag</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hover">Hover</string>
+    <string name="hover_popup_window">The minimal organic design of the Samsung GALAXY S III is reflected in its smooth curves</string>
+    <string name="insertcanvasimage">Insert Canvas Image in EditText</string>
+    <string name="isidol">isidol</string>
+    <string name="left">◀</string>
+    <string name="login">登录</string>
+    <string name="media">Rich Media</string>
+    <string name="menu_settings">Settings</string>
+    <string name="minus">-</string>
+    <string name="nomusic">No music</string>
+    <string name="openid">openid</string>
+    <string name="pen_settings">Pen settings</string>
+    <string name="pen_settings_preset_delete_msg">Selected pen preset will be permanently erased</string>
+    <string name="pen_settings_preset_delete_title">Delete</string>
+    <string name="pen_settings_preset_empty">No preset settings</string>
+    <string name="pen_settings_preset_exist">Already exist</string>
+    <string name="pen_settings_preset_maximum_msg">Reached maximum number(12) of preset slot</string>
+    <string name="play_animation_using_sound_effect_off">OFF - Do not use sound effect on Animation</string>
+    <string name="play_animation_using_sound_effect_on">ON - Play animation with sound effect</string>
+    <string name="play_animation_using_trasparent_background_off">OFF - Play animation with its Background</string>
+    <string name="play_animation_using_trasparent_background_on">ON - Play animation without Background(transparent)</string>
+    <string name="plus">+</string>
+    <string name="pressure">Pressure</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">刷新\u2026</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="right">▶</string>
+    <string name="save_image_horizontal_crop_off">OFF - Do not crop empty space of the left, right side of saving image</string>
+    <string name="save_image_horizontal_crop_on">ON - Crop empty space of the left, right side of saving image</string>
+    <string name="save_image_vertical_crop_off">OFF - Do not crop empty space of the top, bottom side of saving image</string>
+    <string name="save_image_vertical_crop_on">ON - Crop empty space of the top, bottom side of saving image</string>
+    <string name="save_only_foreground_image_off">OFF - Save image with its background</string>
+    <string name="save_only_foreground_image_on">ON - Save image with only foreground(transparent background)</string>
+    <string name="second_tag">second_tag</string>
+    <string name="selectimage">Select Image</string>
+    <string name="setfilterlevel">Set Filter Level</string>
+    <string name="setimagefilter">Set Image Filter</string>
+    <string name="settinginformation">Setting Information</string>
+    <string name="settingview_close_btn_desc">close</string>
+    <string name="signature_registration_draw">Draw your signature to register</string>
+    <string name="signature_registration_registration_failure">This signature is invalid for registration\nPlease try again!</string>
+    <string name="signature_registration_registration_sub_title">Save your signature to register</string>
+    <string name="signature_registration_registration_success_1">The first signature has been stored</string>
+    <string name="signature_registration_registration_success_2">The Second signature has been stored</string>
+    <string name="signature_registration_registration_success_3">Signature registration is completed</string>
+    <string name="signature_registration_registration_title">[Registration]</string>
+    <string name="signature_retry_sub_title">Clear the screen to redraw signature</string>
+    <string name="signature_retry_title">[Retry]</string>
+    <string name="signature_start_check_failure">There is no registered signature</string>
+    <string name="signature_start_check_sub_title">Check whether the registered signature exists or not</string>
+    <string name="signature_start_check_success">Registered signature is existed</string>
+    <string name="signature_start_check_title">[Check signature]</string>
+    <string name="signature_start_delete_failure">Registered signature is deleted</string>
+    <string name="signature_start_delete_sub_title">Delete the registered signature</string>
+    <string name="signature_start_delete_success">There is no registered signature</string>
+    <string name="signature_start_delete_title">[Delete signature]</string>
+    <string name="signature_start_registration_sub_title">Start registration</string>
+    <string name="signature_start_registration_title">[Registration]</string>
+    <string name="signature_start_verification_failure">There is no registered signature</string>
+    <string name="signature_start_verification_sub_title">Start verification - Signature must be registered</string>
+    <string name="signature_start_verification_title">[Verification]</string>
+    <string name="signature_verification_draw">Draw your signature to verify</string>
+    <string name="signature_verification_level_cancel">Cancel</string>
+    <string name="signature_verification_level_confirm">Confirm</string>
+    <string name="signature_verification_level_high">High</string>
+    <string name="signature_verification_level_low">Low</string>
+    <string name="signature_verification_level_medium">Medium</string>
+    <string name="signature_verification_level_sub_title">Select verification level</string>
+    <string name="signature_verification_level_title">[Verification Level]</string>
+    <string name="signature_verification_verification_failure">Failure!</string>
+    <string name="signature_verification_verification_sub_title">Verify the signature</string>
+    <string name="signature_verification_verification_success">Success!</string>
+    <string name="signature_verification_verification_title">[Verification]</string>
+    <string name="tags_hint">请输入多个标签，以英文逗号隔开</string>
+    <string name="testcontent"></string>
+    <string name="text_btn_delTags">删除标签</string>
+    <string name="text_btn_init">登陆百度账号初始化Channel</string>
+    <string name="text_btn_init1">更换百度账号初始化Channel</string>
+    <string name="text_btn_initAK">无账号初始化Channel</string>
+    <string name="text_btn_rich">查看富媒体消息</string>
+    <string name="text_btn_senior">高级功能</string>
+    <string name="text_btn_set">设置</string>
+    <string name="text_btn_setTags">设置标签</string>
+    <string name="text_hint">Channel绑定信息：</string>
+    <string name="text_media_title">富媒体消息列表</string>
+    <string name="text_settings">Text settings</string>
+    <string name="text_settings_tab_font">Font</string>
+    <string name="text_settings_tab_paragraph">Paragraph</string>
+    <string name="text_settings_tab_paragraph_align">Align</string>
+    <string name="textbox_hint">Insert Text</string>
+    <string name="texttitle">enter text here</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tool">Tool</string>
+    <string name="touch">Touch</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_common_strings.xml -->
+    <eat-comment />
+
+    <string name="umeng_common_action_cancel">Cancel</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_info_exist">The app is already in downloading list.</string>
+    <string name="umeng_common_action_pause">Pause</string>
+    <string name="umeng_common_download_failed">Download Failed! </string>
+    <string name="umeng_common_download_notification_prefix">Downloading: </string>
+    <string name="umeng_common_info_interrupt">dowload interrupted.</string>
+    <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_fb_strings.xml -->
+    <eat-comment />
+
+    <string name="umeng_fb_back">Back</string>
+    <string name="umeng_fb_contact_info">Contact Info</string>
+    <string name="umeng_fb_contact_info_hint">Email, msn, gtalk, or whatever we can find you.</string>
+    <string name="umeng_fb_contact_title">Contact</string>
+    <string name="umeng_fb_contact_update_at">Updated at </string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_ticker_text">Got new reply</string>
+    <string name="umeng_fb_powered_by">Powered by</string>
+    <string name="umeng_fb_reply_content_default">Your precious feedback are appriciated.</string>
+    <string name="umeng_fb_reply_content_hint">I want to tell</string>
+    <string name="umeng_fb_reply_date_default">2013-3-12 13:24:00</string>
+    <string name="umeng_fb_send">Send</string>
+    <string name="umeng_fb_title">Feedback</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_xp_strings.xml -->
+    <eat-comment />
+
+    <string name="umeng_xp_action_browse">browse</string>
+    <string name="umeng_xp_action_download">download</string>
+    <string name="umeng_xp_action_open">open</string>
+    <string name="umeng_xp_back">Back</string>
+    <string name="umeng_xp_back_to_top">Top</string>
+    <string name="umeng_xp_dowloadOrNot">Download the app?</string>
+    <string name="umeng_xp_dowload_dialog_cinfo">Call</string>
+    <string name="umeng_xp_dowload_dialog_dinfo">Download</string>
+    <string name="umeng_xp_failed_loading">Failed loading...</string>
+    <string name="umeng_xp_info_banner_deprecated">Banner style is not supported for current version of SDK, please contact us for support.</string>
+    <string name="umeng_xp_more">more</string>
+    <string name="umeng_xp_network_break_alert">Please make sure you are connected to internet, download failed</string>
+    <string name="umeng_xp_size">Size</string>
+    <string name="umeng_xp_tip_download_pre">Start download </string>
+    <string name="umeng_xp_title_info">Featured</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="up">▲</string>
+    <string name="user_font_name1">Chococooky</string>
+    <string name="user_font_name2">Rosemary</string>
+    <string name="weibosdk_app_name">com_weibo_android</string>
+    <string name="weibosdk_attention">注意</string>
+    <string name="weibosdk_cancel">否</string>
+    <string name="weibosdk_close">关闭</string>
+    <string name="weibosdk_comment">评论</string>
+    <string name="weibosdk_del_pic">是否删除图片？</string>
+    <string name="weibosdk_delete_all">是否要删除这条微博？</string>
+    <string name="weibosdk_fav">收藏</string>
+    <string name="weibosdk_forward">转发</string>
+    <string name="weibosdk_ok">是</string>
+    <string name="weibosdk_photo">拍照</string>
+    <string name="weibosdk_please_login">请登录！</string>
+    <string name="weibosdk_send">发送</string>
+    <string name="weibosdk_send_failed">分享失败！</string>
+    <string name="weibosdk_send_sucess">分享成功！</string>
+    <string name="weibosdk_share_dialog_title">新浪微博</string>
+    <string name="xcoordinates">X coordinates</string>
+    <string name="ycoordinates">Y coordinates</string>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="android:style/Theme.Light">
+        <item name="android:windowContentOverlay">@drawable/actionbar_shadow</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/bg_edittext</item>
+    </style>
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_xp_style.xml -->
+    <eat-comment />
+
+    <style name="umeng_xp_dialog_animations">
+        <item name="android:windowEnterAnimation">@anim/umeng_xp_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/umeng_xp_fade_out</item>
+    </style>
+
+    <style name="umeng_xp_dialog_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_btn_gradient_grey</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="umeng_xp_dialog_cancel">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_selector_cancel</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="umeng_xp_dialog_download">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_selector_download</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="umeng_xp_dialog_download_window" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowAnimationStyle">@style/umeng_xp_dialog_animations</item>
+    </style>
+
+    <style name="umeng_xp_download_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_download_gradient_grey</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="umeng_xp_grad_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_btn_gradient_grey</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="umeng_xp_more_but">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/umeng_xp_btn_gradient_dark_grey</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,201 @@
+<!-- From: file:/Users/verysunny/git/WeiCat/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4" android:versionName="2.0" package="com.loftcat">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.loftcat.app.AppContext">
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:resource="@dimen/app_defaultsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:resource="@dimen/app_defaultsize_h"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:resource="@dimen/app_minimumsize_w"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="5141d17a56240b4b2200235a">
+        </meta-data>
+        <meta-data android:name="UMENG_CHANNEL" android:value="samsung"/>
+
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.LoadingAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.HomepageAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.Homepage"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.SelfPageAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.SelfPage"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.FriendsListAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.FriendsListAty"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.CommentsListAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.CommentsListAty"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.TheStatusAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.TheStatus"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.SendAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.Send"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.AtAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.AT"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.GestureImageViewAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.GestureImageView"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.Setting" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.setting"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.VersionAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.version"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.GoodAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.good"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.AboutAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.about"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.samsung.spensdk.example.basiceditor.SPen_Example_BasicEditor" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.samsung.spensdk.example.basiceditor.SPen_Example_BasicEditor"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.SettingBackgroundAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.SettingBackgroundAty"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="@string/app_name" android:name="com.loftcat.ui.SettingSetbackgroundPreviewAty" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.loftcat.ui.SettingSetbackgroundPreviewAty"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.umeng.fb.ConversationActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.umeng.fb.ContactActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar"/>
+        
+        
+               <activity android:configChanges="orientation|keyboardHidden" android:label="@string/login" android:name="com.loftcat.LoginActivity">
+        </activity>
+        
+        <activity android:configChanges="orientation|keyboardHidden" android:label="Push_notification_test" android:name="com.loftcat.CustomActivity">
+        </activity>
+
+        
+        <!-- push service rich media display -->
+        <activity android:configChanges="orientation|keyboardHidden" android:label="MediaViewActivity" android:name="com.baidu.android.pushservice.richmedia.MediaViewActivity">
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden" android:label="MediaListActivity" android:launchMode="singleTask" android:name="com.baidu.android.pushservice.richmedia.MediaListActivity">
+        </activity>
+        
+        <!-- push service client -->
+        <receiver android:name="com.loftcat.PushMessageReceiver">
+            <intent-filter>
+                <!-- ��ユ��push娑���� -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE"/>
+                <!-- ��ユ��bind,unbind,fetch,delete绛����棣�娑���� -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE"/>
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK"/>
+            </intent-filter>
+        </receiver>
+        
+        <!-- push service -->
+        <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver" android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW"/>
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver" android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD"/>
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>                   
+        </receiver>
+        
+        <service android:exported="true" android:name="com.baidu.android.pushservice.PushService" android:process=":bdservice_v1"/>
+        
+        <!-- push service end -->
+        
+		<!-- ��ㄧ�惧害寮�������涓�蹇���ヨ�㈠����ㄧ��API Key -->
+        <meta-data android:name="api_key" android:value="kK3PUFcvBDC5V468NIIo1N6P"/>
+        
+        
+    </application>
+
+</manifest>
