@@ -1228,7 +1228,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:childSize
+          @attr name com.loftcat:childSize
         */
         public static final int ArcLayout_childSize = 2;
         /**
@@ -1242,7 +1242,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:fromDegrees
+          @attr name com.loftcat:fromDegrees
         */
         public static final int ArcLayout_fromDegrees = 0;
         /**
@@ -1256,7 +1256,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:toDegrees
+          @attr name com.loftcat:toDegrees
         */
         public static final int ArcLayout_toDegrees = 1;
         /** Attributes that can be used with a RayLayout.
@@ -1285,7 +1285,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:leftHolderWidth
+          @attr name com.loftcat:leftHolderWidth
         */
         public static final int RayLayout_leftHolderWidth = 0;
         /** Attributes that can be used with a SatelliteMenu.
@@ -1321,7 +1321,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:closeOnClick
+          @attr name com.loftcat:closeOnClick
         */
         public static final int SatelliteMenu_closeOnClick = 1;
         /**
@@ -1335,7 +1335,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:expandDuration
+          @attr name com.loftcat:expandDuration
         */
         public static final int SatelliteMenu_expandDuration = 0;
         /**
@@ -1345,7 +1345,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name android:mainImage
+          @attr name com.loftcat:mainImage
         */
         public static final int SatelliteMenu_mainImage = 4;
         /**
@@ -1361,7 +1361,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:satelliteDistance
+          @attr name com.loftcat:satelliteDistance
         */
         public static final int SatelliteMenu_satelliteDistance = 3;
         /**
@@ -1375,7 +1375,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:totalSpacingDegree
+          @attr name com.loftcat:totalSpacingDegree
         */
         public static final int SatelliteMenu_totalSpacingDegree = 2;
         /** Attributes that can be used with a StaggeredGridView.
@@ -1404,7 +1404,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:drawSelectorOnTop
+          @attr name com.loftcat:drawSelectorOnTop
         */
         public static final int StaggeredGridView_drawSelectorOnTop = 0;
         /**
@@ -1418,7 +1418,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name android:numColumns
+          @attr name com.loftcat:numColumns
         */
         public static final int StaggeredGridView_numColumns = 1;
     };
