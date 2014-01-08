@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-normal-notlong/dimens.xml -->
+    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-normal-notlong/dimens.xml -->
     <eat-comment />
 
     <dimen name="weibosdk_dialog_bottom_margin">15dp</dimen>

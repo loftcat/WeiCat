@@ -13,4 +13,4 @@
 
 	<include android:id="@+id/umeng_xp_bottom" layout="@layout/umeng_xp_component_back_bottom"/>
 
-</RelativeLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_xp_full_screen_focus.xml -->
+</RelativeLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_full_screen_focus.xml -->

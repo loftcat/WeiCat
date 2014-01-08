@@ -27,5 +27,6 @@
     android:maxLines="1"
     android:textColor="#fffefefe"
     android:textSize="13sp"
+    android:background="@drawable/hover_tooltip_bg"
 />
-<!-- From: file:/Users/verysunny/git/WeiCat/res/layout/hover_tooltip_popup.xml -->
+<!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/hover_tooltip_popup.xml -->

@@ -4,4 +4,4 @@
 		android:drawable="@drawable/umeng_update_button_cancel_normal" />
 	<item android:state_pressed="true"
 	    android:drawable="@drawable/umeng_update_button_cancel_tap" />
-</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_cancel_selector.xml -->
+</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_cancel_selector.xml -->

@@ -2,4 +2,4 @@
 	<item android:drawable="@drawable/umeng_xp_highlight_item_bg_clicked" android:state_pressed="true"/>
 	<item android:drawable="@drawable/umeng_xp_highlight_item_bg_clicked" android:state_selected="true"/>
 	<item android:drawable="@drawable/umeng_xp_highlight_item_bg"/>
-</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg_selector.xml -->
+</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg_selector.xml -->

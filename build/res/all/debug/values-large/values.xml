@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-large/dimens.xml -->
+    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-large/dimens.xml -->
     <eat-comment />
 
     <dimen name="padding_large">16dp</dimen>

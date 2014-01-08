@@ -13,4 +13,4 @@
 	<TextView android:id="@+id/umeng_xp_open_type" android:layout_alignParentRight="true" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_marginTop="10dp" android:layout_width="40dp" android:lines="1" android:text="查看" android:textColor="#777777" android:textSize="12dp" android:visibility="visible">
 	</TextView>
 
-</RelativeLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_xp_normal_banner.xml -->
+</RelativeLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_normal_banner.xml -->

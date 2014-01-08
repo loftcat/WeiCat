@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/umeng_fb_tick_selected" android:state_pressed="true"/>
     <item android:drawable="@drawable/umeng_fb_tick_normal"/>
 
-</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_tick_selector.xml -->
+</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_tick_selector.xml -->

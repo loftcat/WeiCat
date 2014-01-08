@@ -6,4 +6,4 @@
     <TextView android:ellipsize="marquee" android:id="@+id/umeng_xp_name" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_width="50dp" android:marqueeRepeatLimit="marquee_forever" android:singleLine="true" android:textColor="#40A5DB" android:textSize="10sp" android:textStyle="bold">
     </TextView>
 
-</LinearLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_xp_partners_banner_grid_item.xml -->
+</LinearLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_partners_banner_grid_item.xml -->

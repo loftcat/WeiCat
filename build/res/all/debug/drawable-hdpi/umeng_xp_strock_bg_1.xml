@@ -3,4 +3,4 @@
 	<stroke android:color="#FFb8b7b7" android:width="1px"/>
 	<gradient android:angle="270" android:endColor="#fcfcfc" android:startColor="#fcfcfc"/>
 	<padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"/>
-</shape><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_strock_bg_1.xml -->
+</shape><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_strock_bg_1.xml -->
