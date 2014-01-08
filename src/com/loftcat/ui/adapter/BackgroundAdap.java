@@ -17,7 +17,10 @@ package com.loftcat.ui.adapter;
 
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
-import com.loftcat.utils.Utility;
+import com.loftcat.app.AppContext;
+import com.loftcat.utils.cache.BackGroundCache;
+import com.loftcat.utils.cache.CacheManager;
+import com.loftcat.utils.weibo.AccountManager;
 
 import android.content.Context;
 import android.util.Log;
@@ -34,13 +37,13 @@ public class BackgroundAdap extends BaseAdapter {
 
 	public BackgroundAdap(Context context) {
 		this.context = context;
-		selectedId = Utility.getBackgroundId(context);
+		selectedId = CacheManager.getBackGroundCache().getBackgroundId(context);
 		Log.d("RESULT", "BackgroundAdap selectedId: " + selectedId);
 	}
 
 	@Override
 	public int getCount() {
-		return AppConfig.backgrounds.length;
+		return CacheManager.backgrounds.length;
 	}
 
 	@Override
@@ -59,7 +62,7 @@ public class BackgroundAdap extends BaseAdapter {
 				R.layout.setting_setbackground_item, null);
 		ImageView imageView = (ImageView) convertView
 				.findViewById(R.id.setting_setbackground_griditem);
-		imageView.setBackgroundResource(AppConfig.backgrounds[position]
+		imageView.setBackgroundResource(CacheManager.backgrounds[position]
 				.getSmallImage());
 		RelativeLayout isselect = (RelativeLayout) convertView
 				.findViewById(R.id.setting_setbackground_griditem_isselect);
@@ -73,7 +76,7 @@ public class BackgroundAdap extends BaseAdapter {
 
 	@Override
 	public void notifyDataSetChanged() {
-		selectedId = Utility.getBackgroundId(context);
+		selectedId = CacheManager.getBackGroundCache().getBackgroundId(context);
 		super.notifyDataSetChanged();
 
 	}

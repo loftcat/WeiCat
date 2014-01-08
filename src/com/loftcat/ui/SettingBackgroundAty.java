@@ -20,8 +20,9 @@ import java.io.IOException;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.ui.adapter.BackgroundAdap;
-import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.Utility;
+import com.loftcat.utils.cache.BackGroundCache;
+import com.loftcat.utils.cache.CacheManager;
+import com.loftcat.utils.weibo.AccountManager;
 import com.weibo.sdk.android.WeiboException;
 
 import android.content.Intent;
@@ -51,7 +52,7 @@ public class SettingBackgroundAty extends BaseActivity {
 				Intent intent = new Intent(
 						AppConfig.INTENT_ACTION_BACKGROUND_PREVIEW);
 				intent.putExtra("image",
-						AppConfig.backgrounds[arg2].getLargeImage());
+						CacheManager.backgrounds[arg2].getLargeImage());
 				intent.putExtra("imageId", arg2);
 				startActivity(intent);
 			}
@@ -62,7 +63,7 @@ public class SettingBackgroundAty extends BaseActivity {
 	protected void onResume() {
 		super.onResume();
 		backgroundAdap.notifyDataSetChanged();
-		background.setImageResource(AppConfig.backgrounds[Utility
+		background.setImageResource(CacheManager.backgrounds[CacheManager.getBackGroundCache()
 				.getBackgroundId(this)].getLargeImage());
 	}
 

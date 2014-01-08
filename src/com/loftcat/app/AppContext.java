@@ -33,6 +33,7 @@ import android.os.StrictMode;
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
 import com.loftcat.utils.StringUtils;
+import com.loftcat.utils.cache.CacheManager;
 import com.loftcat.weibo.vo.DaoMaster;
 import com.loftcat.weibo.vo.DaoSession;
 import com.loftcat.weibo.vo.DaoMaster.OpenHelper;
@@ -60,6 +61,8 @@ public class AppContext extends Application {
  	private static AppContext mInstance;  
     private static DaoMaster daoMaster;  
     private static DaoSession daoSession; 
+    
+    
 	// public static final int PAGE_SIZE = 20;//默认分页大小
 	// private static final int CACHE_TIME = 60*60000;//缓存失效时间
 
@@ -68,12 +71,13 @@ public class AppContext extends Application {
 	// private Hashtable<String, Object> memCacheRegion = new Hashtable<String,
 	// Object>();
 
+    
+    
+    
 	@Override
 	public void onCreate() {
-		super.onCreate();
-
+		super.onCreate();		
 		initImageLoader(getApplicationContext());
-
 	}
 
 	public static void initImageLoader(Context context) {
@@ -252,5 +256,11 @@ public class AppContext extends Application {
         }  
         return daoSession;  
     }   
+    
+
+
+    
+    
+ 
     
 }

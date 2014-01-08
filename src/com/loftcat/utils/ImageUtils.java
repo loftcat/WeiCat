@@ -294,7 +294,7 @@ public class ImageUtils {
 			ContentResolver crThumb = context.getContentResolver();
 			BitmapFactory.Options options = new BitmapFactory.Options();
 			options.inSampleSize = 1;
-			bitmap = MethodsCompat.getThumbnail(crThumb, cursor.getInt(0),
+			bitmap = DeviceUtil.getThumbnail(crThumb, cursor.getInt(0),
 					kind, options);
 		}
 		return bitmap;

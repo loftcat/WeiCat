@@ -20,7 +20,7 @@ import java.util.Date;
 
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
-import com.loftcat.ui.Homepage;
+import com.loftcat.ui.HomepageAty;
 import com.loftcat.utils.TimeUtil;
 import com.loftcat.weibo.vo.StatusVo;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;

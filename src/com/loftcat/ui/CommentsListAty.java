@@ -49,9 +49,9 @@ import com.loftcat.ui.adapter.StatusExpandableAdapter;
 import com.loftcat.ui.utils.PullToRefreshView;
 import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
-import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.LogCenter;
-import com.loftcat.utils.Utility;
+import com.loftcat.utils.cache.CacheManager;
+import com.loftcat.utils.log.LogCenter;
+import com.loftcat.utils.weibo.AccountManager;
 import com.loftcat.weibo.sdk.CommentsAPI;
 import com.loftcat.weibo.sdk.FriendshipsAPI;
 import com.loftcat.weibo.sdk.StatusesAPI;
@@ -308,7 +308,7 @@ public class CommentsListAty extends BaseActivity implements
 	@Override
 	protected void onResume() {
 		super.onResume();
-		commentlist_background.setImageResource(AppConfig.backgrounds[Utility
+		commentlist_background.setImageResource(CacheManager.backgrounds[CacheManager.getBackGroundCache()
 				.getBackgroundId(this)].getLargeImage());
 	}
 

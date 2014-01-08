@@ -23,13 +23,13 @@ import java.util.TimerTask;
 
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
-import com.loftcat.ui.Homepage;
-import com.loftcat.ui.Loading;
+import com.loftcat.ui.BaseActivity;
+import com.loftcat.ui.HomepageAty;
+import com.loftcat.ui.LoadingAty;
 import com.loftcat.ui.adapter.AccountAdapter;
-import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.DBManager;
-import com.loftcat.utils.LogCenter;
-import com.loftcat.utils.Utility;
+import com.loftcat.utils.database.DBManager;
+import com.loftcat.utils.log.LogCenter;
+import com.loftcat.utils.weibo.AccountManager;
 import com.loftcat.weibo.vo.AccountVo;
 import com.weibo.sdk.android.Oauth2AccessToken;
 import com.weibo.sdk.android.Weibo;
@@ -210,10 +210,10 @@ public class LeftFragment extends Fragment {
 						imagelists.get(i).setVisibility(View.GONE);
 					}
 				}
-				((Homepage) getActivity()).setSince_id(0l);
-				((Homepage) getActivity()).setPage(1);
-				((Homepage) getActivity()).setAccount(accounts.get(arg2));
-				((Homepage) getActivity()).showRight();
+				((HomepageAty) getActivity()).setSince_id(0l);
+				((HomepageAty) getActivity()).setPage(1);
+				((HomepageAty) getActivity()).setAccount(accounts.get(arg2));
+				((HomepageAty) getActivity()).showRight();
 			}
 
 		});
@@ -222,7 +222,7 @@ public class LeftFragment extends Fragment {
 			@Override
 			public void onClick(View arg0) {
 				Intent intent = new Intent();
-				intent.putExtra("userID", ((Homepage) getActivity())
+				intent.putExtra("userID", ((HomepageAty) getActivity())
 						.get_account().getId());
 				intent.putExtra("self", true);
 				intent.setAction(AppConfig.INTENT_ACTION_SELFPAGE);
@@ -233,7 +233,7 @@ public class LeftFragment extends Fragment {
 
 			@Override
 			public void onClick(View arg0) {
-				((Homepage) getActivity()).showLeft();
+				((HomepageAty) getActivity()).showLeft();
 			}
 		});
 		comments.setOnClickListener(new TextView.OnClickListener() {
@@ -261,13 +261,13 @@ public class LeftFragment extends Fragment {
 	boolean isAdd = false;
 	boolean isDelete = false;
 	private Oauth2AccessToken accessToken;
-	private Utility utility;
+	private AccountManager utility;
 
-	public Utility getUtility() {
+	public AccountManager getUtility() {
 		return utility;
 	}
 
-	public void setUtility(Utility utility) {
+	public void setUtility(AccountManager utility) {
 		this.utility = utility;
 	}
 
@@ -327,10 +327,10 @@ public class LeftFragment extends Fragment {
 							}
 						}
 					}
-					((Homepage) getActivity()).setSince_id(0l);
-					((Homepage) getActivity()).setPage(1);
-					((Homepage) getActivity()).setAccount(_account);
-					((Homepage) getActivity()).showRight();
+					((HomepageAty) getActivity()).setSince_id(0l);
+					((HomepageAty) getActivity()).setPage(1);
+					((HomepageAty) getActivity()).setAccount(_account);
+					((HomepageAty) getActivity()).showRight();
 					isAdd = false;
 					LogCenter.getInstance().debug("XXX", "add");
 				}
@@ -339,9 +339,9 @@ public class LeftFragment extends Fragment {
 					int size = accounts.size();
 					long _index = utility.readIndex();
 					AccountVo _account = null;
-					if (!((Homepage) getActivity()).get_account().getId()
+					if (!((HomepageAty) getActivity()).get_account().getId()
 							.equals(delete_id)) {
-						_account = ((Homepage) getActivity()).get_account();
+						_account = ((HomepageAty) getActivity()).get_account();
 					} else {
 						_account = accounts.get(size - 1);
 						utility.keepIndex(Long.parseLong(accounts.get(size - 1)
@@ -352,10 +352,10 @@ public class LeftFragment extends Fragment {
 							utility.readIndex());
 					_account_listview.setAdapter(accountAdapter);
 					imagelists = accountAdapter.getImagelists();
-					((Homepage) getActivity()).setSince_id(0l);
-					((Homepage) getActivity()).setPage(1);
-					((Homepage) getActivity()).setAccount(_account);
-					((Homepage) getActivity()).showRight();
+					((HomepageAty) getActivity()).setSince_id(0l);
+					((HomepageAty) getActivity()).setPage(1);
+					((HomepageAty) getActivity()).setAccount(_account);
+					((HomepageAty) getActivity()).showRight();
 					isDelete = false;
 				}
 			}

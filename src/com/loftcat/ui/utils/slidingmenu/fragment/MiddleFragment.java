@@ -31,15 +31,16 @@ import com.google.gson.reflect.TypeToken;
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
 import com.loftcat.app.AppContext;
-import com.loftcat.ui.Homepage;
+import com.loftcat.ui.HomepageAty;
 import com.loftcat.ui.adapter.ExpandableAdapter;
 import com.loftcat.ui.adapter.GroupsGalleryAdapter;
 import com.loftcat.ui.utils.PullToRefreshView;
 import com.loftcat.ui.utils.PullToRefreshView.OnFooterRefreshListener;
 import com.loftcat.ui.utils.PullToRefreshView.OnHeaderRefreshListener;
-import com.loftcat.utils.LogCenter;
 import com.loftcat.utils.SoundCenter;
-import com.loftcat.utils.Utility;
+import com.loftcat.utils.cache.CacheManager;
+import com.loftcat.utils.log.LogCenter;
+import com.loftcat.utils.weibo.AccountManager;
 import com.loftcat.weibo.sdk.FriendshipsAPI;
 import com.loftcat.weibo.sdk.StatusesAPI;
 import com.loftcat.weibo.sdk.WeiboAPI.FEATURE;
@@ -106,7 +107,7 @@ public class MiddleFragment extends Fragment implements
 		OnHeaderRefreshListener, OnFooterRefreshListener {
 	private ExpandableListView listView;
 	private AccountVo account;
-	private Utility utility;
+	private AccountManager utility;
 	private ExpandableAdapter statusAdapter;
 	PullToRefreshView pullToRefreshView;
 	private Spinner title_bar;
@@ -133,11 +134,11 @@ public class MiddleFragment extends Fragment implements
 		return super.onOptionsItemSelected(item);
 	}
 
-	public Utility getUtility() {
+	public AccountManager getUtility() {
 		return utility;
 	}
 
-	public void setUtility(Utility utility) {
+	public void setUtility(AccountManager utility) {
 		this.utility = utility;
 	}
 
@@ -249,8 +250,8 @@ public class MiddleFragment extends Fragment implements
 	@Override
 	public void onResume() {
 		super.onResume();
-		int selectedId = Utility.getBackgroundId(context);
-		background.setImageResource(AppConfig.backgrounds[selectedId]
+		int selectedId = CacheManager.getBackGroundCache().getBackgroundId(context);
+		background.setImageResource(CacheManager.backgrounds[selectedId]
 				.getLargeImage());
 
 	}
@@ -339,7 +340,7 @@ public class MiddleFragment extends Fragment implements
 				Log.i("sat", "Clicked on " + id);
 				switch (id) {
 				case EXIT:
-					((Homepage) context).finish();
+					((HomepageAty) context).finish();
 					break;
 				case DRAW:
 					timer.schedule(new TimerTask() {

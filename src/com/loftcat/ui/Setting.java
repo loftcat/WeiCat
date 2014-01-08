@@ -24,8 +24,9 @@ import android.widget.RelativeLayout;
 
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
-import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.Utility;
+import com.loftcat.utils.cache.BackGroundCache;
+import com.loftcat.utils.cache.CacheManager;
+import com.loftcat.utils.weibo.AccountManager;
 import com.umeng.fb.FeedbackAgent;
 import com.weibo.sdk.android.WeiboException;
 
@@ -118,7 +119,7 @@ public class Setting extends BaseActivity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-		setting_background.setImageResource(AppConfig.backgrounds[Utility
+		setting_background.setImageResource(CacheManager.backgrounds[CacheManager.getBackGroundCache()
 				.getBackgroundId(this)].getLargeImage());
 	}
 

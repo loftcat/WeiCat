@@ -39,19 +39,13 @@ import com.loftcat.weibo.vo.BackgroundVo;
 public class AppConfig {
 
 	private final static String APP_CONFIG = "config";
-	public final static String TEMP_TWEET = "temp_tweet";
-	public final static String TEMP_TWEET_IMAGE = "temp_tweet_image";
-	public final static String TEMP_MESSAGE = "temp_message";
-	public final static String TEMP_COMMENT = "temp_comment";
-	public final static String TEMP_POST_TITLE = "temp_post_title";
-	public final static String TEMP_POST_CATALOG = "temp_post_catalog";
-	public final static String TEMP_POST_CONTENT = "temp_post_content";
 
 	public final static String CONF_APP_UNIQUEID = "APP_UNIQUEID";
 	public final static String CONF_COOKIE = "cookie";
 	public final static String CONF_ACCESSTOKEN = "accessToken";
 	public final static String CONF_ACCESSSECRET = "accessSecret";
 	public final static String CONF_EXPIRESIN = "expiresIn";
+	
 	public final static String CONF_LOAD_IMAGE = "perf_loadimage";
 	public final static String CONF_SCROLL = "perf_scroll";
 	public final static String CONF_HTTPS_LOGIN = "perf_httpslogin";
@@ -202,23 +196,6 @@ public class AppConfig {
 
 	public static final String PREFERENCES_NAME = "loftcat_sharepreference";
 
-	public static BackgroundVo[] backgrounds = {
-			new BackgroundVo(R.drawable.background_0small,
-					R.drawable.background_0),
-			new BackgroundVo(R.drawable.background_1small,
-					R.drawable.background_1),
-			new BackgroundVo(R.drawable.background_3small,
-					R.drawable.background_3),
-			new BackgroundVo(R.drawable.background_4small,
-					R.drawable.background_4),
-			new BackgroundVo(R.drawable.background_5small,
-					R.drawable.background_5),
-			new BackgroundVo(R.drawable.background_6small,
-					R.drawable.background_6),
-			new BackgroundVo(R.drawable.background_7small,
-					R.drawable.background_7),
-			new BackgroundVo(R.drawable.background_8small,
-					R.drawable.background_8) };
-	public static BackgroundVo background;
+
 
 }

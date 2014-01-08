@@ -18,8 +18,8 @@ package com.loftcat.ui;
 import java.io.IOException;
 
 import com.loftcat.R;
-import com.loftcat.utils.BaseActivity;
-import com.loftcat.utils.Utility;
+import com.loftcat.utils.cache.CacheManager;
+import com.loftcat.utils.weibo.AccountManager;
 import com.weibo.sdk.android.WeiboException;
 
 import android.content.Context;
@@ -90,7 +90,7 @@ public class SettingSetbackgroundPreviewAty extends BaseActivity {
 
 			@Override
 			public void onClick(View v) {
-				Utility.saveBackgroundId(getIntent().getIntExtra("imageId", 0),
+				CacheManager.getBackGroundCache().saveBackgroundId(getIntent().getIntExtra("imageId", 0),
 						SettingSetbackgroundPreviewAty.this);
 				finish();
 			}

@@ -18,7 +18,7 @@ package com.loftcat.ui.adapter;
 import java.util.ArrayList;
 
 import com.loftcat.R;
-import com.loftcat.utils.LogCenter;
+import com.loftcat.utils.log.LogCenter;
 import com.loftcat.weibo.vo.UserVO;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;

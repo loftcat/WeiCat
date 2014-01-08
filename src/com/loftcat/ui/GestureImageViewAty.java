@@ -27,7 +27,6 @@ import android.widget.Button;
 
 import com.loftcat.R;
 import com.loftcat.app.AppConfig;
-import com.loftcat.utils.BaseActivity;
 import com.loftcat.utils.ImageUtils;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;

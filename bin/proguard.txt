@@ -35,11 +35,11 @@
 # view AndroidManifest.xml #generated:24
 -keep class com.loftcat.app.AppContext { <init>(...); }
 
-# view AndroidManifest.xml #generated:130
--keep class com.loftcat.ui.AT { <init>(...); }
-
 # view AndroidManifest.xml #generated:185
--keep class com.loftcat.ui.About { <init>(...); }
+-keep class com.loftcat.ui.AboutAty { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class com.loftcat.ui.AtAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:97
 -keep class com.loftcat.ui.CommentsListAty { <init>(...); }
@@ -51,19 +51,19 @@
 -keep class com.loftcat.ui.GestureImageViewAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:174
--keep class com.loftcat.ui.Good { <init>(...); }
+-keep class com.loftcat.ui.GoodAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:64
--keep class com.loftcat.ui.Homepage { <init>(...); }
+-keep class com.loftcat.ui.HomepageAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:52
--keep class com.loftcat.ui.Loading { <init>(...); }
+-keep class com.loftcat.ui.LoadingAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:75
--keep class com.loftcat.ui.SelfPage { <init>(...); }
+-keep class com.loftcat.ui.SelfPageAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:119
--keep class com.loftcat.ui.Send { <init>(...); }
+-keep class com.loftcat.ui.SendAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:152
 -keep class com.loftcat.ui.Setting { <init>(...); }
@@ -75,10 +75,10 @@
 -keep class com.loftcat.ui.SettingSetbackgroundPreviewAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:108
--keep class com.loftcat.ui.TheStatus { <init>(...); }
+-keep class com.loftcat.ui.TheStatusAty { <init>(...); }
 
 # view AndroidManifest.xml #generated:163
--keep class com.loftcat.ui.Version { <init>(...); }
+-keep class com.loftcat.ui.VersionAty { <init>(...); }
 
 # view res/layout/at.xml #generated:56
 # view res/layout/expanlist.xml #generated:13
