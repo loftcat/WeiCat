@@ -21,4 +21,4 @@
 		android:layout_height="fill_parent" android:background="#E9E9E9"
 		android:divider="#E9E9E9" android:dividerHeight="0dip"
 		android:cacheColorHint="#E9E9E9" android:listSelector="@drawable/umeng_fb_blank_selector" />
-</LinearLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_conversations.xml -->
+</LinearLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_fb_conversations.xml -->

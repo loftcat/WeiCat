@@ -2,4 +2,4 @@
 <View xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/line_diviver"/><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/line.xml -->
+    android:background="@drawable/line_diviver"/><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/line.xml -->

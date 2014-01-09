@@ -10,4 +10,4 @@
         <TextView android:gravity="center" android:id="@+id/umeng_xp_banner_more_txt" android:layout_height="50dp" android:layout_width="wrap_content" android:shadowColor="#ffeeeeee" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="2" android:text="更多精彩推荐   " android:textColor="#BD7A69" android:textSize="12sp" android:textStyle="bold"/>
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_highlight_banner_more.xml -->
+</LinearLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_xp_highlight_banner_more.xml -->

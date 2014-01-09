@@ -1564,6 +1564,11 @@
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
+                name="hover_tooltip_bg"
+                path="/Users/verysunny/git/WeiCat/res/drawable-xhdpi/hover_tooltip_bg.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="about"
                 path="/Users/verysunny/git/WeiCat/res/layout/about.xml"
                 qualifiers=""

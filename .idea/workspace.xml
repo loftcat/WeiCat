@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1274cbd6-34d8-4635-9e39-f07389013d91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/loftcat/BuildConfig.class" afterPath="$PROJECT_DIR$/bin/classes/com/loftcat/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/loftcat/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/loftcat/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeiCat.iml" afterPath="$PROJECT_DIR$/WeiCat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/about.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/add.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/add.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/xml/animationoptionpreferences.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/xml/animationoptionpreferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/at.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/at.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/bg_edittext.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/bg_edittext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/bpush_download_progress.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/bpush_download_progress.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/bpush_media_list.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/bpush_media_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/bpush_media_list_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/bpush_media_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/button.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/center_frame.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/center_frame.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/custom_activity.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/custom_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/editor_basic_editor.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/editor_basic_editor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/expanlist.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/expanlist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/frienditem.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/frienditem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/frienditem_2.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/frienditem_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/friendslist.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/friendslist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/gallery_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/gallery_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/gesture_imageview.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/gesture_imageview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/good.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/good.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/groups_pop.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/groups_pop.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/hover_tooltip_popup.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/hover_tooltip_popup.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/image_pager.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/image_pager.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/item_pager_image.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/item_pager_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/left.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/left_adapter.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/left_adapter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/left_frame.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/left_frame.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/libtest.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/libtest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/libtest_list_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/libtest_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/libtest_textview.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/libtest_textview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/line.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/line.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/line_diviver.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/line_diviver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/main.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/middle.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/middle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/mspinner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/mspinner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/mspinnertext.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/mspinnertext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/mspinnertext_tablet.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/mspinnertext_tablet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/nameitem.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/nameitem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/notification_custom_builder.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/notification_custom_builder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/page1.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/page1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/page2.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/page2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/pull_to_refresh_head.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/pull_to_refresh_head.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/refresh_footer.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/refresh_footer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/refresh_header.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/refresh_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/right.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/right_frame.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/right_frame.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/xml/sammoptionpreferences.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/xml/sammoptionpreferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_anim_click.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_anim_click.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_anticipate_interpolator.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_anticipate_interpolator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_click_interpolator.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_click_interpolator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/sat_item_cr.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/sat_item_cr.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_in_rotate_interpolator.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_in_rotate_interpolator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_out_rotate_interpolator.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_out_rotate_interpolator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_overshoot_interpolator.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_item_overshoot_interpolator.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/sat_main.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/sat_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_main_rotate_left.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_main_rotate_left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/sat_main_rotate_right.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/sat_main_rotate_right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_colorpicker.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_colorpicker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_eraser.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_eraser.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_filling.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_filling.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_image.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_multi.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_multi.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_pen.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_pen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_play.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_play.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_redo.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_redo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_text.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_text.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_tool_bg.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_tool_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_undo.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/selector_undo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/selfaty.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/selfaty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/send.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/send.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/sendpost_reply.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/sendpost_reply.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/setting.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/setting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/setting_setbackground_aty.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/setting_setbackground_aty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/setting_setbackground_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/setting_setbackground_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/setting_setbackground_preview_aty.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/setting_setbackground_preview_aty.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/setting_setbackground_preview_button.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/setting_setbackground_preview_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/solid_divider_ccc.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/solid_divider_ccc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/solid_divider_fff.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/solid_divider_fff.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/status_item_child.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/status_item_child.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/status_item_child2.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/status_item_child2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/status_item_parent.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/status_item_parent.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/thestatus.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/thestatus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/tool_file_list.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/tool_file_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/tool_sound_list.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/tool_sound_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/tool_sound_list_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/tool_sound_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/tool_text_dialog_input.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/tool_text_dialog_input.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_common_download_notification.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_common_download_notification.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_common_gradient_green.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_common_gradient_green.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_common_gradient_orange.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_common_gradient_orange.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_common_gradient_red.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_common_gradient_red.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_activity_contact.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_activity_contact.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_activity_conversation.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_activity_conversation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_atom.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_atom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_back_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_back_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_blank_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_blank_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_bottom_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_bottom_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_btn_bg_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_btn_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversation.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversation_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversation_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversations.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversations_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_conversations_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_gradient_green.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_gradient_green.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_gradient_orange.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_gradient_orange.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_gray_frame.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_gray_frame.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_list_header.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_list_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_list_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_list_item_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_list_item_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_new_reply_alert_dialog.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_new_reply_alert_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_point_new.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_point_new.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_point_normal.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_point_normal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_see_list_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_see_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_send_feedback.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_fb_send_feedback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_in_from_left.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_in_from_left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_in_from_right.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_in_from_right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_out_from_left.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_out_from_left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_out_from_right.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_fb_slide_out_from_right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_submit_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_submit_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_tick_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_tick_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_top_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_top_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_write_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_fb_write_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancel_normal.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancel_normal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancel_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancel_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancel_tap.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancel_tap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancle_normal.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancle_normal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancle_tap.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_cancle_tap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_ok_normal.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_ok_normal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_ok_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_ok_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_ok_tap.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_button_ok_tap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_cancle_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_cancle_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_update_dialog.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_update_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_dialog_bg.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_dialog_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_ok_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_ok_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_title_bg.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable/umeng_update_title_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_bg_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_browse_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_browse_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_download_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_download_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_open_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_open_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_phone_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_ad_action_phone_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_back_button.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_back_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_banner_grey.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_banner_grey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_btn_gradient_dark_grey.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_btn_gradient_dark_grey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_btn_gradient_grey.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_btn_gradient_grey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_button_cancel_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_button_cancel_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_button_download_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_button_download_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_clould_dialog.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_clould_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_back_bottom.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_back_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_back_top.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_back_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_flipper_content.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_flipper_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_focus_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_focus_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_foucused_app.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_component_foucused_app.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_container_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_container_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_container_banner_background_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_container_banner_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_container_banner_more.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_container_banner_more.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_download_dialog.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_download_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_download_dialog_close_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_download_dialog_close_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_download_dialog_landscape.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_download_dialog_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_download_gradient_grey.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_download_gradient_grey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_fade_in.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_fade_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_fade_out.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_fade_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_fimageview_landscape.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_fimageview_landscape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_fimageview_portrait.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_fimageview_portrait.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_floatdialog_content.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_floatdialog_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_full_screen_focus.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_full_screen_focus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_full_screen_list.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_full_screen_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_full_screen_list_layout.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_full_screen_list_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_gradient_grey.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_gradient_grey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_gradient_grey1.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_gradient_grey1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_gradient_grey2.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_gradient_grey2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_greenbg_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_greenbg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_handler_gallery.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_handler_gallery.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_handler_grid_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_handler_grid_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_handler_template.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_handler_template.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_highlight_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_highlight_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_highlight_banner_background_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_highlight_banner_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_highlight_banner_more.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_highlight_banner_more.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_highlight_footview_dashed_line.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_highlight_footview_dashed_line.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_highlight_item_bg_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_highlight_item_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_horizontal_divider.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_horizontal_divider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_icon_background_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_icon_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_kaijuan_bg.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_kaijuan_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_large_gallery.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_large_gallery.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_large_gallery_in.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_large_gallery_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_large_gallery_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_large_gallery_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_large_gallery_item_bg.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_large_gallery_item_bg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_link_radius_shape.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_link_radius_shape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_list_item_text_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_list_item_text_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_loading_seek.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_loading_seek.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_normal_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_normal_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_normal_banner_background_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_normal_banner_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_partners_banner.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_partners_banner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_partners_banner_grid_item.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_partners_banner_grid_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_progressbar.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_progressbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_progressbar.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_progressbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_push_down_out.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_push_down_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_push_up_in.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_push_up_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_push_up_out.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_push_up_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_radius_shape.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_radius_shape.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_recom_header.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_recom_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_scroll_view_list.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_scroll_view_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_selector_back.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_selector_back.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_selector_cancel.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_selector_cancel.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_selector_download.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_selector_download.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_conner_blackish_green.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_conner_blackish_green.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_conner_green.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_conner_green.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_blue.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_blue_container.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_blue_container.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_blue_v2.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_blue_v2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_gray_stroke.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_gray_stroke.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_0.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_1.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_2.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_3.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_4.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_5.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_7.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_list.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_gradient_grey_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_grey.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_shape_grey.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_bottom.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_left.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_right.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_top.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_in_from_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_bottom.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_left.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_left.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_right.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_right.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_top.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_slide_out_from_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_strock_bg_1.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_strock_bg_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_vertical_divider.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_vertical_divider.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_webview_landing_page.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/umeng_xp_webview_landing_page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_x_button_selector.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/drawable-hdpi/umeng_xp_x_button_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_zoom_in.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_zoom_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_zoom_out.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/anim/umeng_xp_zoom_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-ja/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-ja/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-large/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-large/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-large-long/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-large-long/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-normal-notlong/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-normal-notlong/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/values-zh/values.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/values-zh/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/version.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/version.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/res/all/debug/layout/view_pager.xml" afterPath="$PROJECT_DIR$/build/res/all/debug/layout/view_pager.xml" />
+    </list>
+    <ignored path="WeiCat.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WeiCat" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="loftcat-as@hisneric@gmail" />
+        <option value="loftcat@hisneric@gmail.com" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="WeiCat" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="WeiCat" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the Android dependencies of the project" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="androidDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all variants of all applications and secondary packages." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Debug builds" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Release builds" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the Test build for the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileDebugRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestAidl" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all device checks on currently connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="connectedCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs and runs the tests for Build 'Debug' on connected devices." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="connectedInstrumentTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="deviceCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dexTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateDebugSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateReleaseBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateReleaseSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateTestSources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the Test build for the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs lint on all variants." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="lintTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="mergeTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="packageTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preReleaseBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="preTestBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareDebugDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareReleaseDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processDebugResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processReleaseResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestJavaRes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestTestManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the signing info for each variant" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="signingReport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstall all applications." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallAll" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Release build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uninstalls the Test build for the Debug build" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uninstallTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="validateDebugSigning" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/AsWorkSpace/WeiCat" value="1389193409000" />
+        <entry key="$PROJECT_DIR$" value="1389195029000" />
+        <entry key="$PROJECT_DIR$/../weiciyuan" value="1388814252000" />
+        <entry key="$USER_HOME$/workspace/DemoSpace/Test" value="1389193112000" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="22" />
+    <option name="width" value="1260" />
+    <option name="height" value="708" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android SDK &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universalimageloader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeiCat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AsWorkSpace" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RunManager" selected="Android Application.WeiCat">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WeiCat" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="WeiCat" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.WeiCat" />
+    </list>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1274cbd6-34d8-4635-9e39-f07389013d91" name="Default" comment="" />
+      <created>1389260436834</created>
+      <updated>1389260436834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="22" width="1260" height="708" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1462585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24958813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="19" selection-end="19" vertical-scroll-proportion="0.05357143" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.29464287" vertical-offset="0" max-vertical-offset="560">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

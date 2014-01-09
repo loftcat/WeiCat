@@ -57,4 +57,4 @@
         android:scaleType="fitXY"
         android:src="@drawable/umeng_xp_zhanwei" />
 
-</RelativeLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_fimageview_landscape.xml -->
+</RelativeLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_xp_fimageview_landscape.xml -->

@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/edittext_normal" android:state_window_focused="false"/>
     <item android:drawable="@drawable/edittext_fouce" android:state_focused="true"/>
 
-</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/bg_edittext.xml -->
+</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable/bg_edittext.xml -->

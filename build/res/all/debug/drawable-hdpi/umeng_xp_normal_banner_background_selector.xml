@@ -2,4 +2,4 @@
 	<item android:drawable="@drawable/umeng_xp_shape_gradient_blue" android:state_pressed="true"/>
 	<item android:drawable="@drawable/umeng_xp_shape_gradient_blue" android:state_selected="true"/>
 	<item android:drawable="@drawable/umeng_xp_banner_grey"/> <!-- the default, leave it as the last -->
-</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_normal_banner_background_selector.xml -->
+</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_normal_banner_background_selector.xml -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/arrays.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/arrays.xml -->
     <eat-comment />
 
     <string-array name="ams_strarr_color">
@@ -292,7 +292,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/colors.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/colors.xml -->
     <eat-comment />
 
     <color name="actionbar_title_color">#224894</color>
@@ -306,19 +306,19 @@
     <color name="no_color">#00000000</color>
     <color name="text_color">#434343</color>
     <color name="translucence">#ff4e4752</color>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_fb_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_fb_strings.xml -->
     <eat-comment />
 
     <color name="umeng_fb_color_btn_normal">#333333</color>
     <color name="umeng_fb_color_btn_pressed">#1495F7</color>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/colors.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/colors.xml -->
     <eat-comment />
 
     <color name="weibosdk_dialog_title_blue">#9CCCF7</color>
     <color name="weibosdk_text_num_gray">#333</color>
     <color name="weibosdk_transparent">#00000000</color>
     <color name="white">#FFFFFF</color>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/attrs.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="ArcLayout">
@@ -329,7 +329,7 @@
     <declare-styleable name="RayLayout">
         <attr name="leftHolderWidth" format="dimension" />
     </declare-styleable>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/sat_attrs.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/sat_attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="SatelliteMenu">
@@ -339,14 +339,14 @@
         <attr name="satelliteDistance" format="dimension" />
         <attr name="mainImage" format="reference" />
     </declare-styleable>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/attrs.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="StaggeredGridView">
         <attr name="drawSelectorOnTop" format="boolean" />
         <attr name="numColumns" format="integer" />
     </declare-styleable>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/dimens.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/dimens.xml -->
     <eat-comment />
 
     <dimen name="actionbar_compat_button_home_width">56dp</dimen>
@@ -366,7 +366,7 @@
     <dimen name="weibosdk_dialog_left_margin">30dp</dimen>
     <dimen name="weibosdk_dialog_right_margin">30dp</dimen>
     <dimen name="weibosdk_dialog_top_margin">30dp</dimen>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_update_string.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_update_string.xml -->
     <eat-comment />
 
     <string name="UMAppUpdate">App updating</string>
@@ -381,7 +381,7 @@
     <string name="UMUpdateNow">Update now</string>
     <string name="UMUpdateSize">Update size: </string>
     <string name="UMUpdateTitle">New version found</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Settings</string>
@@ -404,11 +404,11 @@
     <string name="descr_image">Image</string>
     <string name="done">Done</string>
     <string name="down">▼</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/sat_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/sat_strings.xml -->
     <eat-comment />
 
     <string name="empty"></string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/strings.xml -->
     <eat-comment />
 
     <string name="encode_foreground_image_off">OFF - Do not encode foreground image</string>
@@ -516,7 +516,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="tool">Tool</string>
     <string name="touch">Touch</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_common_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_common_strings.xml -->
     <eat-comment />
 
     <string name="umeng_common_action_cancel">Cancel</string>
@@ -527,7 +527,7 @@
     <string name="umeng_common_download_notification_prefix">Downloading: </string>
     <string name="umeng_common_info_interrupt">dowload interrupted.</string>
     <string name="umeng_common_network_break_alert">Please make sure you are connected to internet, download failed</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_fb_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_fb_strings.xml -->
     <eat-comment />
 
     <string name="umeng_fb_back">Back</string>
@@ -544,7 +544,7 @@
     <string name="umeng_fb_reply_date_default">2013-3-12 13:24:00</string>
     <string name="umeng_fb_send">Send</string>
     <string name="umeng_fb_title">Feedback</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_xp_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_xp_strings.xml -->
     <eat-comment />
 
     <string name="umeng_xp_action_browse">browse</string>
@@ -562,7 +562,7 @@
     <string name="umeng_xp_size">Size</string>
     <string name="umeng_xp_tip_download_pre">Start download </string>
     <string name="umeng_xp_title_info">Featured</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/strings.xml -->
     <eat-comment />
 
     <string name="up">▲</string>
@@ -586,7 +586,7 @@
     <string name="weibosdk_share_dialog_title">新浪微博</string>
     <string name="xcoordinates">X coordinates</string>
     <string name="ycoordinates">Y coordinates</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/styles.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
@@ -609,7 +609,7 @@
         <item name="android:singleLine">true</item>
         <item name="android:background">@drawable/bg_edittext</item>
     </style>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_xp_style.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values/umeng_xp_style.xml -->
     <eat-comment />
 
     <style name="umeng_xp_dialog_animations">

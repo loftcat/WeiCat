@@ -4,4 +4,4 @@
 <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/tool_ic_pen_press"/>
 <item android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/tool_ic_pen_press"/>
 </selector>
-<!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_pen.xml -->
+<!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_pen.xml -->

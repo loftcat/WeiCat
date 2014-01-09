@@ -5,4 +5,4 @@
 	<item android:state_window_focused="true" android:state_pressed="true"
 		android:drawable="@drawable/umeng_xp_x_button_clicked" />
 	<item android:state_focused="true" android:drawable="@drawable/umeng_xp_x_button_clicked" />
-</selector> <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_x_button_selector.xml -->
+</selector> <!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_x_button_selector.xml -->

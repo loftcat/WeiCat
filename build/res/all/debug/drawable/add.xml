@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/add_normal" android:state_pressed="false"/>
     <item android:drawable="@drawable/add_touched" android:state_pressed="true"/>
 
-</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/add.xml -->
+</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable/add.xml -->

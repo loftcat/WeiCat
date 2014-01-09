@@ -2,4 +2,4 @@
 	<gradient android:angle="270" android:endColor="#FF6caeff" android:startColor="#FFbad5ff"/>
 	<corners android:radius="5dp"/>
 	<padding android:bottom="5dp" android:left="5dp" android:right="5dp" android:top="5dp"/>
-</shape><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_4.xml -->
+</shape><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_4.xml -->

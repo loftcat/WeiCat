@@ -5,4 +5,4 @@
 <item android:state_enabled="false" android:drawable="@drawable/tool_ic_undo_dim"/>
 </selector>
 
-<!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_undo.xml -->
+<!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_undo.xml -->

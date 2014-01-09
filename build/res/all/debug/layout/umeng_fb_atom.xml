@@ -22,4 +22,4 @@
 	</LinearLayout>
 	<View android:id="@+id/umeng_fb_atom_right_margin" android:layout_width="50dip"
 		android:layout_height="wrap_content" android:layout_weight="1" />
-</LinearLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_atom.xml -->
+</LinearLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_fb_atom.xml -->

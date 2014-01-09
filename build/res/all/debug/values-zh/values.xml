@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_update_string.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-zh/umeng_update_string.xml -->
     <eat-comment />
 
     <string name="UMAppUpdate">应用更新</string>
@@ -16,7 +16,7 @@
     <string name="UMUpdateNow">立即更新</string>
     <string name="UMUpdateSize">仅需要下载：</string>
     <string name="UMUpdateTitle">发现新版本</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-zh/strings.xml -->
     <eat-comment />
 
     <string name="action_settings">Settings</string>
@@ -130,7 +130,7 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="tool">Tool</string>
     <string name="touch">Touch</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_common_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-zh/umeng_common_strings.xml -->
     <eat-comment />
 
     <string name="umeng_common_action_cancel">取消</string>
@@ -141,7 +141,7 @@
     <string name="umeng_common_download_notification_prefix">正在下载: </string>
     <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
     <string name="umeng_common_network_break_alert">请连接网络后再尝试！</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_fb_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-zh/umeng_fb_strings.xml -->
     <eat-comment />
 
     <string name="umeng_fb_back">返回</string>
@@ -157,7 +157,7 @@
     <string name="umeng_fb_reply_date_default">2013年3月12日 13:24:00</string>
     <string name="umeng_fb_send">发送</string>
     <string name="umeng_fb_title">用户反馈</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_xp_strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-zh/umeng_xp_strings.xml -->
     <eat-comment />
 
     <string name="umeng_xp_action_browse">浏览</string>
@@ -177,7 +177,7 @@
     <string name="umeng_xp_size">大小</string>
     <string name="umeng_xp_tip_download_pre">开始下载 </string>
     <string name="umeng_xp_title_info">精彩推荐</string>
-    <!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/strings.xml -->
+    <!-- From: file:/Users/verysunny/git/WeiCat/res/values-zh/strings.xml -->
     <eat-comment />
 
     <string name="up">▲</string>

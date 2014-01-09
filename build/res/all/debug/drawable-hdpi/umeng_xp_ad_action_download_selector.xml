@@ -2,4 +2,4 @@
 	<item android:drawable="@drawable/umeng_xp_ad_action_download" android:state_pressed="false" android:state_window_focused="false"/>
 	<item android:drawable="@drawable/umeng_xp_ad_action_download_clicked" android:state_pressed="true" android:state_window_focused="true"/>
 	<item android:drawable="@drawable/umeng_xp_ad_action_download_clicked" android:state_focused="true"/>
-</selector><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download_selector.xml -->
+</selector><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download_selector.xml -->

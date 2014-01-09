@@ -3,4 +3,4 @@
     android:id="@+id/pager"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" />
-<!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/image_pager.xml -->
+<!-- From: file:/Users/verysunny/git/WeiCat/res/layout/image_pager.xml -->

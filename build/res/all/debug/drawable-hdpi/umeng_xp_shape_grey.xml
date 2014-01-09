@@ -2,4 +2,4 @@
 	<gradient android:angle="270" android:endColor="#FFcac9c9" android:startColor="#FFf9f9f9"/>
 	<corners android:radius="5dp"/>
 	<stroke android:color="#FFb8b7b7" android:width="1px"/>
-</shape><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_grey.xml -->
+</shape><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_grey.xml -->
