@@ -5,4 +5,4 @@
 
 	<Button android:gravity="center" android:id="@+id/umeng_xp_more" android:layout_weight="1" android:text="更多" android:textColor="#666666" android:textSize="17dp" style="@style/umeng_xp_grad_but"/>
 
-</LinearLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/umeng_xp_component_back_bottom.xml -->
+</LinearLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_component_back_bottom.xml -->

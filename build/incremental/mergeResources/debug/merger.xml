@@ -2,2099 +2,2099 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/verysunny/git/WeiCat/res" >
+        <source path="/Users/verysunny/AsWorkSpace/WeiCat/res" >
             <file
                 name="sat_item_anim_click"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_item_anim_click.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_item_anim_click.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_item_anticipate_interpolator"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_item_anticipate_interpolator.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_item_anticipate_interpolator.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_item_click_interpolator"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_item_click_interpolator.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_item_click_interpolator.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_item_in_rotate_interpolator"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_item_in_rotate_interpolator.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_item_in_rotate_interpolator.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_item_out_rotate_interpolator"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_item_out_rotate_interpolator.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_item_out_rotate_interpolator.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_item_overshoot_interpolator"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_item_overshoot_interpolator.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_item_overshoot_interpolator.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_main_rotate_left"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_main_rotate_left.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_main_rotate_left.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="sat_main_rotate_right"
-                path="/Users/verysunny/git/WeiCat/res/anim/sat_main_rotate_right.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/sat_main_rotate_right.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_fb_slide_in_from_left"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_fb_slide_in_from_left.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_fb_slide_in_from_left.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_fb_slide_in_from_right"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_fb_slide_in_from_right.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_fb_slide_in_from_right.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_fb_slide_out_from_left"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_fb_slide_out_from_left.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_fb_slide_out_from_left.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_fb_slide_out_from_right"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_fb_slide_out_from_right.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_fb_slide_out_from_right.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_fade_in"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_fade_in.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_fade_in.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_fade_out"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_fade_out.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_fade_out.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_large_gallery_in"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_large_gallery_in.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_large_gallery_in.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_progressbar"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_progressbar.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_progressbar.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_push_down_out"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_push_down_out.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_push_down_out.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_push_up_in"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_push_up_in.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_push_up_in.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_push_up_out"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_push_up_out.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_push_up_out.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_in_from_bottom"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_in_from_bottom.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_in_from_bottom.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_in_from_left"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_in_from_left.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_in_from_left.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_in_from_right"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_in_from_right.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_in_from_right.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_in_from_top"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_in_from_top.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_in_from_top.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_out_from_bottom"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_out_from_bottom.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_out_from_bottom.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_out_from_left"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_out_from_left.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_out_from_left.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_out_from_right"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_out_from_right.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_out_from_right.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_slide_out_from_top"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_slide_out_from_top.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_slide_out_from_top.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_zoom_in"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_zoom_in.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_zoom_in.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="umeng_xp_zoom_out"
-                path="/Users/verysunny/git/WeiCat/res/anim/umeng_xp_zoom_out.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/anim/umeng_xp_zoom_out.xml"
                 qualifiers=""
                 type="anim" />
             <file
                 name="add"
-                path="/Users/verysunny/git/WeiCat/res/drawable/add.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/add.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="bg_edittext"
-                path="/Users/verysunny/git/WeiCat/res/drawable/bg_edittext.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/bg_edittext.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="button"
-                path="/Users/verysunny/git/WeiCat/res/drawable/button.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/button.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="ic_empty"
-                path="/Users/verysunny/git/WeiCat/res/drawable/ic_empty.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/ic_empty.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="ic_error"
-                path="/Users/verysunny/git/WeiCat/res/drawable/ic_error.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/ic_error.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="line_diviver"
-                path="/Users/verysunny/git/WeiCat/res/drawable/line_diviver.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/line_diviver.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="sendpost_reply"
-                path="/Users/verysunny/git/WeiCat/res/drawable/sendpost_reply.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/sendpost_reply.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="setting_setbackground_preview_button"
-                path="/Users/verysunny/git/WeiCat/res/drawable/setting_setbackground_preview_button.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/setting_setbackground_preview_button.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="solid_divider_ccc"
-                path="/Users/verysunny/git/WeiCat/res/drawable/solid_divider_ccc.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/solid_divider_ccc.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="solid_divider_fff"
-                path="/Users/verysunny/git/WeiCat/res/drawable/solid_divider_fff.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/solid_divider_fff.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_common_gradient_green"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_common_gradient_green.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_common_gradient_green.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_common_gradient_orange"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_common_gradient_orange.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_common_gradient_orange.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_common_gradient_red"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_common_gradient_red.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_common_gradient_red.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_arrow_right"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_arrow_right.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_arrow_right.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_back_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_back_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_back_normal.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_back_selected"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_back_selected.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_back_selected.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_back_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_back_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_back_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_bar_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_bar_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_bar_bg.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_blank_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_blank_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_blank_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_bottom_banner"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_bottom_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_bottom_banner.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_btn_bg_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_btn_bg_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_btn_bg_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_conversation_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_conversation_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_conversation_bg.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_dev_bubble"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_dev_bubble.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_dev_bubble.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_gradient_green"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_gradient_green.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_gradient_green.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_gradient_orange"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_gradient_orange.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_gradient_orange.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_gray_frame"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_gray_frame.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_gray_frame.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_list_item"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_list_item.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_list_item.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_list_item_pressed"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_list_item_pressed.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_list_item_pressed.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_list_item_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_list_item_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_list_item_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_logo"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_logo.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_logo.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_point_new"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_point_new.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_point_new.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_point_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_point_normal.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_point_normal.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_reply_left_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_reply_left_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_reply_left_bg.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_reply_right_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_reply_right_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_reply_right_bg.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_see_list_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_see_list_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_see_list_normal.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_see_list_pressed"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_see_list_pressed.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_see_list_pressed.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_see_list_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_see_list_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_see_list_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_statusbar_icon"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_statusbar_icon.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_statusbar_icon.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_submit_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_submit_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_submit_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_tick_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_tick_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_tick_normal.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_tick_selected"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_tick_selected.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_tick_selected.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_tick_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_tick_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_tick_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_top_banner"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_top_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_top_banner.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_user_bubble"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_user_bubble.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_user_bubble.9.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_write_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_write_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_write_normal.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_write_pressed"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_write_pressed.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_write_pressed.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_fb_write_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_write_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_write_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_cancel_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_cancel_normal.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_cancel_normal.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_cancel_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_cancel_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_cancel_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_cancel_tap"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_cancel_tap.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_cancel_tap.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_cancle_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_cancle_normal.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_cancle_normal.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_cancle_tap"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_cancle_tap.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_cancle_tap.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_ok_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_ok_normal.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_ok_normal.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_ok_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_ok_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_ok_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_button_ok_tap"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_button_ok_tap.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_button_ok_tap.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_cancle_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_cancle_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_cancle_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_dialog_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_dialog_bg.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_dialog_bg.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_ok_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_ok_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_ok_selector.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_title_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_title_bg.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_title_bg.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="umeng_update_wifi_disable"
-                path="/Users/verysunny/git/WeiCat/res/drawable/umeng_update_wifi_disable.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_update_wifi_disable.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="actionbar_shadow"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/actionbar_shadow.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/actionbar_shadow.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="add_homepageitem_selected"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/add_homepageitem_selected.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/add_homepageitem_selected.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="add_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/add_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/add_normal.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="add_touched"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/add_touched.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/add_touched.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="arrow"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/arrow.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/arrow.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="arrow_white"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/arrow_white.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/arrow_white.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="at"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/at.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/at.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_0"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_0.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_0.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_0small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_0small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_0small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_1"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_1.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_1.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_1small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_1small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_1small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_3"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_3.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_3.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_3small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_3small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_3small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_4"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_4.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_4.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_4small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_4small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_4small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_5"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_5.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_5.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_5small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_5small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_5small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_6"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_6.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_6.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_6small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_6small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_6small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_7"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_7.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_7.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_7small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_7small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_7small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_8"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_8.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_8.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_8small"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_8small.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_8small.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="background_setting_default"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/background_setting_default.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/background_setting_default.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="bpush_gray_logo"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/bpush_gray_logo.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/bpush_gray_logo.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="bpush_list_item_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/bpush_list_item_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/bpush_list_item_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="bpush_return_btn"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/bpush_return_btn.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/bpush_return_btn.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="bpush_top_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/bpush_top_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/bpush_top_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="edit"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/edit.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/edit.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="edittext_fouce"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/edittext_fouce.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/edittext_fouce.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="edittext_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/edittext_normal.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/edittext_normal.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="exit"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/exit.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/exit.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="female"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/female.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/female.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="haha"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/haha.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/haha.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="head_default"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/head_default.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/head_default.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="heart"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/heart.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/heart.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_pulltorefresh_arrow"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/ic_pulltorefresh_arrow.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/ic_pulltorefresh_arrow.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_pulltorefresh_arrow_up"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/ic_pulltorefresh_arrow_up.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/ic_pulltorefresh_arrow_up.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="icon"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/icon.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/icon.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="item"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/item.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/item.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="itemisselected"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/itemisselected.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/itemisselected.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_appid"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_appid.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_appid.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_attach"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_attach.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_attach.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_bgaudio"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_bgaudio.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_bgaudio.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_bgcolor"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_bgcolor.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_bgcolor.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_extra"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_extra.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_extra.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_preference"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_preference.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_preference.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_tag"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_tag.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_tag.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="list_icon_title"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/list_icon_title.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/list_icon_title.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="loading"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/loading.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/loading.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="main"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/main.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/main.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="male"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/male.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/male.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/normal.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="paint"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/paint.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/paint.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sat_item"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sat_item.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sat_item.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sat_main"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sat_main.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sat_main.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_colorpicker"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_colorpicker.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_colorpicker.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_eraser"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_eraser.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_eraser.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_filling"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_filling.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_filling.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_image"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_image.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_image.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_multi"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_multi.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_multi.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_pen"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_pen.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_pen.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_play"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_play.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_play.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_redo"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_redo.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_redo.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_text"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_text.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_text.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_tool_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_tool_bg.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_tool_bg.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="selector_undo"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_undo.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_undo.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sendpost_background"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sendpost_background.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sendpost_background.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sendpost_image"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sendpost_image.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sendpost_image.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sendpost_photo"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sendpost_photo.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sendpost_photo.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sendpost_reply_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sendpost_reply_normal.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sendpost_reply_normal.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="sendpost_reply_pressed"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/sendpost_reply_pressed.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/sendpost_reply_pressed.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="setting"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/setting.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/setting.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="setting_setbackground_preview_back"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/setting_setbackground_preview_back.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/setting_setbackground_preview_back.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="setting_setbackground_preview_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/setting_setbackground_preview_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/setting_setbackground_preview_normal.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="setting_setbackground_preview_pressed"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/setting_setbackground_preview_pressed.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/setting_setbackground_preview_pressed.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="shade_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/shade_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/shade_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="steel"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/steel.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/steel.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="steel_2"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/steel_2.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/steel_2.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="throttle_line"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/throttle_line.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/throttle_line.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_area_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_area_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_area_bg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_area_bg_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_area_bg_press.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_area_bg_press.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_area_center_02"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_area_center_02.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_area_center_02.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_area_select_02"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_area_select_02.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_area_select_02.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_attach"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_attach.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_attach.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_attach_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_attach_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_attach_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_colorpicker"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_colorpicker.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_colorpicker.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_colorpicker_dim"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_dim.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_dim.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_colorpicker_old"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_old.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_old.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_colorpicker_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_colorpicker_press_old"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_press_old.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_colorpicker_press_old.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_eraser"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_eraser.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_eraser.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_eraser_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_eraser_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_eraser_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_filling"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_filling.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_filling.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_filling_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_filling_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_filling_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_multi"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_multi.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_multi.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_multi_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_multi_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_multi_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_pen"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_pen.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_pen.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_pen_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_pen_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_pen_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_play"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_play.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_play.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_play_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_play_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_play_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_redo"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_redo.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_redo.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_redo_dim"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_redo_dim.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_redo_dim.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_redo_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_redo_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_redo_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_save"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_save.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_save.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_save_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_save_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_save_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_text"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_text.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_text.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_text_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_text_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_text_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_undo"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_undo.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_undo.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_undo_dim"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_undo_dim.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_undo_dim.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tool_ic_undo_press"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/tool_ic_undo_press.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/tool_ic_undo_press.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="toolbar_background"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/toolbar_background.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/toolbar_background.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="touch"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/touch.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/touch.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_bg_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_bg_clicked.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_bg_clicked.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_bg_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_bg_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_bg_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_browse"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_browse.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_browse.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_browse_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_browse_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_browse_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_browse_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_browse_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_browse_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_download"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_download_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_download_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_download_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_open"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_open.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_open.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_open_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_open_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_open_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_open_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_open_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_open_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_phone"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_phone.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_phone.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_phone_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_phone_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_phone_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_ad_action_phone_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_phone_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_ad_action_phone_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_back"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_back.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_back.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_back_button"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_back_button.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_back_button.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_back_button_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_back_button_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_back_button_normal.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_back_button_selected"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_back_button_selected.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_back_button_selected.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_back_click"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_back_click.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_back_click.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_banner_grey"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_banner_grey.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_banner_grey.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_btn_gradient_dark_grey"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_btn_gradient_dark_grey.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_btn_gradient_dark_grey.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_btn_gradient_grey"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_btn_gradient_grey.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_btn_gradient_grey.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_button_cancel"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_button_cancel.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_button_cancel.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_button_cancel_click"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_button_cancel_click.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_button_cancel_click.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_button_cancel_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_button_cancel_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_button_cancel_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_button_download"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_button_download.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_button_download.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_button_download_click"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_button_download_click.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_button_download_click.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_button_download_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_button_download_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_button_download_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_container_banner_background_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_container_banner_background_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_container_banner_background_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_darkbg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_darkbg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_darkbg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_detail"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_detail.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_detail.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_detail365"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_detail365.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_detail365.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_detail_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_detail_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_detail_bg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_download_dialog_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_bg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_download_dialog_close"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_close.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_close.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_download_dialog_close_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_close_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_close_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_download_dialog_close_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_close_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_download_dialog_close_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_download_gradient_grey"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_download_gradient_grey.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_download_gradient_grey.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_gradient_grey"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_gradient_grey.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_gradient_grey.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_gradient_grey1"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_gradient_grey1.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_gradient_grey1.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_gradient_grey2"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_gradient_grey2.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_gradient_grey2.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_greenbg_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_greenbg_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_greenbg_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_handler_rc"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_handler_rc.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_handler_rc.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_banner_background_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_banner_background_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_banner_background_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_banner_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_banner_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_banner_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_footview_dashed_line"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_footview_dashed_line.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_footview_dashed_line.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_footview_loading"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_footview_loading.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_footview_loading.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_item_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_item_bg_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg_clicked.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg_clicked.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_highlight_item_bg_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_highlight_item_bg_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_horizontal_divider"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_horizontal_divider.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_horizontal_divider.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_icon_background"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_icon_background.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_icon_background.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_icon_background_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_icon_background_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_icon_background_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_icon_background_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_icon_background_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_icon_background_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_kaijuan_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_kaijuan_bg.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_kaijuan_bg.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_large_gallery_failed"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_large_gallery_failed.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_large_gallery_failed.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_large_gallery_item_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_large_gallery_item_bg.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_large_gallery_item_bg.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_link_radius_shape"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_link_radius_shape.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_link_radius_shape.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_list_item_text_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_list_item_text_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_list_item_text_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_loading"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_loading.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_loading.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_loading_seek"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_loading_seek.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_loading_seek.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_more_bottom"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_more_bottom.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_more_bottom.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_more_top"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_more_top.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_more_top.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_new_tip"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_new_tip.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_new_tip.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_new_tip_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_new_tip_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_new_tip_bg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_new_tip_button"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_new_tip_button.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_new_tip_button.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_normal_banner_background_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_normal_banner_background_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_normal_banner_background_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_point_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_point_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_point_normal.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_point_selected"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_point_selected.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_point_selected.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_progressbar"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_progressbar.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_progressbar.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_radius_shape"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_radius_shape.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_radius_shape.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_recommend_titile_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_recommend_titile_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_recommend_titile_bg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_recoright"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_recoright.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_recoright.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_seek"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_seek.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_seek.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_seek_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_seek_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_seek_bg.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_selector_back"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_selector_back.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_selector_back.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_selector_cancel"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_selector_cancel.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_selector_cancel.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_selector_download"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_selector_download.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_selector_download.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shadow_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shadow_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shadow_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_conner_blackish_green"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_conner_blackish_green.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_conner_blackish_green.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_conner_green"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_conner_green.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_conner_green.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_blue"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_blue.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_blue.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_blue_container"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_blue_container.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_blue_container.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_blue_v2"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_blue_v2.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_blue_v2.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_gray_stroke"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_gray_stroke.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_gray_stroke.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_0"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_0.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_0.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_1"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_1.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_1.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_2"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_2.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_2.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_3"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_3.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_3.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_4"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_4.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_4.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_5"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_5.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_5.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_7"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_7.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_7.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_gradient_grey_list"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_list.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_gradient_grey_list.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_shape_grey"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_shape_grey.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_shape_grey.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_standalone_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_standalone_bg.9.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_standalone_bg.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_strock_bg_1"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_strock_bg_1.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_strock_bg_1.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_vertical_divider"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_vertical_divider.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_vertical_divider.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_x_button"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_x_button.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_x_button.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_x_button_clicked"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_x_button_clicked.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_x_button_clicked.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_x_button_selector"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_x_button_selector.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_x_button_selector.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="umeng_xp_zhanwei"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_zhanwei.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_zhanwei.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="v"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/v.jpg"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/v.jpg"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="x"
-                path="/Users/verysunny/git/WeiCat/res/drawable-hdpi/x.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/x.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="bg_edit"
-                path="/Users/verysunny/git/WeiCat/res/drawable-ldpi/bg_edit.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-ldpi/bg_edit.png"
                 qualifiers="ldpi"
                 type="drawable" />
             <file
                 name="scanvas_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-mdpi/scanvas_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-mdpi/scanvas_bg.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="hover_ic_point"
-                path="/Users/verysunny/git/WeiCat/res/drawable-xhdpi/hover_ic_point.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-xhdpi/hover_ic_point.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="hover_ic_point_normal"
-                path="/Users/verysunny/git/WeiCat/res/drawable-xhdpi/hover_ic_point_normal.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-xhdpi/hover_ic_point_normal.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="hover_line"
-                path="/Users/verysunny/git/WeiCat/res/drawable-xhdpi/hover_line.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-xhdpi/hover_line.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="hover_popup_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-xhdpi/hover_popup_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-xhdpi/hover_popup_bg.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="hover_tooltip_bg"
-                path="/Users/verysunny/git/WeiCat/res/drawable-xhdpi/hover_tooltip_bg.png"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-xhdpi/hover_tooltip_bg.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="about"
-                path="/Users/verysunny/git/WeiCat/res/layout/about.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/about.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="/Users/verysunny/git/WeiCat/res/layout/activity_main.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="at"
-                path="/Users/verysunny/git/WeiCat/res/layout/at.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/at.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="bpush_download_progress"
-                path="/Users/verysunny/git/WeiCat/res/layout/bpush_download_progress.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/bpush_download_progress.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="bpush_media_list"
-                path="/Users/verysunny/git/WeiCat/res/layout/bpush_media_list.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/bpush_media_list.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="bpush_media_list_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/bpush_media_list_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/bpush_media_list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="center_frame"
-                path="/Users/verysunny/git/WeiCat/res/layout/center_frame.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/center_frame.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="custom_activity"
-                path="/Users/verysunny/git/WeiCat/res/layout/custom_activity.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/custom_activity.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="editor_basic_editor"
-                path="/Users/verysunny/git/WeiCat/res/layout/editor_basic_editor.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/editor_basic_editor.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="expanlist"
-                path="/Users/verysunny/git/WeiCat/res/layout/expanlist.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/expanlist.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="frienditem"
-                path="/Users/verysunny/git/WeiCat/res/layout/frienditem.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/frienditem.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="frienditem_2"
-                path="/Users/verysunny/git/WeiCat/res/layout/frienditem_2.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/frienditem_2.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="friendslist"
-                path="/Users/verysunny/git/WeiCat/res/layout/friendslist.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/friendslist.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="gallery_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/gallery_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/gallery_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="gesture_imageview"
-                path="/Users/verysunny/git/WeiCat/res/layout/gesture_imageview.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/gesture_imageview.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="good"
-                path="/Users/verysunny/git/WeiCat/res/layout/good.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/good.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="groups_pop"
-                path="/Users/verysunny/git/WeiCat/res/layout/groups_pop.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/groups_pop.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="hover_tooltip_popup"
-                path="/Users/verysunny/git/WeiCat/res/layout/hover_tooltip_popup.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/hover_tooltip_popup.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="image_pager"
-                path="/Users/verysunny/git/WeiCat/res/layout/image_pager.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/image_pager.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="item_pager_image"
-                path="/Users/verysunny/git/WeiCat/res/layout/item_pager_image.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/item_pager_image.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="left"
-                path="/Users/verysunny/git/WeiCat/res/layout/left.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/left.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="left_adapter"
-                path="/Users/verysunny/git/WeiCat/res/layout/left_adapter.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/left_adapter.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="left_frame"
-                path="/Users/verysunny/git/WeiCat/res/layout/left_frame.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/left_frame.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="libtest"
-                path="/Users/verysunny/git/WeiCat/res/layout/libtest.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/libtest.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="libtest_list_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/libtest_list_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/libtest_list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="libtest_textview"
-                path="/Users/verysunny/git/WeiCat/res/layout/libtest_textview.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/libtest_textview.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="line"
-                path="/Users/verysunny/git/WeiCat/res/layout/line.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/line.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/verysunny/git/WeiCat/res/layout/main.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="middle"
-                path="/Users/verysunny/git/WeiCat/res/layout/middle.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/middle.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="mspinner"
-                path="/Users/verysunny/git/WeiCat/res/layout/mspinner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/mspinner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="mspinnertext"
-                path="/Users/verysunny/git/WeiCat/res/layout/mspinnertext.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/mspinnertext.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="mspinnertext_tablet"
-                path="/Users/verysunny/git/WeiCat/res/layout/mspinnertext_tablet.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/mspinnertext_tablet.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="nameitem"
-                path="/Users/verysunny/git/WeiCat/res/layout/nameitem.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/nameitem.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="notification_custom_builder"
-                path="/Users/verysunny/git/WeiCat/res/layout/notification_custom_builder.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/notification_custom_builder.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="page1"
-                path="/Users/verysunny/git/WeiCat/res/layout/page1.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/page1.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="page2"
-                path="/Users/verysunny/git/WeiCat/res/layout/page2.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/page2.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="pull_to_refresh_head"
-                path="/Users/verysunny/git/WeiCat/res/layout/pull_to_refresh_head.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/pull_to_refresh_head.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="refresh_footer"
-                path="/Users/verysunny/git/WeiCat/res/layout/refresh_footer.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/refresh_footer.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="refresh_header"
-                path="/Users/verysunny/git/WeiCat/res/layout/refresh_header.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/refresh_header.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="right"
-                path="/Users/verysunny/git/WeiCat/res/layout/right.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/right.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="right_frame"
-                path="/Users/verysunny/git/WeiCat/res/layout/right_frame.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/right_frame.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="sat_item_cr"
-                path="/Users/verysunny/git/WeiCat/res/layout/sat_item_cr.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/sat_item_cr.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="sat_main"
-                path="/Users/verysunny/git/WeiCat/res/layout/sat_main.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/sat_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="selfaty"
-                path="/Users/verysunny/git/WeiCat/res/layout/selfaty.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/selfaty.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="send"
-                path="/Users/verysunny/git/WeiCat/res/layout/send.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/send.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="setting"
-                path="/Users/verysunny/git/WeiCat/res/layout/setting.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/setting.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="setting_setbackground_aty"
-                path="/Users/verysunny/git/WeiCat/res/layout/setting_setbackground_aty.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/setting_setbackground_aty.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="setting_setbackground_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/setting_setbackground_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/setting_setbackground_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="setting_setbackground_preview_aty"
-                path="/Users/verysunny/git/WeiCat/res/layout/setting_setbackground_preview_aty.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/setting_setbackground_preview_aty.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="status_item_child"
-                path="/Users/verysunny/git/WeiCat/res/layout/status_item_child.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/status_item_child.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="status_item_child2"
-                path="/Users/verysunny/git/WeiCat/res/layout/status_item_child2.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/status_item_child2.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="status_item_parent"
-                path="/Users/verysunny/git/WeiCat/res/layout/status_item_parent.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/status_item_parent.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="thestatus"
-                path="/Users/verysunny/git/WeiCat/res/layout/thestatus.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/thestatus.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="tool_file_list"
-                path="/Users/verysunny/git/WeiCat/res/layout/tool_file_list.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/tool_file_list.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="tool_sound_list"
-                path="/Users/verysunny/git/WeiCat/res/layout/tool_sound_list.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/tool_sound_list.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="tool_sound_list_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/tool_sound_list_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/tool_sound_list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="tool_text_dialog_input"
-                path="/Users/verysunny/git/WeiCat/res/layout/tool_text_dialog_input.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/tool_text_dialog_input.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_common_download_notification"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_common_download_notification.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_common_download_notification.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_activity_contact"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_activity_contact.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_activity_contact.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_activity_conversation"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_activity_conversation.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_activity_conversation.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_atom"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_atom.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_atom.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_conversation"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_conversation.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_conversation.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_conversation_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_conversation_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_conversation_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_conversations"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_conversations.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_conversations.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_conversations_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_conversations_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_conversations_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_list_header"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_list_header.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_list_header.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_list_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_list_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_list_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_new_reply_alert_dialog"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_new_reply_alert_dialog.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_new_reply_alert_dialog.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_fb_send_feedback"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_fb_send_feedback.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_fb_send_feedback.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_update_dialog"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_update_dialog.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_update_dialog.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_banner"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_banner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_clould_dialog"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_clould_dialog.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_clould_dialog.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_component_back_bottom"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_component_back_bottom.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_component_back_bottom.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_component_back_top"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_component_back_top.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_component_back_top.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_component_flipper_content"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_component_flipper_content.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_component_flipper_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_component_focus_banner"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_component_focus_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_component_focus_banner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_component_foucused_app"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_component_foucused_app.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_component_foucused_app.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_container_banner"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_container_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_container_banner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_container_banner_more"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_container_banner_more.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_container_banner_more.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_download_dialog"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_download_dialog.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_download_dialog.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_download_dialog_landscape"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_download_dialog_landscape.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_download_dialog_landscape.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_fimageview_landscape"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_fimageview_landscape.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_fimageview_landscape.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_fimageview_portrait"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_fimageview_portrait.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_fimageview_portrait.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_floatdialog_content"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_floatdialog_content.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_floatdialog_content.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_full_screen_focus"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_full_screen_focus.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_full_screen_focus.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_full_screen_list"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_full_screen_list.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_full_screen_list.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_full_screen_list_layout"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_full_screen_list_layout.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_full_screen_list_layout.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_handler_gallery"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_handler_gallery.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_handler_gallery.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_handler_grid_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_handler_grid_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_handler_grid_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_handler_template"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_handler_template.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_handler_template.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_highlight_banner"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_highlight_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_highlight_banner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_highlight_banner_more"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_highlight_banner_more.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_highlight_banner_more.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_large_gallery"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_large_gallery.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_large_gallery.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_large_gallery_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_large_gallery_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_large_gallery_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_normal_banner"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_normal_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_normal_banner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_partners_banner"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_partners_banner.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_partners_banner.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_partners_banner_grid_item"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_partners_banner_grid_item.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_partners_banner_grid_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_recom_header"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_recom_header.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_recom_header.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_scroll_view_list"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_scroll_view_list.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_scroll_view_list.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="umeng_xp_webview_landing_page"
-                path="/Users/verysunny/git/WeiCat/res/layout/umeng_xp_webview_landing_page.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/umeng_xp_webview_landing_page.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="version"
-                path="/Users/verysunny/git/WeiCat/res/layout/version.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/version.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="view_pager"
-                path="/Users/verysunny/git/WeiCat/res/layout/view_pager.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/layout/view_pager.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/verysunny/git/WeiCat/res/menu/main.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
                 name="newdatatoast"
-                path="/Users/verysunny/git/WeiCat/res/raw/newdatatoast.wav"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/raw/newdatatoast.wav"
                 qualifiers=""
                 type="raw" />
             <file
                 name="notificationsound"
-                path="/Users/verysunny/git/WeiCat/res/raw/notificationsound.wav"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/raw/notificationsound.wav"
                 qualifiers=""
                 type="raw" />
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/arrays.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/arrays.xml"
                 qualifiers="" >
                 <string-array name="hover_pointer_style" >
                     <item>
@@ -2822,7 +2822,7 @@ High
                 </string-array>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/attrs.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="StaggeredGridView" >
                     <attr
@@ -2850,7 +2850,7 @@ High
                 </declare-styleable>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/colors.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/colors.xml"
                 qualifiers="" >
                 <color name="blue" >#0066FF
                 </color>
@@ -2884,7 +2884,7 @@ High
                 </color>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/dimens.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="weibosdk_dialog_right_margin" >30dp
                 </dimen>
@@ -2922,7 +2922,7 @@ High
                 </dimen>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/sat_attrs.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/sat_attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="SatelliteMenu" >
                     <attr
@@ -2943,12 +2943,12 @@ High
                 </declare-styleable>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/sat_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/sat_strings.xml"
                 qualifiers="" >
                 <string name="empty" ></string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/strings.xml"
                 qualifiers="" >
                 <string name="done" >Done
                 </string>
@@ -3243,7 +3243,7 @@ High
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/styles.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -3287,7 +3287,7 @@ true
                 </style>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/umeng_common_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_common_strings.xml"
                 qualifiers="" >
                 <string name="umeng_common_action_continue" >Continue
                 </string>
@@ -3307,7 +3307,7 @@ true
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/umeng_fb_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_fb_strings.xml"
                 qualifiers="" >
                 <string name="umeng_fb_notification_ticker_text" >Got new reply
                 </string>
@@ -3347,7 +3347,7 @@ true
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/umeng_update_string.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_update_string.xml"
                 qualifiers="" >
                 <string name="UMUpdateContent" >Update Content
                 </string>
@@ -3375,7 +3375,7 @@ true
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/umeng_xp_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_xp_strings.xml"
                 qualifiers="" >
                 <string name="umeng_xp_back_to_top" >Top
                 </string>
@@ -3409,7 +3409,7 @@ true
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values/umeng_xp_style.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values/umeng_xp_style.xml"
                 qualifiers="" >
 
                 <style name="umeng_xp_more_but" >
@@ -3625,7 +3625,7 @@ center_vertical
                 </style>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-ja/umeng_fb_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-ja/umeng_fb_strings.xml"
                 qualifiers="ja" >
                 <string name="umeng_fb_contact_info" >連絡
                 </string>
@@ -3646,7 +3646,7 @@ center_vertical
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-large/dimens.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-large/dimens.xml"
                 qualifiers="large" >
                 <dimen name="padding_small" >8dp
                 </dimen>
@@ -3656,7 +3656,7 @@ center_vertical
                 </dimen>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-large-long/dimens.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-large-long/dimens.xml"
                 qualifiers="large-long" >
                 <dimen name="weibosdk_dialog_top_margin" >30dp
                 </dimen>
@@ -3668,7 +3668,7 @@ center_vertical
                 </dimen>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-normal-notlong/dimens.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-normal-notlong/dimens.xml"
                 qualifiers="normal-notlong" >
                 <dimen name="weibosdk_dialog_left_margin" >30dp
                 </dimen>
@@ -3680,13 +3680,13 @@ center_vertical
                 </dimen>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-sw720dp-land/dimens.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-v11/styles.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -3697,7 +3697,7 @@ center_vertical
                 </style>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-v14/styles.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -3708,7 +3708,7 @@ center_vertical
                 </style>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-zh/strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/strings.xml"
                 qualifiers="zh" >
                 <string name="play_animation_using_sound_effect_off" >OFF - Do not use sound effect on Animation
                 </string>
@@ -3975,7 +3975,7 @@ center_vertical
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-zh/umeng_common_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_common_strings.xml"
                 qualifiers="zh" >
                 <string name="umeng_common_action_continue" >继续
                 </string>
@@ -3995,7 +3995,7 @@ center_vertical
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-zh/umeng_fb_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_fb_strings.xml"
                 qualifiers="zh" >
                 <string name="umeng_fb_back" >返回
                 </string>
@@ -4025,7 +4025,7 @@ center_vertical
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-zh/umeng_update_string.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_update_string.xml"
                 qualifiers="zh" >
                 <string name="UMNotNow" >以后再说
                 </string>
@@ -4053,7 +4053,7 @@ center_vertical
                 </string>
             </file>
             <file
-                path="/Users/verysunny/git/WeiCat/res/values-zh/umeng_xp_strings.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/values-zh/umeng_xp_strings.xml"
                 qualifiers="zh" >
                 <string name="umeng_xp_action_callphone" ></string>
                 <string name="umeng_xp_tip_download_pre" >开始下载 
@@ -4091,19 +4091,19 @@ center_vertical
             </file>
             <file
                 name="animationoptionpreferences"
-                path="/Users/verysunny/git/WeiCat/res/xml/animationoptionpreferences.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/xml/animationoptionpreferences.xml"
                 qualifiers=""
                 type="xml" />
             <file
                 name="sammoptionpreferences"
-                path="/Users/verysunny/git/WeiCat/res/xml/sammoptionpreferences.xml"
+                path="/Users/verysunny/AsWorkSpace/WeiCat/res/xml/sammoptionpreferences.xml"
                 qualifiers=""
                 type="xml" />
         </source>
-        <source path="/Users/verysunny/git/WeiCat/build/res/rs/debug" />
+        <source path="/Users/verysunny/AsWorkSpace/WeiCat/build/res/rs/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/verysunny/git/WeiCat/build-types/debug/res" />
+        <source path="/Users/verysunny/AsWorkSpace/WeiCat/build-types/debug/res" />
     </dataSet>
 
 </merger>

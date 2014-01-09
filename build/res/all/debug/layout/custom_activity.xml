@@ -44,4 +44,4 @@
         android:layout_alignBottom="@+id/textView3"
         android:layout_alignLeft="@+id/title" />
   
-</RelativeLayout><!-- From: file:/Users/verysunny/git/WeiCat/res/layout/custom_activity.xml -->
+</RelativeLayout><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/custom_activity.xml -->

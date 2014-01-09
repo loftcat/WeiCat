@@ -8,4 +8,4 @@
     android:visibility="gone"
     android:layout_gravity="bottom|left"    
     android:contentDescription="@string/empty"/>
-<!-- From: file:/Users/verysunny/git/WeiCat/res/layout/sat_item_cr.xml -->
+<!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/layout/sat_item_cr.xml -->

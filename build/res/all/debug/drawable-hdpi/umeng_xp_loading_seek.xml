@@ -3,4 +3,4 @@
      
      <item android:drawable="@drawable/umeng_xp_seek_bg" android:id="@android:id/background"/>  
      <item android:drawable="@drawable/umeng_xp_seek" android:id="@+android:id/progress"/>
- </layer-list><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/umeng_xp_loading_seek.xml -->
+ </layer-list><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/umeng_xp_loading_seek.xml -->

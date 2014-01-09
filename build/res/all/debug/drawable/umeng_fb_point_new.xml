@@ -5,4 +5,4 @@
 	<padding android:left="7dp" android:top="7dp" android:right="7dp"
 		android:bottom="7dp" />
 	<corners android:radius="8dp" />
-</shape><!-- From: file:/Users/verysunny/git/WeiCat/res/drawable/umeng_fb_point_new.xml -->
+</shape><!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable/umeng_fb_point_new.xml -->

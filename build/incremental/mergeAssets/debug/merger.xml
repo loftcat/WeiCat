@@ -2,20 +2,20 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="/Users/verysunny/git/WeiCat/assets" >
+        <source path="/Users/verysunny/AsWorkSpace/WeiCat/assets" >
             <file
                 name="values/dimens.xml"
-                path="/Users/verysunny/git/WeiCat/assets/values/dimens.xml" />
+                path="/Users/verysunny/AsWorkSpace/WeiCat/assets/values/dimens.xml" />
             <file
                 name="weibosdk_dialog_bg.9.png"
-                path="/Users/verysunny/git/WeiCat/assets/weibosdk_dialog_bg.9.png" />
+                path="/Users/verysunny/AsWorkSpace/WeiCat/assets/weibosdk_dialog_bg.9.png" />
             <file
                 name="weibosdk_dialog_bg.9.png.baiduyun.uploading.cfg"
-                path="/Users/verysunny/git/WeiCat/assets/weibosdk_dialog_bg.9.png.baiduyun.uploading.cfg" />
+                path="/Users/verysunny/AsWorkSpace/WeiCat/assets/weibosdk_dialog_bg.9.png.baiduyun.uploading.cfg" />
         </source>
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/verysunny/git/WeiCat/build-types/debug/assets" />
+        <source path="/Users/verysunny/AsWorkSpace/WeiCat/build-types/debug/assets" />
     </dataSet>
 
 </merger>

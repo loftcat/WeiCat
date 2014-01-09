@@ -3,4 +3,4 @@
 <item android:state_enabled="true" android:state_pressed="false" android:drawable="@drawable/tool_ic_eraser"/>
 <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/tool_ic_eraser_press"/>
 </selector>
-<!-- From: file:/Users/verysunny/git/WeiCat/res/drawable-hdpi/selector_eraser.xml -->
+<!-- From: file:/Users/verysunny/AsWorkSpace/WeiCat/res/drawable-hdpi/selector_eraser.xml -->
